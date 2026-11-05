@@ -56,3 +56,5 @@ The manually reviewed ASI inventory seed can be reapplied idempotently from `bac
 ## Public deployment
 
 See [DEPLOYMENT.md](DEPLOYMENT.md) for the Vercel + Render environment variables, persistent ChromaDB setup, and verified migration procedure. Current local data is 217 catalogue records, 268 curated knowledge documents, and 296 chunks in `backend/data/chroma`.
+
+
