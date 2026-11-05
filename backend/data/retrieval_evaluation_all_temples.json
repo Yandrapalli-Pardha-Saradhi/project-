@@ -1,27 +1,27 @@
 {
-  "generated_at_utc": "2026-11-05T16:39:23.587294+00:00",
+  "generated_at_utc": "2026-11-05T17:07:06.927163+00:00",
   "evaluation_mode": "Local ChromaDB retrieval and source-metadata verification; no OpenRouter calls and no live web search.",
   "catalogue_count": 217,
   "collection_name": "temple_heritage",
   "persist_directory": "./data/chroma",
-  "collection_chunk_count": 529,
+  "collection_chunk_count": 537,
   "query_count": 1766,
   "summary": {
     "temple_name_queries": 217,
-    "temple_name_queries_passed": 216,
+    "temple_name_queries_passed": 217,
     "topic_queries": 1519,
     "topic_query_results_by_category": {
       "historical_background": {
-        "topic_evidence_retrieved": 88,
-        "no_category_support_in_relevant_hits": 129
+        "topic_evidence_retrieved": 90,
+        "no_category_support_in_relevant_hits": 127
       },
       "architecture": {
-        "topic_evidence_retrieved": 76,
-        "no_category_support_in_relevant_hits": 141
-      },
-      "religious_cultural_significance": {
         "topic_evidence_retrieved": 78,
         "no_category_support_in_relevant_hits": 139
+      },
+      "religious_cultural_significance": {
+        "topic_evidence_retrieved": 79,
+        "no_category_support_in_relevant_hits": 138
       },
       "festivals_rituals": {
         "no_category_support_in_relevant_hits": 200,
@@ -32,22 +32,22 @@
         "no_category_support_in_relevant_hits": 203
       },
       "heritage_conservation": {
-        "topic_evidence_retrieved": 51,
-        "no_category_support_in_relevant_hits": 165,
+        "topic_evidence_retrieved": 52,
+        "no_category_support_in_relevant_hits": 164,
         "other_relevant_chunk_may_leak_into_answer": 1
       },
       "visitor_information": {
-        "no_category_support_in_relevant_hits": 195,
-        "topic_evidence_retrieved": 22
+        "no_category_support_in_relevant_hits": 194,
+        "topic_evidence_retrieved": 23
       }
     },
-    "evidence_available_category_queries": 346,
-    "evidence_available_category_queries_passed": 346,
-    "unsupported_category_queries": 1173,
+    "evidence_available_category_queries": 353,
+    "evidence_available_category_queries_passed": 353,
+    "unsupported_category_queries": 1166,
     "unsupported_category_queries_with_potential_other_context": 1,
     "topic_gate_evaluation": "Actual RAG topic filter was applied to locally retrieved relevant hits; this evaluates context admission, not answer correctness.",
-    "citation_metadata_checks": 3800,
-    "citation_metadata_matches": 3800,
+    "citation_metadata_checks": 3856,
+    "citation_metadata_matches": 3856,
     "followup_questions": 217,
     "followup_scope_passed": 217,
     "similar_name_pairs_found": 15,
@@ -22419,54 +22419,214 @@
           "question": "What is Champavati Temple and where is it located?",
           "coverage_status": "present",
           "expected_evidence_document_ids": [],
-          "retrieved": [],
-          "context_after_topic_filter": [],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.22613561153411865,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.35183024406433105,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.6014223098754883,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
+          "context_after_topic_filter": [
+            "systematic_research_20261105_champavati_tourism_history_chunk_0",
+            "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+            "systematic_research_20261105_champavati_tourism_history_chunk_1"
+          ],
           "topic_filter_rejected_relevant_hits": 0,
-          "retrieval_success": false,
+          "retrieval_success": true,
           "topic_relevance_success": null,
           "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_temple_scoped_passage"
+          "outcome": "temple_scoped_passage_retrieved"
         },
         {
           "category": "historical_background",
           "question": "What historical background, chronology and rulers are documented for Champavati Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
-          "retrieved": [],
-          "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "coverage_status": "Limited",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_champavati_tourism_history"
+          ],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.27237117290496826,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.34826040267944336,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.4984341859817505,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
+          "context_after_topic_filter": [
+            "systematic_research_20261105_champavati_tourism_history_chunk_0"
+          ],
+          "topic_filter_rejected_relevant_hits": 2,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         },
         {
           "category": "architecture",
           "question": "What architectural style and structural features are documented for Champavati Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
-          "retrieved": [],
-          "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "coverage_status": "Basic",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_champavati_tourism_history"
+          ],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.27851253747940063,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.37217485904693604,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.5442538261413574,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
+          "context_after_topic_filter": [
+            "systematic_research_20261105_champavati_tourism_history_chunk_0"
+          ],
+          "topic_filter_rejected_relevant_hits": 2,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         },
         {
           "category": "religious_cultural_significance",
           "question": "What deity and religious or cultural significance are documented for Champavati Temple?",
           "coverage_status": "Missing",
           "expected_evidence_document_ids": [],
-          "retrieved": [],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.29824042320251465,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.3617006540298462,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.5360465049743652,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "topic_filter_rejected_relevant_hits": 3,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -22479,9 +22639,46 @@
           "question": "What festivals, rituals or traditions are documented for Champavati Temple?",
           "coverage_status": "Missing",
           "expected_evidence_document_ids": [],
-          "retrieved": [],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.35795408487319946,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.41309624910354614,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.5205686092376709,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "topic_filter_rejected_relevant_hits": 3,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -22494,9 +22691,46 @@
           "question": "What inscriptions, scripts, grants or epigraphic records are documented for Champavati Temple?",
           "coverage_status": "Missing",
           "expected_evidence_document_ids": [],
-          "retrieved": [],
+          "retrieved": [
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.35210496187210083,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.392461895942688,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.4543565511703491,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "topic_filter_rejected_relevant_hits": 3,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -22509,9 +22743,46 @@
           "question": "What heritage status or conservation history is documented for Champavati Temple?",
           "coverage_status": "Missing",
           "expected_evidence_document_ids": [],
-          "retrieved": [],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.2851688861846924,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.30882447957992554,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.4487946033477783,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "topic_filter_rejected_relevant_hits": 3,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -22524,9 +22795,46 @@
           "question": "What official visitor and access information is documented for Champavati Temple?",
           "coverage_status": "Missing",
           "expected_evidence_document_ids": [],
-          "retrieved": [],
+          "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_0",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.31694912910461426,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba. It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati. The report phrases the daughter's role in persuading her father to estab"
+            },
+            {
+              "chunk_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95_chunk_0",
+              "document_id": "asi_inventory_asi_himachal_pra_f2a74ffbd1613f95",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "asi_inventory_listing",
+              "distance": 0.3736889958381653,
+              "source_title": "Centrally Protected Monuments/Sites: State-wise and Circle-wise",
+              "source_url": "https://asi.nic.in/pdf/CPM_List.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Champavati Temple in Chamba, Chamba district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informa"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_champavati_tourism_history_chunk_1",
+              "document_id": "systematic_research_20261105_champavati_tourism_history",
+              "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
+              "topic": "historical_background_religious_cultural_significance",
+              "distance": 0.48963648080825806,
+              "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+              "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": ", not as a separately established historical fact. The passage provides no architectural description, deity identification, festival calendar, inscriptions, conservation account or current visitor timings. The separate National Mission on Monuments and Antiquities detail page could not be fetched during this research and was not used for claims. Accessed 5 N"
+            }
+          ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 0,
+          "topic_filter_rejected_relevant_hits": 3,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -29549,6 +29857,30 @@
           "expected_evidence_document_ids": [],
           "retrieved": [
             {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.2606583833694458,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.3489952087402344,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
+            {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
               "temple_id": "asi_himachal_pra_14fdecc910252f5f",
@@ -29559,10 +29891,38 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": false,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.5485420227050781,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple. It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple. This is a da"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.5632261037826538,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
             }
           ],
           "context_after_topic_filter": [
-            "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0"
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+            "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+            "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1"
           ],
           "topic_filter_rejected_relevant_hits": 0,
           "retrieval_success": true,
@@ -29575,9 +29935,24 @@
         {
           "category": "historical_background",
           "question": "What historical background, chronology and rulers are documented for Panchvaktra Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
+          "coverage_status": "Good",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+          ],
           "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.2797057628631592,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
             {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
@@ -29589,23 +29964,101 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": true,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.4025484323501587,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.4084644317626953,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.5042306780815125,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple. It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple. This is a da"
             }
           ],
-          "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "context_after_topic_filter": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1"
+          ],
+          "topic_filter_rejected_relevant_hits": 3,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         },
         {
           "category": "architecture",
           "question": "What architectural style and structural features are documented for Panchvaktra Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
+          "coverage_status": "Good",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+          ],
           "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.26772719621658325,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.4057233929634094,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple. It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple. This is a da"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.4165119528770447,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
             {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
@@ -29617,23 +30070,64 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": true,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.5218244194984436,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
             }
           ],
-          "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "context_after_topic_filter": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0"
+          ],
+          "topic_filter_rejected_relevant_hits": 4,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         },
         {
           "category": "religious_cultural_significance",
           "question": "What deity and religious or cultural significance are documented for Panchvaktra Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
+          "coverage_status": "Good",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+            "systematic_research_20261105_panchvaktra_location_district_administration"
+          ],
           "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.25891029834747314,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.3933662176132202,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
             {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
@@ -29645,16 +30139,44 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": true,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.502622663974762,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.5659263134002686,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple. It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple. This is a da"
             }
           ],
-          "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "context_after_topic_filter": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+            "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1"
+          ],
+          "topic_filter_rejected_relevant_hits": 2,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         },
         {
           "category": "festivals_rituals",
@@ -29662,6 +30184,30 @@
           "coverage_status": "Missing",
           "expected_evidence_document_ids": [],
           "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.3713211417198181,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.43978363275527954,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
             {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
@@ -29673,10 +30219,34 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": true,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.5891831517219543,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.5892897844314575,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " it describes the present condition of the temple. Accessed 5 November 2026."
             }
           ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "topic_filter_rejected_relevant_hits": 5,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -29691,6 +30261,18 @@
           "expected_evidence_document_ids": [],
           "retrieved": [
             {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.3466125726699829,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
+            {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
               "temple_id": "asi_himachal_pra_14fdecc910252f5f",
@@ -29701,10 +30283,46 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": false,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.4343515634536743,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.5032476782798767,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.5323294401168823,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple. It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple. This is a da"
             }
           ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "topic_filter_rejected_relevant_hits": 5,
           "retrieval_success": true,
           "topic_relevance_success": false,
           "unsupported_question_test": true,
@@ -29715,9 +30333,24 @@
         {
           "category": "heritage_conservation",
           "question": "What heritage status or conservation history is documented for Panchvaktra Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
+          "coverage_status": "Good",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+          ],
           "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.276080846786499,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
             {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
@@ -29729,23 +30362,86 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": true,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.38872408866882324,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.4339832067489624,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple. It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple. This is a da"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.48521631956100464,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
             }
           ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "topic_filter_rejected_relevant_hits": 5,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         },
         {
           "category": "visitor_information",
           "question": "What official visitor and access information is documented for Panchvaktra Temple?",
-          "coverage_status": "Missing",
-          "expected_evidence_document_ids": [],
+          "coverage_status": "Limited",
+          "expected_evidence_document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+            "systematic_research_20261105_panchvaktra_location_district_administration"
+          ],
           "retrieved": [
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.3802608847618103,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style. It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament. The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath bui"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_location_district_administration_chunk_0",
+              "document_id": "systematic_research_20261105_panchvaktra_location_district_administration",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "basic_information_location",
+              "distance": 0.38240593671798706,
+              "source_title": "Places of Interest",
+              "source_url": "https://hpmandi.nic.in/places-of-interest/",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": true,
+              "excerpt": "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town. The page lists the temple among the town's archaeological and religious sites. It does not provide current opening hours, entry fees, accessibility details, or specific visitor instructions. Accessed 5 "
+            },
             {
               "chunk_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f_chunk_0",
               "document_id": "asi_inventory_asi_himachal_pra_14fdecc910252f5f",
@@ -29757,16 +30453,40 @@
               "citation_url_matches_document": true,
               "passage_has_category_evidence_terms": true,
               "excerpt": "The Archaeological Survey of India (ASI) Centrally Protected Monuments/Sites inventory records Panchvaktra Temple in Mandi, Mandi district, Himachal Pradesh. This source supports the listed monument name, place and inclusion in the ASI inventory. The inventory entry does not state a construction date, deity, architectural style, festival, or visitor informat"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "historical_background_architecture_religious_significance_heritage",
+              "distance": 0.5274131894111633,
+              "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+              "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " also assigns the temple to the fifteenth century. The source does not explain the chronology between these statements, so this profile preserves the source's ambiguity rather than reconciling it. It describes a subsidiary temple to the west as having the same design and date. The inventory lists government ownership, continuing religious use, ASI Chandigarh"
+            },
+            {
+              "chunk_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13_chunk_1",
+              "document_id": "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+              "temple_id": "asi_himachal_pra_14fdecc910252f5f",
+              "topic": "heritage_conservation",
+              "distance": 0.5594319105148315,
+              "source_title": "Indian Archaeology 2012–13: A Review",
+              "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+              "citation_url_matches_document": true,
+              "passage_has_category_evidence_terms": false,
+              "excerpt": " it describes the present condition of the temple. Accessed 5 November 2026."
             }
           ],
           "context_after_topic_filter": [],
-          "topic_filter_rejected_relevant_hits": 1,
+          "topic_filter_rejected_relevant_hits": 5,
           "retrieval_success": true,
-          "topic_relevance_success": false,
-          "unsupported_question_test": true,
+          "topic_relevance_success": true,
+          "unsupported_question_test": false,
           "potential_unsupported_context": false,
           "citation_urls_match_local_source_documents": true,
-          "outcome": "no_category_support_in_relevant_hits"
+          "outcome": "topic_evidence_retrieved"
         }
       ]
     },

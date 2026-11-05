@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-05T16:37:08.457388+00:00",
+  "generated_at_utc": "2026-11-05T17:03:53.854648+00:00",
   "catalogue_count": 217,
-  "knowledge_document_count": 391,
+  "knowledge_document_count": 395,
   "method": {
     "purpose": "Full-catalogue local evidence audit to prioritize human research.",
     "limitations": [
@@ -23,29 +23,29 @@
     "Partial profile": 8,
     "Limited profile": 5,
     "Broadly documented": 2,
-    "Several topics documented": 11,
-    "Basic / substantial gaps": 191
+    "Several topics documented": 12,
+    "Basic / substantial gaps": 190
   },
   "category_status_counts": {
     "historical_background": {
-      "Limited": 33,
+      "Limited": 34,
       "Detailed": 3,
-      "Good": 12,
-      "Missing": 129,
+      "Good": 13,
+      "Missing": 127,
       "Basic": 40
     },
     "architecture": {
       "Limited": 36,
       "Detailed": 4,
-      "Good": 8,
-      "Missing": 141,
-      "Basic": 28
+      "Good": 9,
+      "Missing": 139,
+      "Basic": 29
     },
     "religious_cultural_significance": {
       "Limited": 27,
-      "Good": 10,
+      "Good": 11,
       "Detailed": 7,
-      "Missing": 139,
+      "Missing": 138,
       "Basic": 34
     },
     "festivals_rituals": {
@@ -63,13 +63,13 @@
     "heritage_conservation": {
       "Limited": 20,
       "Detailed": 9,
-      "Missing": 166,
+      "Missing": 165,
       "Basic": 15,
-      "Good": 7
+      "Good": 8
     },
     "visitor_information": {
-      "Missing": 195,
-      "Limited": 6,
+      "Missing": 194,
+      "Limited": 7,
       "Basic": 16
     }
   },
@@ -6574,26 +6574,55 @@
       ],
       "state": "Himachal Pradesh",
       "district": "Chamba",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_champavati_tourism_history"
+          ],
+          "source_urls": [
+            "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf"
+          ],
+          "source_types": [
+            "government_tourism_planning_report"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "It attributes the temple's construction to Raja Sahil Varman and says it was built in memory of his daughter Champavati.",
+            "The report phrases the daughter's role in persuading her father to establish Chamba at its present location as a belief, not as a separately established historical fact."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_champavati_tourism_history"
+          ],
+          "source_urls": [
+            "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf"
+          ],
+          "source_types": [
+            "government_tourism_planning_report"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Ministry of Tourism-hosted Himachal Pradesh tourism perspective-plan report locates Champavati Temple behind the City Police Post and Treasury building in Chamba."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
           "status": "Missing",
@@ -6651,9 +6680,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "tourism.gov.in"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_himachal_pra_196b8a9e201023ce",
@@ -8767,35 +8797,92 @@
       ],
       "state": "Himachal Pradesh",
       "district": "Mandi",
-      "document_count": 1,
-      "coverage_class_heuristic": "Basic / substantial gaps",
+      "document_count": 4,
+      "coverage_class_heuristic": "Several topics documented",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Good",
+          "document_count": 2,
+          "source_url_count": 2,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+          ],
+          "source_urls": [
+            "https://ignca.gov.in/Asi_data/84884.pdf",
+            "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+          ],
+          "source_types": [
+            "asi_monument_inventory_record",
+            "official_archaeological_conservation_report"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The entry says an earlier temple at the site was destroyed by floods in the early eighteenth century and that Raja Sidhanath built the present temple at the same spot; it also assigns the temple to the fifteenth century.",
+            "The inventory lists government ownership, continuing religious use, ASI Chandigarh Circle administrative control and notification reference F-4-1/52-A2 dated 28 July 1952.",
+            "This is a dated account of work in progress, not evidence that the work was completed or that it describes the present condition of the temple."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Good",
+          "document_count": 2,
+          "source_url_count": 2,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+          ],
+          "source_urls": [
+            "https://ignca.gov.in/Asi_data/84884.pdf",
+            "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+          ],
+          "source_types": [
+            "asi_monument_inventory_record",
+            "official_archaeological_conservation_report"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style.",
+            "It notes a mandapa supported on four heavy pillars with pot-and-foliage ornament.",
+            "It reports that a retaining wall was provided on the river side and strengthened with concealed reinforced-concrete columns and tie-beams, with granular filling behind the wall toward the temple."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Good",
+          "document_count": 2,
+          "source_url_count": 2,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+            "systematic_research_20261105_panchvaktra_location_district_administration"
+          ],
+          "source_urls": [
+            "https://hpmandi.nic.in/places-of-interest/",
+            "https://ignca.gov.in/Asi_data/84884.pdf"
+          ],
+          "source_types": [
+            "asi_monument_inventory_record",
+            "official_district_information_page"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style.",
+            "The inventory lists government ownership, continuing religious use, ASI Chandigarh Circle administrative control and notification reference F-4-1/52-A2 dated 28 July 1952.",
+            "The page lists the temple among the town's archaeological and religious sites."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "festivals_rituals": {
           "status": "Missing",
@@ -8816,37 +8903,73 @@
           "evidence_excerpts": []
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Good",
+          "document_count": 2,
+          "source_url_count": 2,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+          ],
+          "source_urls": [
+            "https://ignca.gov.in/Asi_data/84884.pdf",
+            "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+          ],
+          "source_types": [
+            "asi_monument_inventory_record",
+            "official_archaeological_conservation_report"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The ASI monument-inventory entry identifies Panchvaktra as a Shiva temple in Mandi and describes it as a stone temple in the northern shikhara style.",
+            "The inventory lists government ownership, continuing religious use, ASI Chandigarh Circle administrative control and notification reference F-4-1/52-A2 dated 28 July 1952.",
+            "The Archaeological Survey of India's 2012–13 review says work was in progress to reduce the risk of Beas River floodwaters entering Panchvaktra Temple."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 2,
+          "source_url_count": 2,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+            "systematic_research_20261105_panchvaktra_location_district_administration"
+          ],
+          "source_urls": [
+            "https://hpmandi.nic.in/places-of-interest/",
+            "https://ignca.gov.in/Asi_data/84884.pdf"
+          ],
+          "source_types": [
+            "asi_monument_inventory_record",
+            "official_district_information_page"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "Its approach fields name Shimla airport, Jogindernagar railway station and Mandi bus station, but these are inventory directions rather than a current transport advisory.",
+            "The Mandi district administration's places-of-interest page locates Panchvaktra Mahadev Temple at the confluence of the Suketi and Beas rivers in Mandi town."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         }
       },
       "research_gaps": [
-        "historical_background",
-        "architecture",
-        "religious_cultural_significance",
         "festivals_rituals",
         "inscriptions_historical_evidence",
-        "heritage_conservation",
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "hpmandi.nic.in",
+        "ignca.gov.in",
+        "nmma.nic.in"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 3
     },
     {
       "temple_id": "asi_himachal_pra_dddb6f1b1b3e3ef2",
@@ -25058,38 +25181,38 @@
   },
   "coverage_improvement_this_operation": {
     "Limited -> Detailed": 1,
-    "Missing -> Basic": 92,
+    "Missing -> Basic": 93,
     "Basic -> Detailed": 2,
     "Basic -> Good": 1,
     "Basic -> Limited": 2,
-    "Missing -> Limited": 43,
-    "Missing -> Good": 17,
+    "Missing -> Limited": 45,
+    "Missing -> Good": 21,
     "Missing -> Detailed": 2
   },
   "baseline_before_batch_04": {
     "catalogue_count": 217,
-    "document_count": 359,
+    "document_count": 363,
     "category_status_counts": {
       "historical_background": {
-        "Limited": 29,
-        "Good": 9,
-        "Missing": 133,
+        "Limited": 30,
+        "Good": 10,
+        "Missing": 131,
         "Basic": 44,
         "Detailed": 2
       },
       "architecture": {
         "Limited": 30,
-        "Good": 7,
+        "Good": 8,
         "Detailed": 3,
-        "Missing": 148,
-        "Basic": 29
+        "Missing": 146,
+        "Basic": 30
       },
       "religious_cultural_significance": {
         "Limited": 28,
         "Detailed": 5,
-        "Missing": 144,
+        "Missing": 143,
         "Basic": 33,
-        "Good": 7
+        "Good": 8
       },
       "festivals_rituals": {
         "Missing": 202,
@@ -25106,13 +25229,13 @@
       "heritage_conservation": {
         "Limited": 18,
         "Basic": 18,
-        "Missing": 169,
+        "Missing": 168,
         "Detailed": 6,
-        "Good": 6
+        "Good": 7
       },
       "visitor_information": {
-        "Missing": 197,
-        "Limited": 5,
+        "Missing": 196,
+        "Limited": 6,
         "Basic": 15
       }
     }

@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-05T16:37:07.513622+00:00",
+  "generated_at_utc": "2026-11-05T17:03:53.381328+00:00",
   "snapshot_scope": "Current catalogue and linked knowledge documents at report generation time.",
   "catalogue_record_count": 217,
-  "knowledge_document_count": 391,
+  "knowledge_document_count": 395,
   "method": {
     "classification": "Heuristic audit of linked document topic/source metadata and text keyword evidence; it is a triage report, not claim verification.",
     "basic": "Only inventory/location records and no useful topical document.",
@@ -13,19 +13,19 @@
   },
   "summary": {
     "coverage_class_counts": {
-      "basic": 123,
-      "limited": 69,
-      "moderate": 24,
+      "basic": 121,
+      "limited": 70,
+      "moderate": 25,
       "comprehensive": 1
     },
     "topic_temple_counts": {
-      "architecture_construction": 84,
-      "deity_religious_cultural_significance": 79,
-      "heritage_conservation_visitor_information": 68,
-      "historical_background_timeline": 87,
+      "architecture_construction": 86,
+      "deity_religious_cultural_significance": 81,
+      "heritage_conservation_visitor_information": 70,
+      "historical_background_timeline": 89,
       "kings_dynasties_contributors": 64,
       "sculpture_inscriptions_distinctive_structures": 33,
-      "festivals_rituals_traditions": 36
+      "festivals_rituals_traditions": 37
     },
     "temples_with_pending_review_documents": 217,
     "temples_with_unlabelled_document_status": 6,
@@ -1064,43 +1064,6 @@
       "priority_score": 7.0
     },
     {
-      "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
-      "name": "Champavati Temple",
-      "alternate_names": [
-        "Champavati Temple"
-      ],
-      "state": "Himachal Pradesh",
-      "district": "Chamba",
-      "area": "Chamba",
-      "document_count": 1,
-      "useful_non_inventory_document_count": 0,
-      "inventory_document_count": 1,
-      "coverage_class": "basic",
-      "topic_count_heuristic": 0,
-      "topics_with_document_evidence": [],
-      "document_ids_by_topic": {},
-      "missing_topics": [
-        "historical_background_timeline",
-        "kings_dynasties_contributors",
-        "architecture_construction",
-        "sculpture_inscriptions_distinctive_structures",
-        "deity_religious_cultural_significance",
-        "festivals_rituals_traditions",
-        "heritage_conservation_visitor_information"
-      ],
-      "source_domains": [
-        "asi.nic.in"
-      ],
-      "topical_source_domains": [],
-      "source_urls": [
-        "https://asi.nic.in/pdf/CPM_List.pdf"
-      ],
-      "pending_review_document_count": 1,
-      "unlabelled_review_document_count": 0,
-      "prior_enrichment_manifest_scope": false,
-      "priority_score": 7.0
-    },
-    {
       "temple_id": "asi_himachal_pra_b5aa2390218f7fa8",
       "name": "Mirkula Devi Temple",
       "alternate_names": [
@@ -1109,43 +1072,6 @@
       "state": "Himachal Pradesh",
       "district": "Lahaul & Spiti",
       "area": "Udaipur (Lahaul)",
-      "document_count": 1,
-      "useful_non_inventory_document_count": 0,
-      "inventory_document_count": 1,
-      "coverage_class": "basic",
-      "topic_count_heuristic": 0,
-      "topics_with_document_evidence": [],
-      "document_ids_by_topic": {},
-      "missing_topics": [
-        "historical_background_timeline",
-        "kings_dynasties_contributors",
-        "architecture_construction",
-        "sculpture_inscriptions_distinctive_structures",
-        "deity_religious_cultural_significance",
-        "festivals_rituals_traditions",
-        "heritage_conservation_visitor_information"
-      ],
-      "source_domains": [
-        "asi.nic.in"
-      ],
-      "topical_source_domains": [],
-      "source_urls": [
-        "https://asi.nic.in/pdf/CPM_List.pdf"
-      ],
-      "pending_review_document_count": 1,
-      "unlabelled_review_document_count": 0,
-      "prior_enrichment_manifest_scope": false,
-      "priority_score": 7.0
-    },
-    {
-      "temple_id": "asi_himachal_pra_14fdecc910252f5f",
-      "name": "Panchvaktra Temple",
-      "alternate_names": [
-        "Panchvaktra Temple"
-      ],
-      "state": "Himachal Pradesh",
-      "district": "Mandi",
-      "area": "Mandi",
       "document_count": 1,
       "useful_non_inventory_document_count": 0,
       "inventory_document_count": 1,
@@ -3948,6 +3874,80 @@
       "unlabelled_review_document_count": 0,
       "prior_enrichment_manifest_scope": false,
       "priority_score": 7.0
+    },
+    {
+      "temple_id": "asi_tamil_nadu_c70316ee1074960c",
+      "name": "Tirupuleswarar Temple",
+      "alternate_names": [
+        "Tirupuleswarar Temple"
+      ],
+      "state": "Tamil Nadu",
+      "district": "Kanchipuram",
+      "area": "Vayalur",
+      "document_count": 1,
+      "useful_non_inventory_document_count": 0,
+      "inventory_document_count": 1,
+      "coverage_class": "basic",
+      "topic_count_heuristic": 0,
+      "topics_with_document_evidence": [],
+      "document_ids_by_topic": {},
+      "missing_topics": [
+        "historical_background_timeline",
+        "kings_dynasties_contributors",
+        "architecture_construction",
+        "sculpture_inscriptions_distinctive_structures",
+        "deity_religious_cultural_significance",
+        "festivals_rituals_traditions",
+        "heritage_conservation_visitor_information"
+      ],
+      "source_domains": [
+        "asi.nic.in"
+      ],
+      "topical_source_domains": [],
+      "source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "pending_review_document_count": 1,
+      "unlabelled_review_document_count": 0,
+      "prior_enrichment_manifest_scope": false,
+      "priority_score": 7.0
+    },
+    {
+      "temple_id": "asi_uttarakhand_14ba3ed9412c2289",
+      "name": "Badrinath group of Temples",
+      "alternate_names": [
+        "Badrinath group of Temples"
+      ],
+      "state": "Uttarakhand",
+      "district": "Almora",
+      "area": "Dwarahat",
+      "document_count": 1,
+      "useful_non_inventory_document_count": 0,
+      "inventory_document_count": 1,
+      "coverage_class": "basic",
+      "topic_count_heuristic": 0,
+      "topics_with_document_evidence": [],
+      "document_ids_by_topic": {},
+      "missing_topics": [
+        "historical_background_timeline",
+        "kings_dynasties_contributors",
+        "architecture_construction",
+        "sculpture_inscriptions_distinctive_structures",
+        "deity_religious_cultural_significance",
+        "festivals_rituals_traditions",
+        "heritage_conservation_visitor_information"
+      ],
+      "source_domains": [
+        "asi.nic.in"
+      ],
+      "topical_source_domains": [],
+      "source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "pending_review_document_count": 1,
+      "unlabelled_review_document_count": 0,
+      "prior_enrichment_manifest_scope": false,
+      "priority_score": 7.0
     }
   ],
   "temples": [
@@ -6626,33 +6626,54 @@
       "state": "Himachal Pradesh",
       "district": "Chamba",
       "area": "Chamba",
-      "document_count": 1,
-      "useful_non_inventory_document_count": 0,
+      "document_count": 2,
+      "useful_non_inventory_document_count": 1,
       "inventory_document_count": 1,
-      "coverage_class": "basic",
-      "topic_count_heuristic": 0,
-      "topics_with_document_evidence": [],
-      "document_ids_by_topic": {},
-      "missing_topics": [
-        "historical_background_timeline",
-        "kings_dynasties_contributors",
+      "coverage_class": "limited",
+      "topic_count_heuristic": 5,
+      "topics_with_document_evidence": [
         "architecture_construction",
-        "sculpture_inscriptions_distinctive_structures",
         "deity_religious_cultural_significance",
         "festivals_rituals_traditions",
-        "heritage_conservation_visitor_information"
+        "heritage_conservation_visitor_information",
+        "historical_background_timeline"
+      ],
+      "document_ids_by_topic": {
+        "historical_background_timeline": [
+          "systematic_research_20261105_champavati_tourism_history"
+        ],
+        "architecture_construction": [
+          "systematic_research_20261105_champavati_tourism_history"
+        ],
+        "deity_religious_cultural_significance": [
+          "systematic_research_20261105_champavati_tourism_history"
+        ],
+        "festivals_rituals_traditions": [
+          "systematic_research_20261105_champavati_tourism_history"
+        ],
+        "heritage_conservation_visitor_information": [
+          "systematic_research_20261105_champavati_tourism_history"
+        ]
+      },
+      "missing_topics": [
+        "kings_dynasties_contributors",
+        "sculpture_inscriptions_distinctive_structures"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "tourism.gov.in"
       ],
-      "topical_source_domains": [],
+      "topical_source_domains": [
+        "tourism.gov.in"
+      ],
       "source_urls": [
-        "https://asi.nic.in/pdf/CPM_List.pdf"
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf"
       ],
-      "pending_review_document_count": 1,
+      "pending_review_document_count": 2,
       "unlabelled_review_document_count": 0,
       "prior_enrichment_manifest_scope": false,
-      "priority_score": 7.0
+      "priority_score": 3.2
     },
     {
       "temple_id": "asi_himachal_pra_196b8a9e201023ce",
@@ -7508,33 +7529,61 @@
       "state": "Himachal Pradesh",
       "district": "Mandi",
       "area": "Mandi",
-      "document_count": 1,
-      "useful_non_inventory_document_count": 0,
+      "document_count": 4,
+      "useful_non_inventory_document_count": 3,
       "inventory_document_count": 1,
-      "coverage_class": "basic",
-      "topic_count_heuristic": 0,
-      "topics_with_document_evidence": [],
-      "document_ids_by_topic": {},
-      "missing_topics": [
-        "historical_background_timeline",
-        "kings_dynasties_contributors",
+      "coverage_class": "moderate",
+      "topic_count_heuristic": 4,
+      "topics_with_document_evidence": [
         "architecture_construction",
-        "sculpture_inscriptions_distinctive_structures",
         "deity_religious_cultural_significance",
-        "festivals_rituals_traditions",
-        "heritage_conservation_visitor_information"
+        "heritage_conservation_visitor_information",
+        "historical_background_timeline"
+      ],
+      "document_ids_by_topic": {
+        "historical_background_timeline": [
+          "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+          "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+        ],
+        "architecture_construction": [
+          "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture"
+        ],
+        "deity_religious_cultural_significance": [
+          "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+          "systematic_research_20261105_panchvaktra_location_district_administration"
+        ],
+        "heritage_conservation_visitor_information": [
+          "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+          "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+          "systematic_research_20261105_panchvaktra_location_district_administration"
+        ]
+      },
+      "missing_topics": [
+        "kings_dynasties_contributors",
+        "sculpture_inscriptions_distinctive_structures",
+        "festivals_rituals_traditions"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "hpmandi.nic.in",
+        "ignca.gov.in",
+        "nmma.nic.in"
       ],
-      "topical_source_domains": [],
+      "topical_source_domains": [
+        "hpmandi.nic.in",
+        "ignca.gov.in",
+        "nmma.nic.in"
+      ],
       "source_urls": [
-        "https://asi.nic.in/pdf/CPM_List.pdf"
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://hpmandi.nic.in/places-of-interest/",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
       ],
-      "pending_review_document_count": 1,
+      "pending_review_document_count": 4,
       "unlabelled_review_document_count": 0,
       "prior_enrichment_manifest_scope": false,
-      "priority_score": 7.0
+      "priority_score": 5.4
     },
     {
       "temple_id": "asi_himachal_pra_dddb6f1b1b3e3ef2",

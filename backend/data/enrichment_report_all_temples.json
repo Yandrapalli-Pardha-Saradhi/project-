@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-05T16:37:08.972212+00:00",
+  "generated_at_utc": "2026-11-05T17:03:54.174445+00:00",
   "operation_status": "PARTIAL_SOURCE_RESEARCH_CHECKPOINT_ENRICHMENT_INCOMPLETE",
   "temples_audited": 217,
-  "temples_researched_with_pages_inspected_in_this_operation": 89,
+  "temples_researched_with_pages_inspected_in_this_operation": 91,
   "temples_fully_researched_in_this_operation": 0,
-  "temples_with_partial_source_research": 89,
-  "temples_without_source_pages_inspected_in_this_operation": 128,
+  "temples_with_partial_source_research": 91,
+  "temples_without_source_pages_inspected_in_this_operation": 126,
   "unresearched_temple_ids_and_names": [
     {
       "temple_id": "asi_andhra_prade_0eae7591ae183981",
@@ -18,10 +18,6 @@
     {
       "temple_id": "asi_assam_21748e5141ece6d2",
       "name": "Shri Surya Pahar Ruins, Dasabhaja Devasthan"
-    },
-    {
-      "temple_id": "asi_himachal_pra_f2a74ffbd1613f95",
-      "name": "Champavati Temple"
     },
     {
       "temple_id": "asi_himachal_pra_196b8a9e201023ce",
@@ -50,10 +46,6 @@
     {
       "temple_id": "asi_himachal_pra_b5aa2390218f7fa8",
       "name": "Mirkula Devi Temple"
-    },
-    {
-      "temple_id": "asi_himachal_pra_14fdecc910252f5f",
-      "name": "Panchvaktra Temple"
     },
     {
       "temple_id": "asi_himachal_pra_dddb6f1b1b3e3ef2",
@@ -1465,50 +1457,32 @@
       "name": "26 Shiva Temples"
     }
   ],
-  "temples_with_source_supported_new_documents_added_in_this_operation": 47,
-  "documents_added_in_this_operation": 65,
-  "documents_modified_in_this_operation": 8,
-  "updated_document_ids_in_this_operation": [
-    "systematic_research_20261105_kambaduru_mallikarjuna_asi_conservation_1956",
-    "systematic_research_20261105_sivasagar_sivadol_assam_tourism_context",
-    "systematic_research_20261105_bharmour_ganesh_chaurasi_asi_heritage_context",
-    "systematic_research_20261105_bharmour_lakshana_devi_chaurasi_asi_heritage_context",
-    "systematic_research_20261105_bharmour_manimahesh_chaurasi_asi_heritage_context",
-    "systematic_research_20261105_bharmour_narsingh_chaurasi_asi_heritage_context",
-    "systematic_research_20261105_chamba_lakshmi_narayan_tourism_architecture_patronage",
-    "systematic_research_20261105_joysagar_devidol_devighar_identity_location"
-  ],
+  "temples_with_source_supported_new_documents_added_in_this_operation": 49,
+  "documents_added_in_this_operation": 69,
+  "documents_modified_in_this_operation": 0,
+  "updated_document_ids_in_this_operation": [],
   "indexing_checkpoint": {
-    "completed_at_utc": "2026-11-05T16:20:53.285803+00:00",
+    "completed_at_utc": "2026-11-05T16:56:29.129902+00:00",
     "catalogue_records": 217,
-    "curated_document_count": 384,
+    "curated_document_count": 394,
     "collection": "temple_heritage",
-    "collection_chunk_count": 516,
+    "collection_chunk_count": 536,
     "indexing": {
-      "new_documents_added_this_operation": 58,
-      "documents_text_modified_after_first_index": 9,
+      "new_documents_added_this_operation": 68,
+      "documents_text_modified_after_their_first_index": 8,
       "latest_dry_run_1_matches_dry_run_2": true,
-      "latest_dry_run_documents_updated": 1,
-      "latest_dry_run_documents_added": 0,
-      "latest_dry_run_chunks_added": 0,
-      "latest_dry_run_chunks_updated": 2,
-      "latest_dry_run_metadata_only_updates": 3,
+      "latest_dry_run_documents_added": 3,
+      "latest_dry_run_chunks_added": 7,
+      "latest_dry_run_documents_updated": 0,
+      "latest_dry_run_chunks_updated": 0,
+      "latest_dry_run_metadata_only_updates": 0,
       "latest_dry_run_stale_chunks_removed": 0,
       "latest_index_write_succeeded": true,
-      "chunks_after_latest_index": 516,
+      "chunks_before_latest_index": 529,
+      "chunks_after_latest_index": 536,
       "new_documents_review_status": "pending_human_review"
     },
-    "updated_document_ids": [
-      "systematic_research_20261105_kambaduru_mallikarjuna_asi_conservation_1956",
-      "systematic_research_20261105_sivasagar_sivadol_assam_tourism_context",
-      "systematic_research_20261105_bharmour_ganesh_chaurasi_asi_heritage_context",
-      "systematic_research_20261105_bharmour_lakshana_devi_chaurasi_asi_heritage_context",
-      "systematic_research_20261105_bharmour_manimahesh_chaurasi_asi_heritage_context",
-      "systematic_research_20261105_bharmour_narsingh_chaurasi_asi_heritage_context",
-      "systematic_research_20261105_chamba_lakshmi_narayan_tourism_architecture_patronage",
-      "systematic_research_20261105_joysagar_devidol_devighar_identity_location"
-    ],
-    "note": "Across this operation, 58 new documents were added and nine existing documents were text-updated after indexing to correct source caveats or remove negative-evidence wording. Three obsolete chunks were removed only as stale versions of seven earlier modified documents. Group 10 dry runs matched: three new documents/six chunks; its later wording refinement matched at one document/two chunks updated, with no deletions. Group 12 added two documents/four chunks; Group 13 added six documents/12 chunks; Group 14 added one document/two chunks; Group 15 added four documents/17 chunks. A previously mislabelled title and publisher for one Belavadi source record were corrected as metadata-only updates across four chunks; subsequent caveat refinements in the same new document updated at most two chunks and three metadata records without changing total count. The collection is now 516 chunks; all new documents remain pending human review."
+    "note": "Group 17 dry runs matched: three new documents and seven chunks to add; 391 documents and 529 chunks unchanged, no updates or removals. Incremental indexing completed without deleting existing chunks."
   },
   "sources_accessed_in_this_operation": [
     {
@@ -1990,22 +1964,20 @@
       "note": "Inspected named conservation entries in the official ASI review; work entries are dated historical evidence, not current-condition claims."
     },
     {
-      "source_title": "Indian Archaeology 2012-13: A Review",
+      "source_title": "Indian Archaeology 2012–13: A Review",
       "source_url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
-      "publisher": "Archaeological Survey of India, Government of India",
-      "source_type": "asi_annual_conservation_review_pdf",
-      "publication_date": "2015",
+      "publisher": "Archaeological Survey of India / National Mission on Monuments and Antiquities",
+      "source_type": "official_archaeological_conservation_report",
+      "publication_date": null,
       "accessed_date": "2026-11-05",
       "linked_temple_ids": [
-        "asi_andhra_prade_4824bbb04f702849",
-        "asi_andhra_prade_e429b0544ae6aaa7",
-        "asi_andhra_prade_ba65914fa7b7de40"
+        "asi_himachal_pra_14fdecc910252f5f"
       ],
       "categories_with_relevant_source_content": [
         "heritage_conservation"
       ],
-      "inspection_method": "Opened the PDF and inspected the temple-specific entry and its page context.",
-      "note": "Inspected named preservation entries; Sompalem/Sompalle spelling equivalence is flagged for review."
+      "inspection_method": "Opened the actual report/PDF and inspected the cited section; source page references are recorded in the knowledge documents.",
+      "note": "Claims remain pending human review. The Panchvaktra source's chronology ambiguity is preserved."
     },
     {
       "source_title": "Rajya Sabha Unstarred Question 162: Centrally protected monuments in Andhra Pradesh",
@@ -2544,6 +2516,76 @@
       ],
       "inspection_method": "Opened the source page/PDF and inspected the cited HTML/PDF section; the relevant lines/page references are stored on each document.",
       "note": "No automated collection was run. Historical conservation entries are not represented as current condition claims."
+    },
+    {
+      "source_title": "Da Parbatia Gate",
+      "source_url": "https://sonitpur.assam.gov.in/tourist-place-detail/272",
+      "publisher": "Sonitpur District Administration, Government of Assam",
+      "source_type": "official_district_tourism_page",
+      "publication_date": "2026-10-28 (page updated)",
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_assam_68e3d36ac845c504"
+      ],
+      "categories_with_relevant_source_content": [
+        "location",
+        "architecture"
+      ],
+      "inspection_method": "Opened the HTML page and read the temple-specific description; the page identifies Da Parbatia Gate near Tezpur and describes the surviving doorway and early-Gupta-style carving.",
+      "note": "Inspected as corroboration; substantially overlaps the state tourism doorway document and therefore no duplicate knowledge document was created."
+    },
+    {
+      "source_title": "Panchvaktra Temple (Mandi), monument inventory entry 118",
+      "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+      "publisher": "Archaeological Survey of India record hosted by Indira Gandhi National Centre for the Arts",
+      "source_type": "asi_monument_inventory_record",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_himachal_pra_14fdecc910252f5f"
+      ],
+      "categories_with_relevant_source_content": [
+        "architecture",
+        "heritage_conservation",
+        "historical_background",
+        "religious_cultural_significance",
+        "visitor_information"
+      ],
+      "inspection_method": "Opened the actual report/PDF and inspected the cited section; source page references are recorded in the knowledge documents.",
+      "note": "Claims remain pending human review. The Panchvaktra source's chronology ambiguity is preserved."
+    },
+    {
+      "source_title": "Final Report on Perspective Plan for Tourism in Himachal Pradesh",
+      "source_url": "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf",
+      "publisher": "Ministry of Tourism, Government of India; report prepared by Drishti Strategic Research Services",
+      "source_type": "government_tourism_planning_report",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_himachal_pra_f2a74ffbd1613f95"
+      ],
+      "categories_with_relevant_source_content": [
+        "historical_background",
+        "religious_cultural_significance"
+      ],
+      "inspection_method": "Opened the actual report/PDF and inspected the cited section; source page references are recorded in the knowledge documents.",
+      "note": "Claims remain pending human review. The Panchvaktra source's chronology ambiguity is preserved."
+    },
+    {
+      "source_title": "Places of Interest",
+      "source_url": "https://hpmandi.nic.in/places-of-interest/",
+      "publisher": "District Administration Mandi, Government of Himachal Pradesh",
+      "source_type": "official_district_information_page",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_himachal_pra_14fdecc910252f5f"
+      ],
+      "categories_with_relevant_source_content": [
+        "basic_information_location"
+      ],
+      "inspection_method": "Opened the actual report/PDF and inspected the cited section; source page references are recorded in the knowledge documents.",
+      "note": "Claims remain pending human review. The Panchvaktra source's chronology ambiguity is preserved."
     }
   ],
   "source_access_attempts_not_used_as_evidence": [
@@ -2589,6 +2631,15 @@
       "source_url": "https://archaeology.assam.gov.in/information-services/detail/list-of-protected-archaeological-sites-and-monuments",
       "result": "http_404_direct_request",
       "note": "An official Assam Directorate of Archaeology protected-sites result appeared in search, but a direct single-page request returned HTTP 404. The result snippet was not used as evidence, and no temple facts were added from it."
+    },
+    {
+      "source_url": "https://nmma.nic.in/nmma/builtDetail.do?dynasty=59&refId=2740",
+      "linked_temple_ids": [
+        "asi_himachal_pra_f2a74ffbd1613f95"
+      ],
+      "attempted_date": "2026-11-05",
+      "status": "page_fetch_timeout",
+      "note": "Direct page open timed out. Search indexing text was not treated as inspected source evidence; no claims from this page were used."
     }
   ],
   "remaining_temple_research_gaps": [
@@ -3390,12 +3441,8 @@
       "temple_id": "asi_himachal_pra_14fdecc910252f5f",
       "name": "Panchvaktra Temple",
       "categories": [
-        "historical_background",
-        "architecture",
-        "religious_cultural_significance",
         "festivals_rituals",
         "inscriptions_historical_evidence",
-        "heritage_conservation",
         "visitor_information"
       ]
     },
@@ -5353,18 +5400,18 @@
     }
   ],
   "new_document_review_status": {
-    "pending_human_review": 65
+    "pending_human_review": 69
   },
   "retrieval_evaluation_summary": {
     "evaluation_file": "retrieval_evaluation_all_temples.json",
     "temple_name_queries_passed": 217,
     "topic_queries": 1519,
-    "evidence_available_category_queries": 334,
-    "evidence_available_category_queries_passed": 332,
-    "unsupported_category_queries": 1185,
-    "unsupported_category_queries_with_potential_other_context": 0,
-    "citation_metadata_matches": 3712,
-    "citation_metadata_checks": 3712,
+    "evidence_available_category_queries": 353,
+    "evidence_available_category_queries_passed": 352,
+    "unsupported_category_queries": 1166,
+    "unsupported_category_queries_with_potential_other_context": 1,
+    "citation_metadata_matches": 3848,
+    "citation_metadata_checks": 3848,
     "similar_name_resolution_passed": 30,
     "external_llm_called": false
   },
@@ -5378,6 +5425,10 @@
       "document_count": 2
     },
     {
+      "source_type": "asi_monument_inventory_record",
+      "document_count": 1
+    },
+    {
       "source_type": "government_heritage_project_pdf",
       "document_count": 4
     },
@@ -5388,6 +5439,10 @@
     {
       "source_type": "government_tourism_page",
       "document_count": 5
+    },
+    {
+      "source_type": "government_tourism_planning_report",
+      "document_count": 1
     },
     {
       "source_type": "heritage_conservation_report",
@@ -5423,7 +5478,7 @@
     },
     {
       "source_type": "official_archaeological_conservation_report",
-      "document_count": 2
+      "document_count": 3
     },
     {
       "source_type": "official_archaeological_document",
@@ -5451,6 +5506,10 @@
     },
     {
       "source_type": "official_district_administration_page",
+      "document_count": 1
+    },
+    {
+      "source_type": "official_district_information_page",
       "document_count": 1
     },
     {
@@ -5552,7 +5611,7 @@
   ],
   "catalogue_records_added_or_removed": 0,
   "existing_batch_scope_unique_temple_count": 60,
-  "existing_documents_pending_review": 153,
+  "existing_documents_pending_review": 157,
   "processing_errors": [],
   "source_breakdown_by_existing_source_type": {
     "unspecified": 20,
@@ -5599,7 +5658,10 @@
     "official_asi_circle_conservation_report": 4,
     "official_state_archive_index": 1,
     "official_asi_monument_profile": 2,
-    "official_archaeological_conservation_report": 2
+    "official_archaeological_conservation_report": 3,
+    "government_tourism_planning_report": 1,
+    "asi_monument_inventory_record": 1,
+    "official_district_information_page": 1
   },
   "source_registry_snapshot": [
     {
@@ -6216,7 +6278,6 @@
       "already_in_enrichment_manifest": true,
       "research_status": "enriched",
       "sources_inspected": [
-        "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
         "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%201956-57%20A%20Review.pdf",
         "https://rsdebate.nic.in/bitstream/123456789/35430/1/PQ_210_27022007_U162_p55_p61.pdf",
         "https://rsdebate.nic.in/bitstream/123456789/725884/1/PQ_256_24032022_U2421_p152_p159.pdf"
@@ -6827,7 +6888,6 @@
       "already_in_enrichment_manifest": false,
       "research_status": "enriched",
       "sources_inspected": [
-        "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
         "https://rsdebate.nic.in/bitstream/123456789/725884/1/PQ_256_24032022_U2421_p152_p159.pdf"
       ],
       "categories_researched": [
@@ -6896,7 +6956,6 @@
       "research_status": "enriched",
       "sources_inspected": [
         "https://ignca.gov.in/Asi_data/13956.pdf",
-        "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
         "https://rsdebate.nic.in/bitstream/123456789/725884/1/PQ_256_24032022_U2421_p152_p159.pdf"
       ],
       "categories_researched": [
@@ -8435,12 +8494,14 @@
       "sources_inspected": [
         "https://archives.assam.gov.in/sites/default/files/swf_utility_folder/departments/archives_webcomindia_org_oid_3/portlet/level_1/files/General%20%281920-1935%29_0.pdf",
         "https://directortourism.assam.gov.in/portlet-sub-innerpage/historical-monuments",
-        "https://publications.assamtourism.gov.in/publications/files/Assam_Tourism_Coffee_Table_Book.pdf"
+        "https://publications.assamtourism.gov.in/publications/files/Assam_Tourism_Coffee_Table_Book.pdf",
+        "https://sonitpur.assam.gov.in/tourist-place-detail/272"
       ],
       "categories_researched": [
         "architecture",
         "heritage_conservation",
         "historical_background",
+        "location",
         "religious_cultural_significance"
       ],
       "documents_added_this_operation": [
@@ -8741,10 +8802,10 @@
       "name": "Champavati Temple",
       "state": "Himachal Pradesh",
       "district": "Chamba",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
+        "historical_background": "Limited",
+        "architecture": "Basic",
         "religious_cultural_significance": "Missing",
         "festivals_rituals": "Missing",
         "inscriptions_historical_evidence": "Missing",
@@ -8760,14 +8821,28 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf"
+        ],
+        "architecture": [
+          "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://tourism.gov.in/sites/default/files/2020-04/Himachal.pdf"
+      ],
+      "categories_researched": [
+        "historical_background",
+        "religious_cultural_significance"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_champavati_tourism_history"
+      ],
       "remaining_gaps": [
         "historical_background",
         "architecture",
@@ -8777,7 +8852,17 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "error_or_access_limitations": [],
+      "error_or_access_limitations": [
+        {
+          "source_url": "https://nmma.nic.in/nmma/builtDetail.do?dynasty=59&refId=2740",
+          "linked_temple_ids": [
+            "asi_himachal_pra_f2a74ffbd1613f95"
+          ],
+          "attempted_date": "2026-11-05",
+          "status": "page_fetch_timeout",
+          "note": "Direct page open timed out. Search indexing text was not treated as inspected source evidence; no claims from this page were used."
+        }
+      ],
       "prior_source_attributed_documents": [],
       "prior_enrichment_manifest_batches": []
     },
@@ -9292,6 +9377,7 @@
       "categories_researched": [
         "architecture",
         "festivals_traditions",
+        "heritage_conservation",
         "historical_background",
         "religious_cultural_significance",
         "visitor_information"
@@ -9785,40 +9871,69 @@
       "name": "Panchvaktra Temple",
       "state": "Himachal Pradesh",
       "district": "Mandi",
-      "documents_current": 1,
+      "documents_current": 4,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
-        "religious_cultural_significance": "Missing",
+        "historical_background": "Good",
+        "architecture": "Good",
+        "religious_cultural_significance": "Good",
         "festivals_rituals": "Missing",
         "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
-        "visitor_information": "Missing"
+        "heritage_conservation": "Good",
+        "visitor_information": "Limited"
       },
       "research_gaps": [
-        "historical_background",
-        "architecture",
-        "religious_cultural_significance",
         "festivals_rituals",
         "inscriptions_historical_evidence",
-        "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://ignca.gov.in/Asi_data/84884.pdf",
+          "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+        ],
+        "architecture": [
+          "https://ignca.gov.in/Asi_data/84884.pdf",
+          "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+        ],
+        "religious_cultural_significance": [
+          "https://hpmandi.nic.in/places-of-interest/",
+          "https://ignca.gov.in/Asi_data/84884.pdf"
+        ],
+        "heritage_conservation": [
+          "https://ignca.gov.in/Asi_data/84884.pdf",
+          "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+        ],
+        "visitor_information": [
+          "https://hpmandi.nic.in/places-of-interest/",
+          "https://ignca.gov.in/Asi_data/84884.pdf"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
-      "priority_for_research": "high",
+      "priority_for_research": "medium",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
-      "remaining_gaps": [
-        "historical_background",
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://hpmandi.nic.in/places-of-interest/",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf"
+      ],
+      "categories_researched": [
         "architecture",
+        "basic_information_location",
+        "heritage_conservation",
+        "historical_background",
+        "religious_cultural_significance",
+        "visitor_information"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_panchvaktra_asi_flood_conservation_2012_13",
+        "systematic_research_20261105_panchvaktra_asi_inventory_history_architecture",
+        "systematic_research_20261105_panchvaktra_location_district_administration"
+      ],
+      "remaining_gaps": [
         "religious_cultural_significance",
         "festivals_traditions",
         "inscriptions_historical_evidence",
-        "heritage_conservation",
         "visitor_information"
       ],
       "error_or_access_limitations": [],

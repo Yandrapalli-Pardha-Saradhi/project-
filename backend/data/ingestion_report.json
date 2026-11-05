@@ -4,10 +4,10 @@
   "catalogue_records_explicitly_verified": 0,
   "catalogue_records_unverified": 217,
   "catalogue_records_curated_without_explicit_verification_flag": 0,
-  "knowledge_documents_total": 391,
+  "knowledge_documents_total": 394,
   "knowledge_documents_linked_to_catalogue_temple_ids": 217,
   "knowledge_documents_explicitly_verified": 0,
-  "indexed_chunks": 529,
+  "indexed_chunks": 536,
   "records_by_state": {
     "Andhra Pradesh": 16,
     "Assam": 20,
@@ -216,7 +216,7 @@
   ],
   "validation": {
     "valid": true,
-    "documents": 391,
+    "documents": 394,
     "errors": [],
     "warnings": [
       {
@@ -2073,11 +2073,26 @@
         "index": 390,
         "field": "verification_status",
         "message": "document is pending human source review"
+      },
+      {
+        "index": 391,
+        "field": "verification_status",
+        "message": "document is pending human source review"
+      },
+      {
+        "index": 392,
+        "field": "verification_status",
+        "message": "document is pending human source review"
+      },
+      {
+        "index": 393,
+        "field": "verification_status",
+        "message": "document is pending human source review"
       }
     ],
     "missing_fields": {},
     "missing_optional_fields": {
-      "publication_date": 340,
+      "publication_date": 343,
       "retrieval_date": 20,
       "collection_timestamp": 268,
       "temple_name": 7,
@@ -2087,7 +2102,7 @@
     "duplicate_content_count": 0
   },
   "indexed_unique_catalogue_temple_ids": 217,
-  "indexed_unique_document_ids": 391,
+  "indexed_unique_document_ids": 394,
   "catalogue_candidates_pending_review": 0,
   "last_collection": {
     "collected_at": null,
@@ -2134,29 +2149,29 @@
     ]
   },
   "last_index": {
-    "documents": 391,
-    "chunks_total": 529,
-    "documents_added": 7,
+    "documents": 394,
+    "chunks_total": 536,
+    "documents_added": 3,
     "documents_updated": 0,
-    "documents_unchanged": 384,
+    "documents_unchanged": 391,
     "documents_removed": 0,
     "documents_failed": 0,
-    "chunks_to_upsert": 13,
-    "chunks_added": 13,
+    "chunks_to_upsert": 7,
+    "chunks_added": 7,
     "chunks_updated": 0,
     "chunks_metadata_update": 0,
-    "chunks_unchanged": 516,
-    "chunks_before": 516,
+    "chunks_unchanged": 529,
+    "chunks_before": 529,
     "dry_run": false,
     "stale_chunks_to_delete": 0,
     "stale_chunks_deleted": 0,
     "chunks_removed": 0,
     "chunks_failed": 0,
     "duplicate_documents": 0,
-    "chunks_after": 529,
+    "chunks_after": 536,
     "collection": "temple_heritage",
     "persist_directory": "./data/chroma",
-    "curated_documents": 391,
+    "curated_documents": 394,
     "collected_documents": 0
   },
   "index_count_error": null
