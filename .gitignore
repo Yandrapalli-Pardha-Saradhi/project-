@@ -1,0 +1,90 @@
+﻿# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+ENV/
+# Node
+node_modules/
+dist/
+build/
+.vite/
+coverage/
+# ChromaDB and vector database
+backend/data/chroma/
+data/chroma/
+# Database and research backups
+*.bak/
+*.backup/
+**/*.bak/
+**/*.backup/
+*checkpoint*.bak/
+# Migration archives and temporary databases
+*chroma-migration*
+migration-preview/
+chroma-upload/
+*.zip
+# Logs and temporary files
+*.log
+*.tmp
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local temporary files
+app_tsx.txt
+chat_panel_tsx.txt
+# Backup files and historical snapshots
+*.bak
+*.backup
+*.bak.*
+*.bak_*
+*.backup.*
+*pre-*.json
+*pre-*.md
+# Temporary logs and test outputs
+*.err
+*.log
+dry-run-*.json
+pip_list.txt
+pytest_output.txt
+pytest_result.txt
+pytest_nemotron.txt
+test_output.txt
+# Temporary debugging scripts
+backend/analyze.py
+backend/analyze2.py
+backend/fix_routes.py
+backend/scripts/diagnose_rag.py
+# Historical research snapshots and backups
+*.bak
+*.backup
+*.bak.*
+*.backup.*
+*-pre-*.json
+*-pre-*.md
+*-backup-*
+*_backup_*
+# Temporary logs and test outputs
+*.err
+*.log
+dry-run-*.json
+pip_list.txt
+pytest_*.txt
+test_output.txt
+# Temporary debugging scripts
+backend/analyze.py
+backend/analyze2.py
+backend/fix_routes.py

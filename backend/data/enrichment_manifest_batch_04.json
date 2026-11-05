@@ -1,0 +1,505 @@
+{
+  "batch_id": "2026-11-05-batch-04",
+  "created_date": "2026-11-05",
+  "scope": "10 existing undercovered catalogue temples, selected outside the first three enrichment batch scopes; no new catalogue entries",
+  "selection_basis": "Current coverage report (170 basic, 39 limited, 8 moderate, 0 comprehensive across 217 temples), source availability, and no temple-ID overlap with batches 01-03.",
+  "collection_method": "Manual access to the listed institutional sources; no automated bulk collection; source registry and approval gates unchanged.",
+  "counts": {
+    "temples_in_batch": 10,
+    "new_documents_appended_this_run": 32,
+    "documents_in_batch": 32,
+    "pending_human_review": 32,
+    "automated_collection_runs": 0
+  },
+  "sources_actually_checked": [
+    {
+      "source_title": "Sun Temple, Konârak",
+      "source_url": "https://whc.unesco.org/en/list/246",
+      "publisher": "UNESCO World Heritage Centre",
+      "source_type": "international_heritage_record",
+      "publication_date": null,
+      "note": "Inscribed in 1984; page accessed 2026-11-05. Current conservation details are property-level and may change."
+    },
+    {
+      "source_title": "Kakatiya Rudreshwara (Ramappa) Temple, Telangana",
+      "source_url": "https://whc.unesco.org/en/list/1570",
+      "publisher": "UNESCO World Heritage Centre",
+      "source_type": "international_heritage_record",
+      "publication_date": null,
+      "note": "Inscribed on UNESCO World Heritage List in 2021; page accessed 2026-11-05."
+    },
+    {
+      "source_title": "Group of Monuments at Pattadakal",
+      "source_url": "https://whc.unesco.org/en/list/239",
+      "publisher": "UNESCO World Heritage Centre",
+      "source_type": "international_heritage_record",
+      "publication_date": null,
+      "note": "Property inscribed in 1987; page accessed 2026-11-05. Some statements describe the group, not only Virupaksha Temple."
+    },
+    {
+      "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+      "source_url": "https://whc.unesco.org/document/162842",
+      "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+      "source_type": "heritage_conservation_report",
+      "publication_date": "2003",
+      "note": "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+    },
+    {
+      "source_title": "Sun Temple, Modhera and its adjoining monuments",
+      "source_url": "https://whc.unesco.org/en/tentativelists/6627",
+      "publisher": "UNESCO World Heritage Centre; nomination submitted by India",
+      "source_type": "unesco_tentative_list_nomination",
+      "publication_date": "2022-12-13",
+      "note": "Tentative List nomination only; not an inscription on the World Heritage List. Claims in the nomination are attributable to the submitting State Party."
+    },
+    {
+      "source_title": "Temples of Kanchipuram",
+      "source_url": "https://whc.unesco.org/en/tentativelists/6528",
+      "publisher": "UNESCO World Heritage Centre; nomination submitted by India",
+      "source_type": "unesco_tentative_list_nomination",
+      "publication_date": "2021-04-13",
+      "note": "Tentative List nomination only; not an inscription on the World Heritage List. Vaikuntaperumal-specific claims are separated from city-wide context."
+    },
+    {
+      "source_title": "100 Temples of Baijnath and Sidhnath (Baijnath)",
+      "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+      "publisher": "Archaeological Survey of India; digitized by Indira Gandhi National Centre for the Arts",
+      "source_type": "asi_inventory_publication",
+      "publication_date": null,
+      "note": "ASI inventory text identifies the monument and describes inscriptions, plan, and sculpture; accessed 2026-11-05."
+    },
+    {
+      "source_title": "Kangra Pilgrimage",
+      "source_url": "https://hpkangra.nic.in/kangra-pilgrimage/",
+      "publisher": "Kangra District Administration, Government of Himachal Pradesh",
+      "source_type": "government_tourism_page",
+      "publication_date": null,
+      "note": "Official district description accessed 2026-11-05; used for continued worship and the district's architectural summary."
+    },
+    {
+      "source_title": "Martand Temple (National Monuments Authority meeting record, 254th meeting)",
+      "source_url": "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+      "publisher": "National Monuments Authority, Ministry of Culture, Government of India",
+      "source_type": "government_monument_description",
+      "publication_date": "2019-12-03",
+      "note": "A brief monument description is reproduced in the meeting record. Its attribution of the temple's destruction is historically contested and is deliberately omitted from these drafts."
+    },
+    {
+      "source_title": "Martand Sun Temple",
+      "source_url": "https://anantnag.nic.in/tourist-place/martand-sun-temple/",
+      "publisher": "Anantnag District Administration, Government of Jammu and Kashmir",
+      "source_type": "government_tourism_page",
+      "publication_date": null,
+      "note": "Official district visitor/location page accessed 2026-11-05; it does not provide detailed visitor schedules or current access conditions."
+    }
+  ],
+  "temples": [
+    {
+      "temple_id": "konark",
+      "name": "Sun Temple at Konark",
+      "state": "Odisha",
+      "district": "Puri",
+      "coverage_class_before": "limited",
+      "current_documents_before": 2,
+      "missing_topics_before": [
+        "architectural composition",
+        "sculptural programme",
+        "worship/festival",
+        "conservation history"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Sun Temple, Konârak",
+          "source_url": "https://whc.unesco.org/en/list/246",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record",
+          "publication_date": null,
+          "note": "Inscribed in 1984; page accessed 2026-11-05. Current conservation details are property-level and may change."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_konark_history_patrons",
+        "enrich_batch04_konark_architecture_chariot_plan",
+        "enrich_batch04_konark_sculpture_iconography",
+        "enrich_batch04_konark_heritage_conservation"
+      ],
+      "topics_prepared": [
+        "history_patrons",
+        "architecture_chariot_plan",
+        "sculpture_iconography",
+        "heritage_conservation"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Inscribed in 1984; page accessed 2026-11-05. Current conservation details are property-level and may change."
+      ]
+    },
+    {
+      "temple_id": "asi_telangana_f3a7458053e48f24",
+      "name": "Ramappa temple",
+      "state": "Telangana",
+      "district": "Mulugu",
+      "coverage_class_before": "limited",
+      "current_documents_before": 2,
+      "missing_topics_before": [
+        "construction history",
+        "building technology",
+        "sculpture/dance",
+        "heritage and ritual"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Kakatiya Rudreshwara (Ramappa) Temple, Telangana",
+          "source_url": "https://whc.unesco.org/en/list/1570",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record",
+          "publication_date": null,
+          "note": "Inscribed on UNESCO World Heritage List in 2021; page accessed 2026-11-05."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_architecture_engineering",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_sculpture_dance_culture",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "topics_prepared": [
+        "history_kakatiya_patronage",
+        "architecture_engineering",
+        "sculpture_dance_culture",
+        "heritage_setting_ritual"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Inscribed on UNESCO World Heritage List in 2021; page accessed 2026-11-05."
+      ]
+    },
+    {
+      "temple_id": "asi_karnataka_7c32bc783d1664dc",
+      "name": "Virupaksha Temple (Pattadakal)",
+      "state": "Karnataka",
+      "district": "Bagalkot",
+      "coverage_class_before": "limited",
+      "current_documents_before": 2,
+      "missing_topics_before": [
+        "Chalukya context",
+        "Virupaksha patronage",
+        "regional architectural synthesis",
+        "heritage status"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Group of Monuments at Pattadakal",
+          "source_url": "https://whc.unesco.org/en/list/239",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record",
+          "publication_date": null,
+          "note": "Property inscribed in 1987; page accessed 2026-11-05. Some statements describe the group, not only Virupaksha Temple."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_history_chalukya_context",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis"
+      ],
+      "topics_prepared": [
+        "history_chalukya_context",
+        "architecture_north_south_synthesis"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Property inscribed in 1987; page accessed 2026-11-05. Some statements describe the group, not only Virupaksha Temple."
+      ]
+    },
+    {
+      "temple_id": "whc_b5eaf9ee03e0215d1573",
+      "name": "Krishna Temple Complex",
+      "state": "Karnataka",
+      "district": "Bellary",
+      "coverage_class_before": "limited",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "founding and royal context",
+        "temple plan",
+        "inscription and urban setting"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+          "source_url": "https://whc.unesco.org/document/162842",
+          "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+          "source_type": "heritage_conservation_report",
+          "publication_date": "2003",
+          "note": "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context"
+      ],
+      "topics_prepared": [
+        "history_krishnadevaraya",
+        "architecture_shrines",
+        "inscription_bazaar_context"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+      ]
+    },
+    {
+      "temple_id": "whc_5a482f12eb769406674c",
+      "name": "Pattabhirama Temple Complex",
+      "state": "Karnataka",
+      "district": "Bellary",
+      "coverage_class_before": "limited",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "Vijayanagara-era development",
+        "temple layout",
+        "documented conservation"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+          "source_url": "https://whc.unesco.org/document/162842",
+          "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+          "source_type": "heritage_conservation_report",
+          "publication_date": "2003",
+          "note": "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+        "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003"
+      ],
+      "topics_prepared": [
+        "history_vijayanagara",
+        "architecture_mandapas",
+        "conservation_2003"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+      ]
+    },
+    {
+      "temple_id": "whc_0550440746a0ab1b40e6",
+      "name": "Hemakuta Group of Temples",
+      "state": "Karnataka",
+      "district": "Bellary",
+      "coverage_class_before": "limited",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "chronological range",
+        "architectural typology",
+        "pre-Vijayanagara context"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+          "source_url": "https://whc.unesco.org/document/162842",
+          "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+          "source_type": "heritage_conservation_report",
+          "publication_date": "2003",
+          "note": "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_whc_0550440746a0ab1b40e6_history_pre_vijayanagara",
+        "enrich_batch04_whc_0550440746a0ab1b40e6_architecture_temple_types"
+      ],
+      "topics_prepared": [
+        "history_pre_vijayanagara",
+        "architecture_temple_types"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Historical and conservation observations are explicitly attributed to this 2003 report, not presented as current conditions."
+      ]
+    },
+    {
+      "temple_id": "asi_gujarat_fd7e0734b68a92df",
+      "name": "Sun temple, Surya kind with adjoining other temples and loose sculptures",
+      "state": "Gujarat",
+      "district": "Mehsana",
+      "coverage_class_before": "basic",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "Solanki-era context",
+        "architectural sequence",
+        "sculptural programme",
+        "heritage status"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Sun Temple, Modhera and its adjoining monuments",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6627",
+          "publisher": "UNESCO World Heritage Centre; nomination submitted by India",
+          "source_type": "unesco_tentative_list_nomination",
+          "publication_date": "2022-12-13",
+          "note": "Tentative List nomination only; not an inscription on the World Heritage List. Claims in the nomination are attributable to the submitting State Party."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_heritage_conservation_tentative"
+      ],
+      "topics_prepared": [
+        "history_solar_worship",
+        "architecture_ensemble",
+        "sculpture_iconography",
+        "heritage_conservation_tentative"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Tentative List nomination only; not an inscription on the World Heritage List. Claims in the nomination are attributable to the submitting State Party."
+      ]
+    },
+    {
+      "temple_id": "asi_tamil_nadu_e53edf8ca8494828",
+      "name": "Vaikuntaperumal temple",
+      "state": "Tamil Nadu",
+      "district": "Kanchipuram",
+      "coverage_class_before": "basic",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "Pallava chronology",
+        "three-level shrine plan",
+        "sculpture and inscriptions",
+        "Vaishnava significance"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Temples of Kanchipuram",
+          "source_url": "https://whc.unesco.org/en/tentativelists/6528",
+          "publisher": "UNESCO World Heritage Centre; nomination submitted by India",
+          "source_type": "unesco_tentative_list_nomination",
+          "publication_date": "2021-04-13",
+          "note": "Tentative List nomination only; not an inscription on the World Heritage List. Vaikuntaperumal-specific claims are separated from city-wide context."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage"
+      ],
+      "topics_prepared": [
+        "history_pallava_patronage",
+        "architecture_three_levels",
+        "sculpture_inscriptions",
+        "religious_significance_heritage"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "Tentative List nomination only; not an inscription on the World Heritage List. Vaikuntaperumal-specific claims are separated from city-wide context."
+      ]
+    },
+    {
+      "temple_id": "asi_himachal_pra_d0cbd9e9b4b403a2",
+      "name": "Temple of Baijnath",
+      "state": "Himachal Pradesh",
+      "district": "Kangra",
+      "coverage_class_before": "basic",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "inscriptional foundation history",
+        "Nagara plan",
+        "sculptural programme",
+        "religious use"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "100 Temples of Baijnath and Sidhnath (Baijnath)",
+          "source_url": "https://ignca.gov.in/Asi_data/84884.pdf",
+          "publisher": "Archaeological Survey of India; digitized by Indira Gandhi National Centre for the Arts",
+          "source_type": "asi_inventory_publication",
+          "publication_date": null,
+          "note": "ASI inventory text identifies the monument and describes inscriptions, plan, and sculpture; accessed 2026-11-05."
+        },
+        {
+          "source_title": "Kangra Pilgrimage",
+          "source_url": "https://hpkangra.nic.in/kangra-pilgrimage/",
+          "publisher": "Kangra District Administration, Government of Himachal Pradesh",
+          "source_type": "government_tourism_page",
+          "publication_date": null,
+          "note": "Official district description accessed 2026-11-05; used for continued worship and the district's architectural summary."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context"
+      ],
+      "topics_prepared": [
+        "history_inscriptions",
+        "architecture_sculpture",
+        "worship_context"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "ASI inventory text identifies the monument and describes inscriptions, plan, and sculpture; accessed 2026-11-05.",
+        "Official district description accessed 2026-11-05; used for continued worship and the district's architectural summary."
+      ]
+    },
+    {
+      "temple_id": "asi_jammu_and_ka_1f8a290d8729fbea",
+      "name": "Ancient temple of Martand",
+      "state": "Jammu and Kashmir",
+      "district": "Anantnag",
+      "coverage_class_before": "basic",
+      "current_documents_before": 1,
+      "missing_topics_before": [
+        "Karkota-period attribution",
+        "architectural composition",
+        "sculptural programme",
+        "current conservation/access"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Martand Temple (National Monuments Authority meeting record, 254th meeting)",
+          "source_url": "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+          "publisher": "National Monuments Authority, Ministry of Culture, Government of India",
+          "source_type": "government_monument_description",
+          "publication_date": "2019-12-03",
+          "note": "A brief monument description is reproduced in the meeting record. Its attribution of the temple's destruction is historically contested and is deliberately omitted from these drafts."
+        },
+        {
+          "source_title": "Martand Sun Temple",
+          "source_url": "https://anantnag.nic.in/tourist-place/martand-sun-temple/",
+          "publisher": "Anantnag District Administration, Government of Jammu and Kashmir",
+          "source_type": "government_tourism_page",
+          "publication_date": null,
+          "note": "Official district visitor/location page accessed 2026-11-05; it does not provide detailed visitor schedules or current access conditions."
+        }
+      ],
+      "document_ids": [
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access"
+      ],
+      "topics_prepared": [
+        "history_lalitaditya",
+        "architecture_plan_sculpture",
+        "location_heritage_access"
+      ],
+      "enrichment_status": "pending_human_review",
+      "source_notes": [
+        "A brief monument description is reproduced in the meeting record. Its attribution of the temple's destruction is historically contested and is deliberately omitted from these drafts.",
+        "Official district visitor/location page accessed 2026-11-05; it does not provide detailed visitor schedules or current access conditions."
+      ]
+    }
+  ],
+  "limitations": [
+    "Coverage classes are heuristic and do not demonstrate factual completeness.",
+    "UNESCO Tentative List pages for Modhera and Kanchipuram represent nominations submitted by India; neither is described as an inscribed World Heritage property in these documents.",
+    "The Hampi source is a 2003 UNESCO/ASI periodic report; conservation statements are dated historical records.",
+    "The Martand NMA summary contains a disputed destruction attribution; that claim is omitted pending scholarly review.",
+    "No Batch 4 document is marked verified; every new document remains pending human review.",
+    "Current festival calendars, visitor schedules, access conditions and live conservation status are not supplied unless explicitly cited."
+  ]
+}

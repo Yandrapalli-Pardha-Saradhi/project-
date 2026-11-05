@@ -1,0 +1,1117 @@
+{
+  "evaluated_at_utc": "2026-11-05T11:20:11.981502+00:00",
+  "batch_id": "2026-11-05-batch-04",
+  "evaluation_mode": "local retrieval and citation metadata only; no external LLM and no web search",
+  "checks": {
+    "documents_retrievable": 32,
+    "documents_total": 32,
+    "citation_metadata_matches": 32,
+    "primary_questions_expected_topic_retrieved": 11,
+    "primary_questions_total": 11,
+    "followup_scope_passed": true,
+    "external_llm_called": false,
+    "collection_count": 366
+  },
+  "document_checks": [
+    {
+      "temple_id": "konark",
+      "document_id": "enrich_batch04_konark_history_patrons",
+      "topic": "history_patrons",
+      "query": "Sun Temple at Konark Konark: 13th-century Surya sanctuary and historical setting history_patrons",
+      "retrieved_document_ids": [
+        "konark_001",
+        "enrich_batch04_konark_history_patrons",
+        "enrich_batch04_konark_heritage_conservation",
+        "konark_002",
+        "enrich_batch04_konark_architecture_chariot_plan"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2341945767402649
+      ]
+    },
+    {
+      "temple_id": "konark",
+      "document_id": "enrich_batch04_konark_architecture_chariot_plan",
+      "topic": "architecture_chariot_plan",
+      "query": "Sun Temple at Konark Konark: the solar chariot and surviving temple spaces architecture_chariot_plan",
+      "retrieved_document_ids": [
+        "konark_001",
+        "enrich_batch04_konark_heritage_conservation",
+        "enrich_batch04_konark_history_patrons",
+        "konark_002",
+        "enrich_batch04_konark_architecture_chariot_plan"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.4297531843185425
+      ]
+    },
+    {
+      "temple_id": "konark",
+      "document_id": "enrich_batch04_konark_sculpture_iconography",
+      "topic": "sculpture_iconography",
+      "query": "Sun Temple at Konark Konark: sculpture as architecture and narrative sculpture_iconography",
+      "retrieved_document_ids": [
+        "konark_001",
+        "konark_002",
+        "enrich_batch04_konark_sculpture_iconography",
+        "enrich_batch04_konark_heritage_conservation",
+        "enrich_batch04_konark_history_patrons"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.3178255558013916
+      ]
+    },
+    {
+      "temple_id": "konark",
+      "document_id": "enrich_batch04_konark_heritage_conservation",
+      "topic": "heritage_conservation",
+      "query": "Sun Temple at Konark Konark: heritage status, protection and conservation concerns heritage_conservation",
+      "retrieved_document_ids": [
+        "enrich_batch04_konark_heritage_conservation",
+        "konark_001",
+        "konark_002",
+        "enrich_batch04_konark_history_patrons",
+        "enrich_batch04_konark_sculpture_iconography"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/list/246",
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.14453160762786865
+      ]
+    },
+    {
+      "temple_id": "asi_telangana_f3a7458053e48f24",
+      "document_id": "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+      "topic": "history_kakatiya_patronage",
+      "query": "Ramappa temple Ramappa: Kakatiya period, patrons and construction chronology history_kakatiya_patronage",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "unesco_3266a0c76907dfad6b0c3559",
+        "asi_inventory_asi_telangana_f3a7458053e48f24",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.23386847972869873
+      ]
+    },
+    {
+      "temple_id": "asi_telangana_f3a7458053e48f24",
+      "document_id": "enrich_batch04_asi_telangana_f3a7458053e48f24_architecture_engineering",
+      "topic": "architecture_engineering",
+      "query": "Ramappa temple Ramappa: materials, vimana and construction engineering architecture_engineering",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_telangana_f3a7458053e48f24",
+        "unesco_3266a0c76907dfad6b0c3559",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_architecture_engineering",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "retrieved_source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.5443124175071716
+      ]
+    },
+    {
+      "temple_id": "asi_telangana_f3a7458053e48f24",
+      "document_id": "enrich_batch04_asi_telangana_f3a7458053e48f24_sculpture_dance_culture",
+      "topic": "sculpture_dance_culture",
+      "query": "Ramappa temple Ramappa: bracket figures, stone carving and dance imagery sculpture_dance_culture",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_sculpture_dance_culture",
+        "asi_inventory_asi_telangana_f3a7458053e48f24",
+        "unesco_3266a0c76907dfad6b0c3559",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/1570",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.31125330924987793
+      ]
+    },
+    {
+      "temple_id": "asi_telangana_f3a7458053e48f24",
+      "document_id": "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual",
+      "topic": "heritage_setting_ritual",
+      "query": "Ramappa temple Ramappa: World Heritage recognition, landscape and living practice heritage_setting_ritual",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "unesco_3266a0c76907dfad6b0c3559",
+        "asi_inventory_asi_telangana_f3a7458053e48f24",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570",
+        "https://whc.unesco.org/en/list/1570",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/list/1570"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.3603471517562866,
+        0.39356690645217896
+      ]
+    },
+    {
+      "temple_id": "asi_karnataka_7c32bc783d1664dc",
+      "document_id": "enrich_batch04_asi_karnataka_7c32bc783d1664dc_history_chalukya_context",
+      "topic": "history_chalukya_context",
+      "query": "Virupaksha Temple (Pattadakal) Pattadakal Virupaksha: Chalukya-era patronage history_chalukya_context",
+      "retrieved_document_ids": [
+        "unesco_25295737601ca509a3c445c1",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_history_chalukya_context",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "asi_inventory_asi_karnataka_7c32bc783d1664dc",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/239",
+        "https://whc.unesco.org/en/list/239",
+        "https://whc.unesco.org/en/list/239",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/list/239"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.29921954870224
+      ]
+    },
+    {
+      "temple_id": "asi_karnataka_7c32bc783d1664dc",
+      "document_id": "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+      "topic": "architecture_north_south_synthesis",
+      "query": "Virupaksha Temple (Pattadakal) Pattadakal Virupaksha: architectural setting within the monument group architecture_north_south_synthesis",
+      "retrieved_document_ids": [
+        "unesco_25295737601ca509a3c445c1",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_history_chalukya_context",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "asi_inventory_asi_karnataka_7c32bc783d1664dc"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/239",
+        "https://whc.unesco.org/en/list/239",
+        "https://whc.unesco.org/en/list/239",
+        "https://whc.unesco.org/en/list/239",
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2895991802215576,
+        0.3030186891555786
+      ]
+    },
+    {
+      "temple_id": "whc_b5eaf9ee03e0215d1573",
+      "document_id": "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+      "topic": "history_krishnadevaraya",
+      "query": "Krishna Temple Complex Krishna Temple at Hampi: foundation and royal context history_krishnadevaraya",
+      "retrieved_document_ids": [
+        "whc_2cbf31a429c7e9c18de2edca",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.29916101694107056
+      ]
+    },
+    {
+      "temple_id": "whc_b5eaf9ee03e0215d1573",
+      "document_id": "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines",
+      "topic": "architecture_shrines",
+      "query": "Krishna Temple Complex Krishna Temple at Hampi: shrine sequence and subsidiary spaces architecture_shrines",
+      "retrieved_document_ids": [
+        "whc_2cbf31a429c7e9c18de2edca",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.4473695158958435
+      ]
+    },
+    {
+      "temple_id": "whc_b5eaf9ee03e0215d1573",
+      "document_id": "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context",
+      "topic": "inscription_bazaar_context",
+      "query": "Krishna Temple Complex Krishna Temple at Hampi: inscriptions and the associated market inscription_bazaar_context",
+      "retrieved_document_ids": [
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context",
+        "whc_2cbf31a429c7e9c18de2edca",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.21050715446472168
+      ]
+    },
+    {
+      "temple_id": "whc_5a482f12eb769406674c",
+      "document_id": "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+      "topic": "history_vijayanagara",
+      "query": "Pattabhirama Temple Complex Pattabhirama Temple at Hampi: date and historical setting history_vijayanagara",
+      "retrieved_document_ids": [
+        "whc_a3286b36c00536a0eb9f7f79",
+        "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+        "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2093890905380249
+      ]
+    },
+    {
+      "temple_id": "whc_5a482f12eb769406674c",
+      "document_id": "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+      "topic": "architecture_mandapas",
+      "query": "Pattabhirama Temple Complex Pattabhirama Temple at Hampi: courtyard and pillared halls architecture_mandapas",
+      "retrieved_document_ids": [
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+        "whc_a3286b36c00536a0eb9f7f79",
+        "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+        "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2221987247467041,
+        0.6563503742218018
+      ]
+    },
+    {
+      "temple_id": "whc_5a482f12eb769406674c",
+      "document_id": "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003",
+      "topic": "conservation_2003",
+      "query": "Pattabhirama Temple Complex Pattabhirama Temple at Hampi: conservation recorded in 2003 conservation_2003",
+      "retrieved_document_ids": [
+        "whc_a3286b36c00536a0eb9f7f79",
+        "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+        "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.39687907695770264
+      ]
+    },
+    {
+      "temple_id": "whc_0550440746a0ab1b40e6",
+      "document_id": "enrich_batch04_whc_0550440746a0ab1b40e6_history_pre_vijayanagara",
+      "topic": "history_pre_vijayanagara",
+      "query": "Hemakuta Group of Temples Hemakuta at Hampi: an early and long-lived sacred landscape history_pre_vijayanagara",
+      "retrieved_document_ids": [
+        "whc_0f93f0d3197792fba277d491",
+        "enrich_batch04_whc_0550440746a0ab1b40e6_architecture_temple_types",
+        "enrich_batch04_whc_0550440746a0ab1b40e6_history_pre_vijayanagara"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.33533263206481934
+      ]
+    },
+    {
+      "temple_id": "whc_0550440746a0ab1b40e6",
+      "document_id": "enrich_batch04_whc_0550440746a0ab1b40e6_architecture_temple_types",
+      "topic": "architecture_temple_types",
+      "query": "Hemakuta Group of Temples Hemakuta at Hampi: temple forms and the Prasanna Virupaksha shrine architecture_temple_types",
+      "retrieved_document_ids": [
+        "enrich_batch04_whc_0550440746a0ab1b40e6_architecture_temple_types",
+        "whc_0f93f0d3197792fba277d491",
+        "enrich_batch04_whc_0550440746a0ab1b40e6_history_pre_vijayanagara"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/en/list/241/",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2108614444732666
+      ]
+    },
+    {
+      "temple_id": "asi_gujarat_fd7e0734b68a92df",
+      "document_id": "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+      "topic": "history_solar_worship",
+      "query": "Sun temple, Surya kind with adjoining other temples and loose sculptures Modhera Sun Temple: historical attribution and solar dedication history_solar_worship",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_gujarat_fd7e0734b68a92df",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_heritage_conservation_tentative"
+      ],
+      "retrieved_source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.41145825386047363
+      ]
+    },
+    {
+      "temple_id": "asi_gujarat_fd7e0734b68a92df",
+      "document_id": "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+      "topic": "architecture_ensemble",
+      "query": "Sun temple, Surya kind with adjoining other temples and loose sculptures Modhera Sun Temple: shrine, assembly hall and sacred tank architecture_ensemble",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_gujarat_fd7e0734b68a92df",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography"
+      ],
+      "retrieved_source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.35023534297943115
+      ]
+    },
+    {
+      "temple_id": "asi_gujarat_fd7e0734b68a92df",
+      "document_id": "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+      "topic": "sculpture_iconography",
+      "query": "Sun temple, Surya kind with adjoining other temples and loose sculptures Modhera Sun Temple: Surya imagery and carved architectural surfaces sculpture_iconography",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "asi_inventory_asi_gujarat_fd7e0734b68a92df",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.21045267581939697,
+        0.4718480706214905
+      ]
+    },
+    {
+      "temple_id": "asi_gujarat_fd7e0734b68a92df",
+      "document_id": "enrich_batch04_asi_gujarat_fd7e0734b68a92df_heritage_conservation_tentative",
+      "topic": "heritage_conservation_tentative",
+      "query": "Sun temple, Surya kind with adjoining other temples and loose sculptures Modhera Sun Temple: heritage nomination and conservation account heritage_conservation_tentative",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_gujarat_fd7e0734b68a92df",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_heritage_conservation_tentative"
+      ],
+      "retrieved_source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627",
+        "https://whc.unesco.org/en/tentativelists/6627"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.4028712511062622
+      ]
+    },
+    {
+      "temple_id": "asi_tamil_nadu_e53edf8ca8494828",
+      "document_id": "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+      "topic": "history_pallava_patronage",
+      "query": "Vaikuntaperumal temple Vaikuntaperumal: Pallava patronage and Kanchipuram context history_pallava_patronage",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "asi_inventory_asi_tamil_nadu_e53edf8ca8494828",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6528"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2328341007232666
+      ]
+    },
+    {
+      "temple_id": "asi_tamil_nadu_e53edf8ca8494828",
+      "document_id": "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+      "topic": "architecture_three_levels",
+      "query": "Vaikuntaperumal temple Vaikuntaperumal: stacked sanctums and architectural plan architecture_three_levels",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage",
+        "asi_inventory_asi_tamil_nadu_e53edf8ca8494828",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6528"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.38818490505218506
+      ]
+    },
+    {
+      "temple_id": "asi_tamil_nadu_e53edf8ca8494828",
+      "document_id": "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions",
+      "topic": "sculpture_inscriptions",
+      "query": "Vaikuntaperumal temple Vaikuntaperumal: cloister reliefs and Pallava inscriptions sculpture_inscriptions",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "asi_inventory_asi_tamil_nadu_e53edf8ca8494828",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6528"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2759908437728882
+      ]
+    },
+    {
+      "temple_id": "asi_tamil_nadu_e53edf8ca8494828",
+      "document_id": "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage",
+      "topic": "religious_significance_heritage",
+      "query": "Vaikuntaperumal temple Vaikuntaperumal: Vaishnava worship and tentative heritage status religious_significance_heritage",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "asi_inventory_asi_tamil_nadu_e53edf8ca8494828"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.28042101860046387
+      ]
+    },
+    {
+      "temple_id": "asi_himachal_pra_d0cbd9e9b4b403a2",
+      "document_id": "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+      "topic": "history_inscriptions",
+      "query": "Temple of Baijnath Baijnath: foundation recorded in Sanskrit inscriptions history_inscriptions",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context",
+        "asi_inventory_asi_himachal_pra_d0cbd9e9b4b403a2",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture"
+      ],
+      "retrieved_source_urls": [
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://hpkangra.nic.in/kangra-pilgrimage/",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://ignca.gov.in/Asi_data/84884.pdf"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.24574565887451172,
+        0.360562801361084
+      ]
+    },
+    {
+      "temple_id": "asi_himachal_pra_d0cbd9e9b4b403a2",
+      "document_id": "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture",
+      "topic": "architecture_sculpture",
+      "query": "Temple of Baijnath Baijnath: Nagara shikhara, mandapa and sculptural imagery architecture_sculpture",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_himachal_pra_d0cbd9e9b4b403a2",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions"
+      ],
+      "retrieved_source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://hpkangra.nic.in/kangra-pilgrimage/",
+        "https://ignca.gov.in/Asi_data/84884.pdf"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.32911819219589233
+      ]
+    },
+    {
+      "temple_id": "asi_himachal_pra_d0cbd9e9b4b403a2",
+      "document_id": "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context",
+      "topic": "worship_context",
+      "query": "Temple of Baijnath Baijnath: Shiva worship and continuing religious use worship_context",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "asi_inventory_asi_himachal_pra_d0cbd9e9b4b403a2",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture"
+      ],
+      "retrieved_source_urls": [
+        "https://hpkangra.nic.in/kangra-pilgrimage/",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://ignca.gov.in/Asi_data/84884.pdf",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://ignca.gov.in/Asi_data/84884.pdf"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.27078986167907715
+      ]
+    },
+    {
+      "temple_id": "asi_jammu_and_ka_1f8a290d8729fbea",
+      "document_id": "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+      "topic": "history_lalitaditya",
+      "query": "Ancient temple of Martand Martand Sun Temple: Lalitaditya-era attribution history_lalitaditya",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+        "asi_inventory_asi_jammu_and_ka_1f8a290d8729fbea",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access"
+      ],
+      "retrieved_source_urls": [
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://anantnag.nic.in/tourist-place/martand-sun-temple/"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.28028392791748047
+      ]
+    },
+    {
+      "temple_id": "asi_jammu_and_ka_1f8a290d8729fbea",
+      "document_id": "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+      "topic": "architecture_plan_sculpture",
+      "query": "Ancient temple of Martand Martand: courtyard plan, shrine sequence and sculptural niches architecture_plan_sculpture",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "asi_inventory_asi_jammu_and_ka_1f8a290d8729fbea",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access"
+      ],
+      "retrieved_source_urls": [
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://anantnag.nic.in/tourist-place/martand-sun-temple/"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.2593904733657837,
+        0.46353423595428467
+      ]
+    },
+    {
+      "temple_id": "asi_jammu_and_ka_1f8a290d8729fbea",
+      "document_id": "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access",
+      "topic": "location_heritage_access",
+      "query": "Ancient temple of Martand Martand: location and limits of available visitor information location_heritage_access",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_jammu_and_ka_1f8a290d8729fbea",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture"
+      ],
+      "retrieved_source_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://anantnag.nic.in/tourist-place/martand-sun-temple/",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0"
+      ],
+      "expected_document_retrieved": true,
+      "citation_url_matches_source_record": true,
+      "distances": [
+        0.40633511543273926
+      ]
+    }
+  ],
+  "topic_question_checks": [
+    {
+      "temple_id": "konark",
+      "question": "How is the Sun Temple at Konark structured as Surya's chariot?",
+      "expected_topic": "architecture_chariot_plan",
+      "retrieved_document_ids": [
+        "konark_001",
+        "enrich_batch04_konark_architecture_chariot_plan",
+        "konark_002",
+        "enrich_batch04_konark_history_patrons",
+        "enrich_batch04_konark_heritage_conservation"
+      ],
+      "relevant_document_ids": [
+        "konark_001",
+        "enrich_batch04_konark_architecture_chariot_plan",
+        "konark_002",
+        "enrich_batch04_konark_history_patrons",
+        "enrich_batch04_konark_heritage_conservation"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/en/list/246/"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "konark",
+      "question": "Which festival does UNESCO associate with living cultural practices at Konark?",
+      "expected_topic": "sculpture_iconography",
+      "retrieved_document_ids": [
+        "enrich_batch04_konark_sculpture_iconography",
+        "enrich_batch04_konark_heritage_conservation",
+        "enrich_batch04_konark_history_patrons",
+        "konark_001",
+        "konark_002"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_konark_sculpture_iconography",
+        "enrich_batch04_konark_heritage_conservation",
+        "enrich_batch04_konark_history_patrons",
+        "konark_001",
+        "konark_002"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/en/list/246"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "asi_telangana_f3a7458053e48f24",
+      "question": "What materials and floating bricks are used in Ramappa's vimana?",
+      "expected_topic": "architecture_engineering",
+      "retrieved_document_ids": [
+        "asi_inventory_asi_telangana_f3a7458053e48f24",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "unesco_3266a0c76907dfad6b0c3559",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_architecture_engineering",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "relevant_document_ids": [
+        "asi_inventory_asi_telangana_f3a7458053e48f24",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_history_kakatiya_patronage",
+        "unesco_3266a0c76907dfad6b0c3559",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_architecture_engineering",
+        "enrich_batch04_asi_telangana_f3a7458053e48f24_heritage_setting_ritual"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/en/list/1570",
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "asi_karnataka_7c32bc783d1664dc",
+      "question": "Who commissioned Virupaksha Temple at Pattadakal and why?",
+      "expected_topic": "history_chalukya_context",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_history_chalukya_context",
+        "unesco_25295737601ca509a3c445c1",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "asi_inventory_asi_karnataka_7c32bc783d1664dc"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_history_chalukya_context",
+        "unesco_25295737601ca509a3c445c1",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "enrich_batch04_asi_karnataka_7c32bc783d1664dc_architecture_north_south_synthesis",
+        "asi_inventory_asi_karnataka_7c32bc783d1664dc"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/en/list/239",
+        "https://whc.unesco.org/document/162842"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "whc_b5eaf9ee03e0215d1573",
+      "question": "What does the report say about the Balakrishna image at Krishna Temple?",
+      "expected_topic": "history_krishnadevaraya",
+      "retrieved_document_ids": [
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context",
+        "whc_2cbf31a429c7e9c18de2edca",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_history_krishnadevaraya",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_inscription_bazaar_context",
+        "whc_2cbf31a429c7e9c18de2edca",
+        "enrich_batch04_whc_b5eaf9ee03e0215d1573_architecture_shrines"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/en/list/241/"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "whc_5a482f12eb769406674c",
+      "question": "What conservation work was documented at Pattabhirama in 2003?",
+      "expected_topic": "conservation_2003",
+      "retrieved_document_ids": [
+        "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+        "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+        "whc_a3286b36c00536a0eb9f7f79",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003",
+        "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+        "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+        "whc_a3286b36c00536a0eb9f7f79"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/document/162842",
+        "https://whc.unesco.org/en/list/241/"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "whc_0550440746a0ab1b40e6",
+      "question": "What temple plan types occur at Hemakuta and when is Prasanna Virupaksha dated?",
+      "expected_topic": "architecture_temple_types",
+      "retrieved_document_ids": [
+        "enrich_batch04_whc_0550440746a0ab1b40e6_architecture_temple_types",
+        "enrich_batch04_whc_0550440746a0ab1b40e6_history_pre_vijayanagara",
+        "whc_0f93f0d3197792fba277d491"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_whc_0550440746a0ab1b40e6_architecture_temple_types",
+        "enrich_batch04_whc_0550440746a0ab1b40e6_history_pre_vijayanagara",
+        "whc_0f93f0d3197792fba277d491"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/document/162842",
+        "https://www.srisharadapeetham.org/temples/sri-vidyashankara"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "asi_gujarat_fd7e0734b68a92df",
+      "question": "Describe the shrine, assembly hall and sacred tank at Modhera.",
+      "expected_topic": "architecture_ensemble",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "asi_inventory_asi_gujarat_fd7e0734b68a92df",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_architecture_ensemble",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship",
+        "asi_inventory_asi_gujarat_fd7e0734b68a92df",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_sculpture_iconography",
+        "enrich_batch04_asi_gujarat_fd7e0734b68a92df_history_solar_worship"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://asi.nic.in/pdf/CPM_List.pdf",
+        "https://whc.unesco.org/en/tentativelists/6627"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "asi_tamil_nadu_e53edf8ca8494828",
+      "question": "What are the three levels of Vaikuntaperumal's shrine?",
+      "expected_topic": "architecture_three_levels",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions",
+        "asi_inventory_asi_tamil_nadu_e53edf8ca8494828"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_architecture_three_levels",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_religious_significance_heritage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_history_pallava_patronage",
+        "enrich_batch04_asi_tamil_nadu_e53edf8ca8494828_sculpture_inscriptions",
+        "asi_inventory_asi_tamil_nadu_e53edf8ca8494828"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://whc.unesco.org/en/tentativelists/6528",
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "asi_himachal_pra_d0cbd9e9b4b403a2",
+      "question": "What do Baijnath's inscriptions say about the temple's foundation?",
+      "expected_topic": "history_inscriptions",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "asi_inventory_asi_himachal_pra_d0cbd9e9b4b403a2",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_worship_context",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_history_inscriptions",
+        "asi_inventory_asi_himachal_pra_d0cbd9e9b4b403a2",
+        "enrich_batch04_asi_himachal_pra_d0cbd9e9b4b403a2_architecture_sculpture"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://hpkangra.nic.in/kangra-pilgrimage/",
+        "https://ignca.gov.in/Asi_data/37526.pdf"
+      ],
+      "llm_generation_disabled": true
+    },
+    {
+      "temple_id": "asi_jammu_and_ka_1f8a290d8729fbea",
+      "question": "Describe Martand's courtyard and shrine plan.",
+      "expected_topic": "architecture_plan_sculpture",
+      "retrieved_document_ids": [
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+        "asi_inventory_asi_jammu_and_ka_1f8a290d8729fbea",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture"
+      ],
+      "relevant_document_ids": [
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+        "asi_inventory_asi_jammu_and_ka_1f8a290d8729fbea",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access",
+        "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture"
+      ],
+      "expected_topic_retrieved": true,
+      "retrieval_only_citation_urls_match_documents": true,
+      "citation_urls": [
+        "https://www.nma.gov.in/showfile.php?lang=2&level=1&lid=535&ls_id=416&nma_type=0",
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "llm_generation_disabled": true
+    }
+  ],
+  "followup_check": {
+    "question": "What about the construction date and its layout?",
+    "resolved_temple_id": "whc_5a482f12eb769406674c",
+    "retrieved_document_ids": [
+      "enrich_batch04_whc_5a482f12eb769406674c_architecture_mandapas",
+      "enrich_batch04_whc_5a482f12eb769406674c_history_vijayanagara",
+      "whc_a3286b36c00536a0eb9f7f79",
+      "enrich_batch04_whc_5a482f12eb769406674c_conservation_2003"
+    ],
+    "citation_urls": [
+      "https://whc.unesco.org/document/162842",
+      "https://whc.unesco.org/en/list/241/"
+    ],
+    "correct_temple_scope": true
+  },
+  "unsupported_information_check": {
+    "question": "What are Martand's exact opening hours and admission fee today?",
+    "retrieved_document_ids": [
+      "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_location_heritage_access",
+      "asi_inventory_asi_jammu_and_ka_1f8a290d8729fbea",
+      "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_history_lalitaditya",
+      "enrich_batch04_asi_jammu_and_ka_1f8a290d8729fbea_architecture_plan_sculpture"
+    ],
+    "answer": "AI generation is not configured, so I can’t synthesize an answer. Relevant source excerpts:\n• “The Anantnag District Administration identifies Martand as a tourist place in Anantnag District and describes its setting as a ruin of the Sun Temple.”\n• “The inventory entry does not state a construction date, deity, architectural style, festival, or visitor information, so those details remain unknown pending a more specific authoritative source.”",
+    "insufficient_evidence": false,
+    "generation_disabled": true,
+    "evidence_contains_exact_hours_or_fee": false,
+    "interpretation": "Retrieval-only run; the explicit absence of current hours or fees can be checked in the source wording, but external LLM synthesis was not called."
+  }
+}

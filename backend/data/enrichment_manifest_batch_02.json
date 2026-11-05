@@ -1,0 +1,511 @@
+{
+  "batch_id": "2026-11-05-batch-02",
+  "created_date": "2026-11-05",
+  "scope": "20 existing catalogue temples; no catalogue records created; one source-attributed draft per temple",
+  "source_collection": "Manual source checks only; no automated source collection; source registry and approval gates unchanged",
+  "counts": {
+    "temples_in_batch": 20,
+    "draft_documents_added": 20,
+    "pending_human_review": 20,
+    "automated_collection_runs": 0
+  },
+  "temples": [
+    {
+      "temple_id": "jagannath",
+      "name": "Jagannath Temple in Puri",
+      "state": "Odisha",
+      "district": "Puri",
+      "current_document_coverage": [
+        "general"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Shree Jagannath Temple",
+          "url": "https://puri.odisha.gov.in/en/tourism/tourist-places/shree-jagannath-temple",
+          "publisher": "Puri District Administration"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_jagannath",
+      "claims_scope": "history_culture"
+    },
+    {
+      "temple_id": "asi_odisha_871ae670bd5d4d3d",
+      "name": "Lingaraj Temple",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Lingaraj Temple",
+          "url": "https://odishatourism.gov.in/en/places/lingaraj-temple",
+          "publisher": "Odisha Tourism"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_871ae670bd5d4d3d",
+      "claims_scope": "history_architecture_culture"
+    },
+    {
+      "temple_id": "asi_odisha_a534d4ada83fa69c",
+      "name": "Mukteswar Temple",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Mukteswara Temple",
+          "url": "https://odishatourism.gov.in/en/places/mukteswara-temple",
+          "publisher": "Odisha Tourism"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_a534d4ada83fa69c",
+      "claims_scope": "history_architecture"
+    },
+    {
+      "temple_id": "asi_odisha_9a65411c4e7a8720",
+      "name": "Parsurameswar Temple",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Parsurameswar Temple, Bhubaneswar",
+          "url": "https://apps.odishatourism.gov.in/blog-detail/parsurameswar-temple-bhubaneswar",
+          "publisher": "Odisha Tourism"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_9a65411c4e7a8720",
+      "claims_scope": "history_architecture"
+    },
+    {
+      "temple_id": "asi_odisha_f4c379be270f3526",
+      "name": "Ananta Basudeva Temple",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Ananta Basudeva Temple",
+          "url": "https://odishatourism.gov.in/en/places/ananta-basudeva-temple",
+          "publisher": "Odisha Tourism"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_f4c379be270f3526",
+      "claims_scope": "history_architecture_culture"
+    },
+    {
+      "temple_id": "asi_odisha_4e2ff9dbfa31c9c4",
+      "name": "Bhaskareswar Temple",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Bhaskareswar Temple: monument description",
+          "url": "https://nma.gov.in/showfile.php?lang=1&level=1&lid=85&ls_id=142&nma_type=0",
+          "publisher": "National Monuments Authority, Government of India"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_4e2ff9dbfa31c9c4",
+      "claims_scope": "architecture_history"
+    },
+    {
+      "temple_id": "asi_odisha_9b7d1946270be4a0",
+      "name": "Brahmeswar Temple with minor shrines",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Living Architecture: Indian Temples",
+          "url": "https://ignca.gov.in/Asi_data/73821.pdf",
+          "publisher": "Indira Gandhi National Centre for the Arts (digitized copy from ASI Central Archaeological Library) — Andreas Volwahsen"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_9b7d1946270be4a0",
+      "claims_scope": "architecture"
+    },
+    {
+      "temple_id": "asi_odisha_224c8e9b9c4d99fd",
+      "name": "Baitala Temple",
+      "state": "Odisha",
+      "district": "Khurda",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Baitala Temple and the Khakhara tradition",
+          "url": "https://magazines.odisha.gov.in/Orissareview/2018/May/engpdf/may_or_2018.pdf",
+          "publisher": "Odisha Review, Government of Odisha (Sujata Routray)"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_odisha_224c8e9b9c4d99fd",
+      "claims_scope": "architecture_deity"
+    },
+    {
+      "temple_id": "asi_telangana_39f3f37fca8287ca",
+      "name": "Alampur Temples",
+      "state": "Telangana",
+      "district": "Jagulamba Gadwal",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Alampur Nava Brahma Temples",
+          "url": "https://gadwal.telangana.gov.in/places-of-interest/",
+          "publisher": "Jogulamba Gadwal District Administration, Government of Telangana"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_telangana_39f3f37fca8287ca",
+      "claims_scope": "history_architecture_deity"
+    },
+    {
+      "temple_id": "asi_telangana_cc77c673d026d843",
+      "name": "Thousand Pillared temple",
+      "state": "Telangana",
+      "district": "Warangal-Urban",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Thousand Pillars Temple",
+          "url": "https://tourism.telangana.gov.in/attractions/thousand-pillars-temple",
+          "publisher": "Telangana Tourism"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_telangana_cc77c673d026d843",
+      "claims_scope": "history_architecture_deity"
+    },
+    {
+      "temple_id": "asi_andhra_prade_bead535e8e3f76eb",
+      "name": "Veerabhadra temple (Lepakashi)",
+      "state": "Andhra Pradesh",
+      "district": "Anantapuramu",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Lepakshi Veerabhadra Temple",
+          "url": "https://srisathyasai.ap.gov.in/tourism/",
+          "publisher": "Sri Sathya Sai District Administration, Government of Andhra Pradesh"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_andhra_prade_bead535e8e3f76eb",
+      "claims_scope": "architecture_history_deity"
+    },
+    {
+      "temple_id": "asi_andhra_prade_994f268937105045",
+      "name": "Chintalarayaswami temple",
+      "state": "Andhra Pradesh",
+      "district": "Anantapuramu",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Chintala Venkataramana Swamy Temple",
+          "url": "https://ananthapuramu.ap.gov.in/chintala-venkataramana-swamy-temple/",
+          "publisher": "Ananthapuramu District Administration, Government of Andhra Pradesh"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_andhra_prade_994f268937105045",
+      "claims_scope": "history_architecture_deity_festivals"
+    },
+    {
+      "temple_id": "asi_andhra_prade_4824bbb04f702849",
+      "name": "Madhavaraya temple (Old Vishnu temple)",
+      "state": "Andhra Pradesh",
+      "district": "Anantapuramu",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Indian Archaeology 2012–13: A Review",
+          "url": "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%20%202012%20-%202013%20%20A%20Review.pdf",
+          "publisher": "Archaeological Survey of India, National Mission on Monuments and Antiquities digital archive"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_andhra_prade_4824bbb04f702849",
+      "claims_scope": "conservation"
+    },
+    {
+      "temple_id": "asi_madhya_prade_ea71d0bc499fc609",
+      "name": "Sas Bahu Temples",
+      "state": "Madhya Pradesh",
+      "district": "Gwalior",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Gwalior",
+          "url": "https://www.incredibleindia.gov.in/en/madhya-pradesh/gwalior",
+          "publisher": "Incredible India, Ministry of Tourism, Government of India"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_madhya_prade_ea71d0bc499fc609",
+      "claims_scope": "history_architecture_deity"
+    },
+    {
+      "temple_id": "asi_tamil_nadu_64f350d8e3dc3e9c",
+      "name": "Airavatesvara Temple",
+      "state": "Tamil Nadu",
+      "district": "Thanjavur",
+      "current_document_coverage": [
+        "asi_inventory_listing",
+        "history_and_architecture"
+      ],
+      "missing_topics_before_batch": [
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Great Living Chola Temples",
+          "url": "https://whc.unesco.org/en/list/250/",
+          "publisher": "UNESCO World Heritage Centre"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_tamil_nadu_64f350d8e3dc3e9c",
+      "claims_scope": "heritage_history_conservation"
+    },
+    {
+      "temple_id": "asi_karnataka_87e1e40d23b47df2",
+      "name": "Lad Khan Temple",
+      "state": "Karnataka",
+      "district": "Bagalkot",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Aihole",
+          "url": "https://www.prod.incredibleindia.gov.in/content/incredible-india-v2/en/destinations/vijayapura-bijapur/aihole.html",
+          "publisher": "Incredible India, Ministry of Tourism, Government of India"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_karnataka_87e1e40d23b47df2",
+      "claims_scope": "architecture_deity"
+    },
+    {
+      "temple_id": "asi_karnataka_ac180b0d6288c76f",
+      "name": "Mallikarjuna Temple",
+      "state": "Karnataka",
+      "district": "Bagalkot",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Mallikarjuna Temple, Pattadakal",
+          "url": "https://karnatakatourism.org/en/attractions/mallikarjuna-temple/",
+          "publisher": "Karnataka Tourism"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_karnataka_ac180b0d6288c76f",
+      "claims_scope": "history_architecture_deity"
+    },
+    {
+      "temple_id": "asi_karnataka_2854d2a42446f401",
+      "name": "Papanatha Temple",
+      "state": "Karnataka",
+      "district": "Bagalkot",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics_before_batch": [
+        "history",
+        "architecture",
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Karnataka Tourist Guide",
+          "url": "https://kstdc.co/wp-content/uploads/2024/09/Tourist-Guide.pdf",
+          "publisher": "Karnataka State Tourism Development Corporation"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_karnataka_2854d2a42446f401",
+      "claims_scope": "architecture_heritage"
+    },
+    {
+      "temple_id": "asi_karnataka_d5d33227e0a3a92f",
+      "name": "Hoysalesvara Temple",
+      "state": "Karnataka",
+      "district": "Hassan",
+      "current_document_coverage": [
+        "asi_inventory_listing",
+        "history_and_architecture"
+      ],
+      "missing_topics_before_batch": [
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Hoysala Temples of Belur, Halebidu and Somnathapura: ICOMOS evaluation",
+          "url": "https://whc.unesco.org/document/205738",
+          "publisher": "ICOMOS / UNESCO World Heritage Centre"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_karnataka_d5d33227e0a3a92f",
+      "claims_scope": "history_architecture_heritage_conservation"
+    },
+    {
+      "temple_id": "asi_karnataka_f29968094d7b92b1",
+      "name": "Keshava Temple",
+      "state": "Karnataka",
+      "district": "Mysuru",
+      "current_document_coverage": [
+        "asi_inventory_listing",
+        "history_and_architecture"
+      ],
+      "missing_topics_before_batch": [
+        "festivals/culture",
+        "heritage/conservation"
+      ],
+      "candidate_authoritative_sources": [
+        {
+          "title": "Hoysala Temples of Belur, Halebidu and Somnathapura: ICOMOS evaluation",
+          "url": "https://whc.unesco.org/document/205738",
+          "publisher": "ICOMOS / UNESCO World Heritage Centre"
+        }
+      ],
+      "enrichment_status": "pending_human_review",
+      "draft_document_id": "enrich_batch02_asi_karnataka_f29968094d7b92b1",
+      "claims_scope": "history_architecture_heritage"
+    }
+  ]
+}

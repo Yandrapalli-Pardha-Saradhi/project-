@@ -1,0 +1,307 @@
+{
+  "generated_at_utc": "2026-11-05T10:30:54.026777+00:00",
+  "collection": "temple_heritage",
+  "indexed_chunk_count": 321,
+  "new_manifest_document_count": 14,
+  "new_document_ids_found_in_index": 14,
+  "retrieval_checks": [
+    {
+      "temple_id": "whc_b64d0b1bb2989639c1f1",
+      "question": "How does UNESCO describe the Mahabodhi temple's architecture?",
+      "retrieved_document_ids": [
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture",
+        "whc_1a6460766d763f09b57c6572",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_history_religious_significance"
+      ],
+      "expected_document_id": "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.29263824224472046,
+      "expected_citation_url": "https://whc.unesco.org/en/list/1056/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Mahabodhi Temple Complex at Bodh Gaya",
+      "evidence_scope": "architecture",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_b64d0b1bb2989639c1f1",
+      "question": "What is Mahabodhi's historical significance for Buddhism?",
+      "retrieved_document_ids": [
+        "whc_1a6460766d763f09b57c6572",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_history_religious_significance",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture"
+      ],
+      "expected_document_id": "enrich_batch03_whc_b64d0b1bb2989639c1f1_history_religious_significance",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.4882286787033081,
+      "expected_citation_url": "https://whc.unesco.org/en/list/1056/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Mahabodhi Temple Complex at Bodh Gaya",
+      "evidence_scope": "history_religious_significance",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_798b3d431ca45563a0f8",
+      "question": "What characterizes Khajuraho's Nagara temple architecture?",
+      "retrieved_document_ids": [
+        "enrich_batch03_whc_798b3d431ca45563a0f8_history_architecture",
+        "whc_01ee53bea254e7fee95cabf6",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_history_architecture",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_sculpture_heritage_management",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_sculpture_heritage_management"
+      ],
+      "expected_document_id": "enrich_batch03_whc_798b3d431ca45563a0f8_history_architecture",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.2340642809867859,
+      "expected_citation_url": "https://whc.unesco.org/en/list/240/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Khajuraho Group of Monuments",
+      "evidence_scope": "history_architecture",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_798b3d431ca45563a0f8",
+      "question": "What subjects appear in Khajuraho's sculptures and who manages the heritage property?",
+      "retrieved_document_ids": [
+        "enrich_batch03_whc_798b3d431ca45563a0f8_sculpture_heritage_management",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_history_architecture",
+        "whc_01ee53bea254e7fee95cabf6",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_sculpture_heritage_management",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_history_architecture"
+      ],
+      "expected_document_id": "enrich_batch03_whc_798b3d431ca45563a0f8_sculpture_heritage_management",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.24307024478912354,
+      "expected_citation_url": "https://whc.unesco.org/en/list/240/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Khajuraho Group of Monuments",
+      "evidence_scope": "sculpture_heritage_management",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_ffb69144fee941fb01a9",
+      "question": "How did the Virupaksha temple at Hampi develop and what is its plan?",
+      "retrieved_document_ids": [
+        "whc_12e476edaebcb1f19ebfd54d",
+        "enrich_batch03_whc_ffb69144fee941fb01a9_history_architecture_religion",
+        "enrich_batch03_whc_ffb69144fee941fb01a9_history_architecture_religion"
+      ],
+      "expected_document_id": "enrich_batch03_whc_ffb69144fee941fb01a9_history_architecture_religion",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.30199527740478516,
+      "expected_citation_url": "https://whc.unesco.org/document/162842",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+      "evidence_scope": "history_architecture_religion",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_0601b84399076df5f6eb",
+      "question": "What structures are in Hampi's Vitthala temple complex?",
+      "retrieved_document_ids": [
+        "whc_30f7570fb5581bf4f161fbea",
+        "enrich_batch03_whc_0601b84399076df5f6eb_sculpture_conservation",
+        "enrich_batch03_whc_0601b84399076df5f6eb_history_architecture",
+        "enrich_batch03_whc_0601b84399076df5f6eb_history_architecture",
+        "enrich_batch03_whc_0601b84399076df5f6eb_sculpture_conservation"
+      ],
+      "expected_document_id": "enrich_batch03_whc_0601b84399076df5f6eb_history_architecture",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.2748493552207947,
+      "expected_citation_url": "https://whc.unesco.org/document/162842",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+      "evidence_scope": "history_architecture",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_0601b84399076df5f6eb",
+      "question": "What does the 2003 report say about Vitthala temple conservation?",
+      "retrieved_document_ids": [
+        "enrich_batch03_whc_0601b84399076df5f6eb_sculpture_conservation",
+        "enrich_batch03_whc_0601b84399076df5f6eb_history_architecture",
+        "whc_30f7570fb5581bf4f161fbea",
+        "enrich_batch03_whc_0601b84399076df5f6eb_history_architecture",
+        "enrich_batch03_whc_0601b84399076df5f6eb_sculpture_conservation"
+      ],
+      "expected_document_id": "enrich_batch03_whc_0601b84399076df5f6eb_sculpture_conservation",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.3542162775993347,
+      "expected_citation_url": "https://whc.unesco.org/document/162842",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+      "evidence_scope": "sculpture_conservation",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "whc_57e81c99363e3334087c",
+      "question": "Who commissioned Achyutaraya temple and what does its inscription say about the bazaar?",
+      "retrieved_document_ids": [
+        "enrich_batch03_whc_57e81c99363e3334087c_history_architecture_urban_context",
+        "whc_1fe05b44b58be8be40dd55fc",
+        "enrich_batch03_whc_57e81c99363e3334087c_history_architecture_urban_context"
+      ],
+      "expected_document_id": "enrich_batch03_whc_57e81c99363e3334087c_history_architecture_urban_context",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.2627241611480713,
+      "expected_citation_url": "https://whc.unesco.org/document/162842",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+      "evidence_scope": "history_architecture_urban_context",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "asi_tamil_nadu_9b2980bb768b7c42",
+      "question": "Who built the Brihadisvara temple at Gangaikondacholapuram?",
+      "retrieved_document_ids": [
+        "unesco_87b051e785b6996610f39597",
+        "enrich_batch03_asi_tamil_nadu_9b2980bb768b7c42_history_architecture_heritage",
+        "asi_inventory_asi_tamil_nadu_9b2980bb768b7c42",
+        "enrich_batch03_asi_tamil_nadu_9b2980bb768b7c42_history_architecture_heritage"
+      ],
+      "expected_document_id": "enrich_batch03_asi_tamil_nadu_9b2980bb768b7c42_history_architecture_heritage",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.2502405047416687,
+      "expected_citation_url": "https://whc.unesco.org/en/list/250/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Great Living Chola Temples",
+      "evidence_scope": "history_architecture_heritage",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "brihadeeswarar",
+      "question": "How does UNESCO characterize the architecture of Brihadisvara at Thanjavur?",
+      "retrieved_document_ids": [
+        "enrich_batch03_brihadeeswarar_architecture_heritage",
+        "brihadeeswarar_001",
+        "brihadeeswarar_002",
+        "brihadeeswarar_001"
+      ],
+      "expected_document_id": "enrich_batch03_brihadeeswarar_architecture_heritage",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.2833153009414673,
+      "expected_citation_url": "https://whc.unesco.org/en/list/250/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Great Living Chola Temples",
+      "evidence_scope": "architecture_heritage",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "shore",
+      "question": "How does Shore Temple fit into Pallava architecture at Mahabalipuram?",
+      "retrieved_document_ids": [
+        "shore_001",
+        "enrich_batch03_shore_history_architecture_heritage",
+        "shore_002",
+        "enrich_batch03_shore_history_architecture_heritage",
+        "shore_001"
+      ],
+      "expected_document_id": "enrich_batch03_shore_history_architecture_heritage",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.24000060558319092,
+      "expected_citation_url": "https://whc.unesco.org/en/list/249/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Group of Monuments at Mahabalipuram",
+      "evidence_scope": "history_architecture_heritage",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "meenakshi",
+      "question": "What does the district source say about Meenakshi temple architecture and history?",
+      "retrieved_document_ids": [
+        "meenakshi_002",
+        "enrich_batch03_meenakshi_history_architecture_religion",
+        "meenakshi_001",
+        "meenakshi_001",
+        "enrich_batch03_meenakshi_festivals_traditions",
+        "enrich_batch03_meenakshi_history_architecture_religion",
+        "enrich_batch03_meenakshi_festivals_traditions"
+      ],
+      "expected_document_id": "enrich_batch03_meenakshi_history_architecture_religion",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.29402875900268555,
+      "expected_citation_url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Sri Meenakshi - Sundareswarar Temple",
+      "evidence_scope": "history_architecture_religion",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "meenakshi",
+      "question": "Which festivals does Madurai district associate with the Meenakshi temple traditions?",
+      "retrieved_document_ids": [
+        "enrich_batch03_meenakshi_festivals_traditions",
+        "meenakshi_002",
+        "enrich_batch03_meenakshi_history_architecture_religion",
+        "meenakshi_001",
+        "meenakshi_001",
+        "enrich_batch03_meenakshi_history_architecture_religion",
+        "enrich_batch03_meenakshi_festivals_traditions"
+      ],
+      "expected_document_id": "enrich_batch03_meenakshi_festivals_traditions",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.20518475770950317,
+      "expected_citation_url": "https://madurai.nic.in/festivals-and-events/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Festivals and Events",
+      "evidence_scope": "festivals_traditions",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    },
+    {
+      "temple_id": "kashi_vishwanath",
+      "question": "What is Kashi Vishvanath's religious significance according to the Varanasi district page?",
+      "retrieved_document_ids": [
+        "enrich_batch03_kashi_vishwanath_deity_religious_significance",
+        "kashi_vishwanath_002",
+        "kashi_vishwanath_001"
+      ],
+      "expected_document_id": "enrich_batch03_kashi_vishwanath_deity_religious_significance",
+      "expected_document_retrieved": true,
+      "expected_distance": 0.22985565662384033,
+      "expected_citation_url": "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/",
+      "citation_url_matches_source_document": true,
+      "evidence_source_title": "Shree Kashi Vishvanath Temple",
+      "evidence_scope": "deity_religious_significance",
+      "evidence_review_status": "pending_human_review",
+      "answerability": "supported at the scope stated in the source; human review remains required"
+    }
+  ],
+  "retrieval_checks_passed": 14,
+  "retrieval_checks_total": 14,
+  "unsupported_detail_checks": [
+    {
+      "question": "Which annual festivals are documented for the Mahabodhi Temple?",
+      "temple_id": "whc_b64d0b1bb2989639c1f1",
+      "retrieved_document_ids": [
+        "whc_1a6460766d763f09b57c6572",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_history_religious_significance"
+      ],
+      "retrieved_source_urls": [
+        "https://whc.unesco.org/en/list/1056/"
+      ],
+      "retrieved_text_contains_festival_evidence": false,
+      "expected_behavior": "Briefly state that the indexed sources do not document festivals; do not infer or fabricate a festival.",
+      "result": "no_festival_evidence_in_retrieved_text"
+    }
+  ],
+  "limitations": [
+    "Checks exercise vector retrieval and source metadata only; no external LLM generation was called.",
+    "Retrieved passages remain pending human review, so successful retrieval is not factual verification."
+  ]
+}

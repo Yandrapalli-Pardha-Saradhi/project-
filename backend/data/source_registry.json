@@ -1,0 +1,82 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "asi-cpm-inventory",
+      "name": "Archaeological Survey of India Centrally Protected Monuments/Sites inventory",
+      "base_url": "https://asi.nic.in",
+      "category": "national_archaeological_inventory",
+      "enabled": false,
+      "permitted_collection_method": "manual_reviewed_seed_from_public_official_inventory; no automated collection",
+      "terms_review_status": "operator_must_confirm_before_collection",
+      "allowed_hosts": ["asi.nic.in", "www.asichennai.gov.in"],
+      "start_urls": ["https://asi.nic.in/pdf/CPM_List.pdf", "https://asichennai.gov.in/monuments_full_list.html"],
+      "parser": "manual_reviewed_inventory_seed",
+      "last_successful_collection": null
+    },
+    {
+      "id": "unesco-whc",
+      "name": "UNESCO World Heritage Centre",
+      "base_url": "https://whc.unesco.org",
+      "category": "international_heritage_registry",
+      "enabled": true,
+      "permitted_collection_method": "explicit_public_html_robots_checked",
+      "terms_review_status": "operator_must_confirm_before_scheduled_runs",
+      "allowed_hosts": ["whc.unesco.org"],
+      "start_urls": [
+        "https://whc.unesco.org/en/list/250/",
+        "https://whc.unesco.org/en/list/249/",
+        "https://whc.unesco.org/en/list/246/",
+        "https://whc.unesco.org/en/tentativelists/5423/",
+        "https://whc.unesco.org/en/tentativelists/1497/",
+        "https://whc.unesco.org/en/tentativelists/1509/"
+      ],
+      "parser": "generic_html",
+      "last_successful_collection": null
+    },
+    {
+      "id": "tn-arch",
+      "name": "Tamil Nadu Department of Archaeology - Temple listings",
+      "base_url": "https://www.tnarch.gov.in",
+      "category": "state_archaeology",
+      "enabled": true,
+      "permitted_collection_method": "explicit_public_html_robots_checked",
+      "terms_review_status": "operator_must_confirm_before_scheduled_runs",
+      "allowed_hosts": ["www.tnarch.gov.in"],
+      "start_urls": ["https://www.tnarch.gov.in/temples-list"],
+      "parser": "tn_arch_temple_table",
+      "state_context": "Tamil Nadu",
+      "last_successful_collection": null
+    },
+    {
+      "id": "tn-district-tourism",
+      "name": "Tamil Nadu district administration tourism pages",
+      "base_url": "https://thanjavur.nic.in",
+      "category": "district_tourism",
+      "enabled": true,
+      "permitted_collection_method": "explicit_public_html_robots_checked",
+      "terms_review_status": "operator_must_confirm_before_scheduled_runs",
+      "allowed_hosts": ["thanjavur.nic.in", "chengalpattu.nic.in", "madurai.nic.in"],
+      "start_urls": [
+        "https://thanjavur.nic.in/tourist-place/big-brihadeeshwara-temple/",
+        "https://chengalpattu.nic.in/tourist-place/mamallapuram/",
+        "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/"
+      ],
+      "parser": "generic_html",
+      "last_successful_collection": null
+    },
+    {
+      "id": "tn-hrce",
+      "name": "Tamil Nadu HR&CE public temple information",
+      "base_url": "https://hrce.tn.gov.in",
+      "category": "state_temple_administration",
+      "enabled": false,
+      "permitted_collection_method": "public_html_only_after_terms_and_robots_review",
+      "terms_review_status": "manual_review_required_dynamic_search_interface",
+      "allowed_hosts": ["hrce.tn.gov.in"],
+      "start_urls": ["https://hrce.tn.gov.in/hrcehome/temple_search.php?activity=temple_search"],
+      "parser": "generic_html",
+      "last_successful_collection": null
+    }
+  ]
+}

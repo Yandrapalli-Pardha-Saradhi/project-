@@ -1,0 +1,468 @@
+{
+  "batch_id": "2026-11-05-batch-01",
+  "created_date": "2026-11-05",
+  "scope": "20 existing inventory-only catalogue records; no new temple records",
+  "source_collection": "Manual source checks only; no automated collection run. Source approval gates unchanged.",
+  "counts": {
+    "temples_in_batch": 20,
+    "draft_documents_added": 0,
+    "pending_research": 20
+  },
+  "temples": [
+    {
+      "temple_id": "asi_tamil_nadu_228792b71860b713",
+      "name": "Venketaramana Temple",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://viluppuram.nic.in/tourism/place-of-interest/"
+      ],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_tamil_nadu_228792b71860b713",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_b8864915b92941b5",
+      "name": "Pattabirama Temple",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://viluppuram.nic.in/tourism/place-of-interest/"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_8efa92f0aa42a214",
+      "name": "Rock cut Pallava Temple (Dalavanur)",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://viluppuram.nic.in/tourism/place-of-interest/",
+        "https://asichennai.gov.in/monuments_full_list.html"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_476eb8cc97fb84ef",
+      "name": "Pallava rock cut shrine",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://viluppuram.nic.in/tourism/place-of-interest/",
+        "https://asichennai.gov.in/monuments_full_list.html"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_94ef770652db64a5",
+      "name": "Rock cut Pallava temple (Mandagapattu)",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://viluppuram.nic.in/tourism/place-of-interest/"
+      ],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_tamil_nadu_94ef770652db64a5",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_c4c0740aa244e2f1",
+      "name": "Talagiriswara temple",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%201975-76%20A%20Review.pdf",
+        "https://asichennai.gov.in/monuments_full_list.html"
+      ],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_tamil_nadu_c4c0740aa244e2f1",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_dfe60f19c80a4e44",
+      "name": "Sri Azhagiya Narasimma perumal temple",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asichennai.gov.in/monuments_full_list.html"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_4c1f14f2232e8d73",
+      "name": "Kailasanatha temple",
+      "state": "Tamil Nadu",
+      "district": "Kanchipuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_tamil_nadu_4c1f14f2232e8d73",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_f4f02026c173d091",
+      "name": "Korangunatha temple",
+      "state": "Tamil Nadu",
+      "district": "Karur",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_tamil_nadu_f4f02026c173d091",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_9ff95b5f3937c27a",
+      "name": "Sri Apathsahayeswara Temple",
+      "state": "Tamil Nadu",
+      "district": "Villupuram",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asichennai.gov.in/monuments_full_list.html"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_karnataka_39c8b5453cc604ec",
+      "name": "Vijayanarayana Temple",
+      "state": "Karnataka",
+      "district": "Chamarajanagar",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_karnataka_df9d7ed1a005d4a6",
+      "name": "Arkesvara Temple",
+      "state": "Karnataka",
+      "district": "Chamarajanagar",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_karnataka_20e758c06d541bd9",
+      "name": "Ramesvara Temple",
+      "state": "Karnataka",
+      "district": "Chamarajanagar",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_karnataka_e7e3292346518668",
+      "name": "Gaurisvara Temple",
+      "state": "Karnataka",
+      "district": "Chamarajanagar",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_karnataka_1544f0a56a8c103b",
+      "name": "Bhoganandisvara Temple",
+      "state": "Karnataka",
+      "district": "Chikkaballapur",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://karnatakatourism.org/en/experiences/nandi-hills-bengaluru/"
+      ],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_karnataka_1544f0a56a8c103b",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_karnataka_43d31d5b7b909f6e",
+      "name": "Amritesvara Temple",
+      "state": "Karnataka",
+      "district": "Chikkamagaluru",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://asi.nic.in/pdf/CPM_List.pdf"
+      ],
+      "enrichment_status": "source_gap_pending_research",
+      "document_id_added": null,
+      "review_notes": "No substantive source checked for this record in batch 1; inventory listing supports identification/location only. Do not infer missing topics."
+    },
+    {
+      "temple_id": "asi_karnataka_4e9044ce27267cfb",
+      "name": "Viranarayana Temple",
+      "state": "Karnataka",
+      "district": "Chikkamagaluru",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://whc.unesco.org/document/198086"
+      ],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_karnataka_4e9044ce27267cfb",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_karnataka_80d2910c86f3032b",
+      "name": "Vidyasankara Temple",
+      "state": "Karnataka",
+      "district": "Chikkamagaluru",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [
+        "https://www.srisharadapeetham.org/temples/sri-vidyashankara"
+      ],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_karnataka_80d2910c86f3032b",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_karnataka_2494fc98f5e2568d",
+      "name": "Durga Temple",
+      "state": "Karnataka",
+      "district": "Bagalkot",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_karnataka_2494fc98f5e2568d",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    },
+    {
+      "temple_id": "asi_karnataka_a0dee297d7802db0",
+      "name": "Cave Temples",
+      "state": "Karnataka",
+      "district": "Bagalkot",
+      "current_document_coverage": [
+        "asi_inventory_listing"
+      ],
+      "missing_topics": [
+        "history",
+        "architecture",
+        "deity_or_tradition",
+        "festivals",
+        "heritage_status",
+        "conservation"
+      ],
+      "candidate_authoritative_sources": [],
+      "enrichment_status": "draft_pending_human_review",
+      "document_id_added": "enrich_20261105_asi_karnataka_a0dee297d7802db0",
+      "review_notes": "Source checked for limited claims; paraphrase and claim-to-source mapping still require human review. Not temple-wide verification."
+    }
+  ]
+}

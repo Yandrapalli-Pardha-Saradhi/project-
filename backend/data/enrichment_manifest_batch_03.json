@@ -1,0 +1,337 @@
+{
+  "batch_id": "2026-11-05-batch-03",
+  "created_date": "2026-11-05",
+  "scope": "10 existing catalogue temples; no new temple records; manually researched source-attributed paraphrases",
+  "collection_method": "Manual source page access only; no automated collection; source registry and approval gates unchanged",
+  "counts": {
+    "temples_in_batch": 10,
+    "documents_in_batch": 14,
+    "pending_human_review": 14,
+    "automated_collection_runs": 0,
+    "new_documents_prepared": 14,
+    "documents_appended_this_run": 14
+  },
+  "sources_actually_checked": [
+    [
+      "Festivals and Events",
+      "https://madurai.nic.in/festivals-and-events/",
+      "Madurai District Administration, Government of Tamil Nadu"
+    ],
+    [
+      "Great Living Chola Temples",
+      "https://whc.unesco.org/en/list/250/",
+      "UNESCO World Heritage Centre"
+    ],
+    [
+      "Group of Monuments at Mahabalipuram",
+      "https://whc.unesco.org/en/list/249/",
+      "UNESCO World Heritage Centre"
+    ],
+    [
+      "Khajuraho Group of Monuments",
+      "https://whc.unesco.org/en/list/240/",
+      "UNESCO World Heritage Centre"
+    ],
+    [
+      "Mahabodhi Temple Complex at Bodh Gaya",
+      "https://whc.unesco.org/en/list/1056/",
+      "UNESCO World Heritage Centre"
+    ],
+    [
+      "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+      "https://whc.unesco.org/document/162842",
+      "UNESCO World Heritage Centre / Archaeological Survey of India report"
+    ],
+    [
+      "Shree Kashi Vishvanath Temple",
+      "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/",
+      "Varanasi District Administration, Government of Uttar Pradesh"
+    ],
+    [
+      "Sri Meenakshi - Sundareswarar Temple",
+      "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+      "Madurai District Administration, Government of Tamil Nadu"
+    ]
+  ],
+  "temples": [
+    {
+      "temple_id": "whc_b64d0b1bb2989639c1f1",
+      "name": "Mahabodhi Temple Complex",
+      "state": "Bihar",
+      "district": "Gaya",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 1,
+      "missing_topics": [
+        "architecture",
+        "religious significance",
+        "sculptural/architectural details"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Mahabodhi Temple Complex at Bodh Gaya",
+          "source_url": "https://whc.unesco.org/en/list/1056/",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_history_religious_significance",
+        "enrich_batch03_whc_b64d0b1bb2989639c1f1_architecture"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "whc_798b3d431ca45563a0f8",
+      "name": "Khajuraho Group of Monuments",
+      "state": "Madhya Pradesh",
+      "district": "Chhatarpur",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 1,
+      "missing_topics": [
+        "architecture",
+        "sculpture",
+        "heritage management"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Khajuraho Group of Monuments",
+          "source_url": "https://whc.unesco.org/en/list/240/",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_whc_798b3d431ca45563a0f8_history_architecture",
+        "enrich_batch03_whc_798b3d431ca45563a0f8_sculpture_heritage_management"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "whc_ffb69144fee941fb01a9",
+      "name": "Virupaksha Temple (Hampi)",
+      "state": "Karnataka",
+      "district": "Bellary",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 1,
+      "missing_topics": [
+        "history",
+        "architecture",
+        "worship and heritage"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+          "source_url": "https://whc.unesco.org/document/162842",
+          "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+          "source_type": "heritage_conservation_report"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_whc_ffb69144fee941fb01a9_history_architecture_religion"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "whc_0601b84399076df5f6eb",
+      "name": "Vitthala Temple Complex",
+      "state": "Karnataka",
+      "district": "Bellary",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 1,
+      "missing_topics": [
+        "history",
+        "architecture",
+        "iconography",
+        "conservation"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+          "source_url": "https://whc.unesco.org/document/162842",
+          "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+          "source_type": "heritage_conservation_report"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_whc_0601b84399076df5f6eb_history_architecture",
+        "enrich_batch03_whc_0601b84399076df5f6eb_sculpture_conservation"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "whc_57e81c99363e3334087c",
+      "name": "Achyutaraya Temple Complex",
+      "state": "Karnataka",
+      "district": "Bellary",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 1,
+      "missing_topics": [
+        "historical contributors",
+        "architecture",
+        "urban setting and inscriptions"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Section II: Periodic Report on the State of Conservation of the Group of Monuments at Hampi, India, 2003",
+          "source_url": "https://whc.unesco.org/document/162842",
+          "publisher": "UNESCO World Heritage Centre / Archaeological Survey of India report",
+          "source_type": "heritage_conservation_report"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_whc_57e81c99363e3334087c_history_architecture_urban_context"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "asi_tamil_nadu_9b2980bb768b7c42",
+      "name": "Brihadisvara Temple (Gangaikondacholapuram)",
+      "state": "Tamil Nadu",
+      "district": "Ariyalur",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 2,
+      "missing_topics": [
+        "history",
+        "architecture",
+        "sculpture",
+        "heritage status"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Great Living Chola Temples",
+          "source_url": "https://whc.unesco.org/en/list/250/",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_asi_tamil_nadu_9b2980bb768b7c42_history_architecture_heritage"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "brihadeeswarar",
+      "name": "Brihadisvara Temple (Thanjavur)",
+      "state": "Tamil Nadu",
+      "district": "Thanjavur",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 2,
+      "missing_topics": [
+        "architecture detail",
+        "sculpture and inscriptions",
+        "heritage context"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Great Living Chola Temples",
+          "source_url": "https://whc.unesco.org/en/list/250/",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_brihadeeswarar_architecture_heritage"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "shore",
+      "name": "Shore Temple",
+      "state": "Tamil Nadu",
+      "district": "Chengalpattu",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 2,
+      "missing_topics": [
+        "history",
+        "architecture",
+        "heritage management"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Group of Monuments at Mahabalipuram",
+          "source_url": "https://whc.unesco.org/en/list/249/",
+          "publisher": "UNESCO World Heritage Centre",
+          "source_type": "international_heritage_record"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_shore_history_architecture_heritage"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "meenakshi",
+      "name": "Meenakshi Amman Temple",
+      "state": "Tamil Nadu",
+      "district": "Madurai",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 2,
+      "missing_topics": [
+        "history",
+        "architecture",
+        "festivals and traditions"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Sri Meenakshi - Sundareswarar Temple",
+          "source_url": "https://madurai.nic.in/tourist-place/sri-meenakshi-sundareswarar-temple/",
+          "publisher": "Madurai District Administration, Government of Tamil Nadu",
+          "source_type": "government_tourism_page"
+        },
+        {
+          "source_title": "Festivals and Events",
+          "source_url": "https://madurai.nic.in/festivals-and-events/",
+          "publisher": "Madurai District Administration, Government of Tamil Nadu",
+          "source_type": "government_tourism_page"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_meenakshi_history_architecture_religion",
+        "enrich_batch03_meenakshi_festivals_traditions"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    },
+    {
+      "temple_id": "kashi_vishwanath",
+      "name": "Kashi Vishwanath Temple",
+      "state": "Uttar Pradesh",
+      "district": "Varanasi",
+      "coverage_before_batch": "limited",
+      "current_document_count_before_batch": 2,
+      "missing_topics": [
+        "architectural history",
+        "festivals",
+        "conservation"
+      ],
+      "sources_actually_checked": [
+        {
+          "source_title": "Shree Kashi Vishvanath Temple",
+          "source_url": "https://varanasi.nic.in/tourist-place/shri-kashi-vishwanath-temple/",
+          "publisher": "Varanasi District Administration, Government of Uttar Pradesh",
+          "source_type": "government_tourism_page"
+        }
+      ],
+      "document_ids": [
+        "enrich_batch03_kashi_vishwanath_deity_religious_significance"
+      ],
+      "enrichment_status": "pending_human_review",
+      "verification_note": "Source pages were accessed and the limited paraphrased claims were checked against them. Human claim-to-source review remains required; this does not verify the temple as a whole."
+    }
+  ],
+  "limitations": [
+    "No new material was collected from sources not listed in this batch.",
+    "Claims are narrow paraphrases of the cited pages; the pages do not cover every requested topic.",
+    "The UNESCO Hampi periodic report is a 2003 condition report; conservation statements are explicitly historical.",
+    "Festival narratives are recorded as source-attributed religious tradition, not independent historical fact.",
+    "All new documents remain pending human review and are not marked verified."
+  ]
+}

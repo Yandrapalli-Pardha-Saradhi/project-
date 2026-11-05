@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: temple-heritage-api
+    runtime: python
+    rootDir: backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    disk:
+      name: temple-heritage-data
+      mountPath: /var/data
+      sizeGB: 2
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.11
+      - key: CHROMA_PERSIST_DIR
+        value: /var/data/chroma
+      - key: HF_HOME
+        value: /var/data/huggingface
+      - key: CORS_ORIGINS
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false
