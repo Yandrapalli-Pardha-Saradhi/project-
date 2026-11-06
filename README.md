@@ -37,7 +37,7 @@ Copy `backend/.env.example` to `backend/.env` to configure an OpenAI-compatible 
 - `GET /api/temples/?query=&search=&state=&district=&area=&limit=50&offset=0` — case-insensitive substring search over primary and alternate names; `search` and `query` are aliases
 - `GET /api/temples/{temple_id}`
 
-The catalogue is `backend/data/catalogue.json`. It currently contains 217 distinct records across 17 states and 76 state/district pairs. The curated document set contains 268 source-attributed knowledge documents and the persistent Chroma collection has 296 chunks. The added ASI inventory records support temple names and listed locations; they do not imply that historical, deity, architectural, or festival details have been verified. At present, 203 catalogue entries are marked `source_listed_needs_review`, 8 UNESCO-supported entries are marked `source_reviewed_needs_review`, and the original 6 remain `curated_unverified`; none are marked verified. State/UT selector options do not imply that the catalogue contains temples in every region. A missing catalogue returns HTTP 503 rather than an empty success response.
+The catalogue is `backend/data/catalogue.json` and contains 217 temple records. The persistent local Chroma collection currently has 557 chunks (verify `/api/health` before migration; counts in older reports are stale). Inventory and pending-review records do not imply that historical, deity, architectural, or festival details have been verified. State/UT selector options do not imply that the catalogue contains temples in every region. A missing catalogue returns HTTP 503 rather than an empty success response.
 
 ## Checks
 
@@ -55,6 +55,6 @@ The manually reviewed ASI inventory seed can be reapplied idempotently from `bac
 
 ## Public deployment
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) for the Vercel + Render environment variables, persistent ChromaDB setup, and verified migration procedure. Current local data is 217 catalogue records, 268 curated knowledge documents, and 296 chunks in `backend/data/chroma`.
+See [DEPLOYMENT.md](DEPLOYMENT.md) for the Vercel + Render environment variables, persistent ChromaDB setup, and migration procedure. Optional ONNX embedding benchmarks and isolated retrieval evaluation are documented there; PyTorch remains the default and existing index backend.
 
 

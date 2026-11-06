@@ -1,0 +1,45 @@
+# No persistent disk or paid resource. The ONNX Chroma snapshot is bundled in
+# backend/data/chroma_onnx and restored into this image at build time.
+services:
+  - type: web
+    name: temple-heritage-api-free
+    runtime: docker
+    plan: free
+    dockerContext: backend
+    dockerfilePath: backend/Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: CHROMA_PERSIST_DIR
+        value: /tmp/temple-chroma-runtime
+      - key: COLLECTION_NAME
+        value: temple_heritage
+      - key: EMBEDDING_BACKEND
+        value: onnx
+      - key: EMBEDDING_INDEX_BACKEND
+        value: onnx
+      - key: EMBEDDING_ONNX_TOKENIZER
+        value: sentencepiece
+      - key: EMBEDDING_ONNX_FILE
+        value: model_quint8_avx2.onnx
+      - key: EMBEDDING_MODEL
+        value: sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2
+      - key: EMBEDDING_REVISION
+        value: e8f8c211226b894fcb81acc59f3b34ba3efd5f42
+      - key: EMBEDDING_MAX_SEQ_LENGTH
+        value: "128"
+      - key: EMBEDDING_NUM_THREADS
+        value: "1"
+      - key: EMBEDDING_BATCH_SIZE
+        value: "16"
+      - key: EMBEDDING_WARMUP_ON_STARTUP
+        value: "true"
+      - key: EXPECTED_INDEXED_CHUNKS
+        value: "557"
+      - key: WEB_SEARCH_ENABLED
+        value: "false"
+      - key: CORS_ORIGINS
+        sync: false
+      - key: LLM_API_KEY
+        sync: false
+      - key: LLM_MODEL
+        sync: false

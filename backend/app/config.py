@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from pathlib import Path
-from typing import List, Optional
+from typing import List, Literal, Optional
 
 from pydantic import Field, SecretStr
 from pydantic_settings import BaseSettings
@@ -37,10 +37,23 @@ class Settings(BaseSettings):
     embedding_model: str = Field(
         default="sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
     )
+    # Keep PyTorch as the compatibility default. An ONNX runtime must only be
+    # paired with a collection indexed by the same backend.
+    embedding_backend: Literal["pytorch", "onnx"] = Field(default="pytorch")
+    embedding_index_backend: Literal["pytorch", "onnx"] = Field(default="pytorch")
+    embedding_onnx_file: str = Field(default="model_quint8_avx2.onnx")
+    embedding_onnx_tokenizer: Literal["sentencepiece", "tokenizers"] = Field(default="sentencepiece")
+    embedding_onnx_graph_optimization_level: Literal["disable", "basic", "extended", "all"] = Field(default="all")
+    embedding_max_seq_length: int = Field(default=128, ge=1, le=512)
+    embedding_num_threads: int = Field(default=1, ge=1, le=16)
+    embedding_batch_size: int = Field(default=16, ge=1, le=256)
+    embedding_revision: Optional[str] = Field(default=None)
+    embedding_warmup_on_startup: bool = Field(default=False)
 
     # Persistent local vector store.
     chroma_persist_dir: str = Field(default=str(DEFAULT_CHROMA_PERSIST_DIR))
     collection_name: str = Field(default=DEFAULT_COLLECTION_NAME)
+    expected_indexed_chunks: Optional[int] = Field(default=None, ge=1)
 
     # Document chunking.
     chunk_size: int = Field(default=500)

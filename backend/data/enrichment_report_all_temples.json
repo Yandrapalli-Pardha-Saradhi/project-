@@ -1,11 +1,11 @@
 {
-  "generated_at_utc": "2026-11-05T17:03:54.174445+00:00",
+  "generated_at_utc": "2026-11-05T18:07:17.927345+00:00",
   "operation_status": "PARTIAL_SOURCE_RESEARCH_CHECKPOINT_ENRICHMENT_INCOMPLETE",
   "temples_audited": 217,
-  "temples_researched_with_pages_inspected_in_this_operation": 91,
+  "temples_researched_with_pages_inspected_in_this_operation": 99,
   "temples_fully_researched_in_this_operation": 0,
-  "temples_with_partial_source_research": 91,
-  "temples_without_source_pages_inspected_in_this_operation": 126,
+  "temples_with_partial_source_research": 99,
+  "temples_without_source_pages_inspected_in_this_operation": 118,
   "unresearched_temple_ids_and_names": [
     {
       "temple_id": "asi_andhra_prade_0eae7591ae183981",
@@ -280,24 +280,8 @@
       "name": "Kailasanatha temple"
     },
     {
-      "temple_id": "asi_tamil_nadu_7f9b8196b0215b46",
-      "name": "Piravathanesvara temple"
-    },
-    {
-      "temple_id": "asi_tamil_nadu_02e99fdbd7948315",
-      "name": "Iravathanesvara temple"
-    },
-    {
-      "temple_id": "asi_tamil_nadu_9749a48a5fe7189c",
-      "name": "Jvarahesvara temple"
-    },
-    {
       "temple_id": "asi_tamil_nadu_22c217c323d0a7d5",
       "name": "Mathangesvara temple"
-    },
-    {
-      "temple_id": "asi_tamil_nadu_a080ae14b6ea9152",
-      "name": "Muktesvara temple"
     },
     {
       "temple_id": "asi_tamil_nadu_3d38b8ffebe20845",
@@ -486,22 +470,6 @@
     {
       "temple_id": "asi_west_bengal_e756fa05949d5297",
       "name": "Old Temple at Banda"
-    },
-    {
-      "temple_id": "asi_west_bengal_537a9276da8ba940",
-      "name": "Dharmaraj Temple"
-    },
-    {
-      "temple_id": "asi_west_bengal_fc6f7b005a338966",
-      "name": "Temples of Bandyopadhyay Family"
-    },
-    {
-      "temple_id": "asi_west_bengal_8a31f276999645d4",
-      "name": "Sitala Temples"
-    },
-    {
-      "temple_id": "asi_west_bengal_4639dc1c20a6d5a3",
-      "name": "Nava Ratna Temple Complex"
     },
     {
       "temple_id": "asi_west_bengal_7fa4da47836e015d",
@@ -1457,32 +1425,36 @@
       "name": "26 Shiva Temples"
     }
   ],
-  "temples_with_source_supported_new_documents_added_in_this_operation": 49,
-  "documents_added_in_this_operation": 69,
+  "temples_with_source_supported_new_documents_added_in_this_operation": 57,
+  "documents_added_in_this_operation": 77,
   "documents_modified_in_this_operation": 0,
   "updated_document_ids_in_this_operation": [],
   "indexing_checkpoint": {
-    "completed_at_utc": "2026-11-05T16:56:29.129902+00:00",
+    "completed_at_utc": "2026-11-05T18:07:15.965583+00:00",
     "catalogue_records": 217,
-    "curated_document_count": 394,
+    "curated_document_count": 403,
     "collection": "temple_heritage",
-    "collection_chunk_count": 536,
+    "collection_chunk_count": 557,
     "indexing": {
-      "new_documents_added_this_operation": 68,
-      "documents_text_modified_after_their_first_index": 8,
+      "new_documents_added_this_group": 4,
       "latest_dry_run_1_matches_dry_run_2": true,
-      "latest_dry_run_documents_added": 3,
-      "latest_dry_run_chunks_added": 7,
+      "latest_dry_run_documents_added": 4,
+      "latest_dry_run_chunks_added": 11,
       "latest_dry_run_documents_updated": 0,
       "latest_dry_run_chunks_updated": 0,
       "latest_dry_run_metadata_only_updates": 0,
       "latest_dry_run_stale_chunks_removed": 0,
       "latest_index_write_succeeded": true,
-      "chunks_before_latest_index": 529,
-      "chunks_after_latest_index": 536,
+      "chunks_before_latest_index": 546,
+      "chunks_after_latest_index": 557,
+      "chunks_added_this_group": 11,
+      "chunks_updated_this_group": 0,
+      "chunks_metadata_only_updated_this_group": 0,
+      "chunks_unchanged_this_group": 546,
+      "chunks_removed_this_group": 0,
       "new_documents_review_status": "pending_human_review"
     },
-    "note": "Group 17 dry runs matched: three new documents and seven chunks to add; 391 documents and 529 chunks unchanged, no updates or removals. Incremental indexing completed without deleting existing chunks."
+    "note": "Group 19's two dry-run reports were identical: four documents and eleven chunks to add, no updates or removals, with 399 documents and 546 chunks unchanged. Incremental indexing added four documents and eleven chunks; existing chunks were not deleted."
   },
   "sources_accessed_in_this_operation": [
     {
@@ -2586,6 +2558,122 @@
       ],
       "inspection_method": "Opened the actual report/PDF and inspected the cited section; source page references are recorded in the knowledge documents.",
       "note": "Claims remain pending human review. The Panchvaktra source's chronology ambiguity is preserved."
+    },
+    {
+      "source_title": "Dharmaraj Temple",
+      "source_url": "https://asikolkata.in/monument-sites/dharmaraj-temple/",
+      "publisher": "Archaeological Survey of India, Kolkata Circle",
+      "source_type": "official_asi_circle_monument_profile",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_west_bengal_537a9276da8ba940"
+      ],
+      "categories_with_relevant_source_content": [
+        "architecture",
+        "heritage_conservation",
+        "visitor_information"
+      ],
+      "inspection_method": "Direct HTTPS GET returned HTTP 200; read the monument-specific HTML section and its location/access information. Search-result text was not the basis for added claims.",
+      "note": "ASI descriptions include source-attributed/style-based dates; these have not been upgraded to independently verified dates."
+    },
+    {
+      "source_title": "Nava Ratna Temple Complex",
+      "source_url": "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/",
+      "publisher": "Archaeological Survey of India, Kolkata Circle",
+      "source_type": "official_asi_circle_monument_profile",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_west_bengal_4639dc1c20a6d5a3"
+      ],
+      "categories_with_relevant_source_content": [
+        "historical_background",
+        "architecture",
+        "heritage_conservation",
+        "visitor_information"
+      ],
+      "inspection_method": "Direct HTTPS GET returned HTTP 200; read the monument-specific HTML section and its location/access information. Search-result text was not the basis for added claims.",
+      "note": "ASI descriptions include source-attributed/style-based dates; these have not been upgraded to independently verified dates."
+    },
+    {
+      "source_title": "Sitala Temples",
+      "source_url": "https://asikolkata.in/monument-sites/sitala-temples/",
+      "publisher": "Archaeological Survey of India, Kolkata Circle",
+      "source_type": "official_asi_circle_monument_profile",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_west_bengal_8a31f276999645d4"
+      ],
+      "categories_with_relevant_source_content": [
+        "historical_background",
+        "architecture",
+        "heritage_conservation",
+        "visitor_information"
+      ],
+      "inspection_method": "Direct HTTPS GET returned HTTP 200; read the monument-specific HTML section and its location/access information. Search-result text was not the basis for added claims.",
+      "note": "ASI descriptions include source-attributed/style-based dates; these have not been upgraded to independently verified dates."
+    },
+    {
+      "source_title": "Temples of Bandyopadhyay family",
+      "source_url": "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/",
+      "publisher": "Archaeological Survey of India, Kolkata Circle",
+      "source_type": "official_asi_circle_monument_profile",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_west_bengal_fc6f7b005a338966"
+      ],
+      "categories_with_relevant_source_content": [
+        "historical_background",
+        "architecture",
+        "religious_cultural_significance",
+        "heritage_conservation",
+        "visitor_information"
+      ],
+      "inspection_method": "Direct HTTPS GET returned HTTP 200; read the monument-specific HTML section and its location/access information. Search-result text was not the basis for added claims.",
+      "note": "ASI descriptions include source-attributed/style-based dates; these have not been upgraded to independently verified dates."
+    },
+    {
+      "source_title": "Pathra",
+      "source_url": "https://paschimmedinipur.gov.in/tourist-place/pathra/",
+      "publisher": "Paschim Medinipur District Administration, Government of West Bengal",
+      "source_type": "official_district_tourism_page",
+      "publication_date": null,
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_west_bengal_4639dc1c20a6d5a3"
+      ],
+      "categories_with_relevant_source_content": [
+        "location",
+        "heritage_context"
+      ],
+      "inspection_method": "Opened the district tourism HTML page and read its Pathra entry; it names the Nabaratna Temple among Pathra's sites and supplies village-level location/travel context.",
+      "note": "The page is a Pathra-wide overview, not evidence for detailed claims about the other three separately catalogued temples; temple-specific facts were taken from ASI Circle pages."
+    },
+    {
+      "source_title": "Temples of Kanchipuram",
+      "source_url": "https://whc.unesco.org/en/tentativelists/6528/",
+      "publisher": "Permanent Delegation of India to UNESCO; hosted by UNESCO World Heritage Centre",
+      "source_type": "state_party_tentative_list_submission",
+      "publication_date": "2021-04-13",
+      "accessed_date": "2026-11-05",
+      "linked_temple_ids": [
+        "asi_tamil_nadu_7f9b8196b0215b46",
+        "asi_tamil_nadu_02e99fdbd7948315",
+        "asi_tamil_nadu_a080ae14b6ea9152",
+        "asi_tamil_nadu_9749a48a5fe7189c"
+      ],
+      "categories_with_relevant_source_content": [
+        "architecture",
+        "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance"
+      ],
+      "inspection_method": "Manual direct page open on the public UNESCO World Heritage Centre tentative-list record; the Kanchipuram nomination body and each named temple section were read. No automated crawl was run.",
+      "note": "This is a State Party Tentative List submission published by UNESCO WHC. It is not an inscription decision or UNESCO-authored factual verification; source claims remain pending human review."
     }
   ],
   "source_access_attempts_not_used_as_evidence": [
@@ -5400,18 +5488,18 @@
     }
   ],
   "new_document_review_status": {
-    "pending_human_review": 69
+    "pending_human_review": 77
   },
   "retrieval_evaluation_summary": {
     "evaluation_file": "retrieval_evaluation_all_temples.json",
     "temple_name_queries_passed": 217,
     "topic_queries": 1519,
-    "evidence_available_category_queries": 353,
-    "evidence_available_category_queries_passed": 352,
-    "unsupported_category_queries": 1166,
+    "evidence_available_category_queries": 392,
+    "evidence_available_category_queries_passed": 392,
+    "unsupported_category_queries": 1127,
     "unsupported_category_queries_with_potential_other_context": 1,
-    "citation_metadata_matches": 3848,
-    "citation_metadata_checks": 3848,
+    "citation_metadata_matches": 4016,
+    "citation_metadata_checks": 4016,
     "similar_name_resolution_passed": 30,
     "external_llm_called": false
   },
@@ -5494,6 +5582,10 @@
     },
     {
       "source_type": "official_asi_circle_conservation_report",
+      "document_count": 4
+    },
+    {
+      "source_type": "official_asi_circle_monument_profile",
       "document_count": 4
     },
     {
@@ -5581,6 +5673,10 @@
       "document_count": 1
     },
     {
+      "source_type": "state_party_tentative_list_submission",
+      "document_count": 4
+    },
+    {
       "source_type": "state_publication_research_article",
       "document_count": 1
     },
@@ -5611,7 +5707,7 @@
   ],
   "catalogue_records_added_or_removed": 0,
   "existing_batch_scope_unique_temple_count": 60,
-  "existing_documents_pending_review": 157,
+  "existing_documents_pending_review": 165,
   "processing_errors": [],
   "source_breakdown_by_existing_source_type": {
     "unspecified": 20,
@@ -5661,7 +5757,9 @@
     "official_archaeological_conservation_report": 3,
     "government_tourism_planning_report": 1,
     "asi_monument_inventory_record": 1,
-    "official_district_information_page": 1
+    "official_district_information_page": 1,
+    "official_asi_circle_monument_profile": 4,
+    "state_party_tentative_list_submission": 4
   },
   "source_registry_snapshot": [
     {
@@ -9931,7 +10029,6 @@
         "systematic_research_20261105_panchvaktra_location_district_administration"
       ],
       "remaining_gaps": [
-        "religious_cultural_significance",
         "festivals_traditions",
         "inscriptions_historical_evidence",
         "visitor_information"
@@ -14258,15 +14355,15 @@
       "name": "Piravathanesvara temple",
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
-        "religious_cultural_significance": "Missing",
-        "festivals_rituals": "Missing",
+        "historical_background": "Limited",
+        "architecture": "Limited",
+        "religious_cultural_significance": "Limited",
+        "festivals_rituals": "Basic",
         "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
-        "visitor_information": "Missing"
+        "heritage_conservation": "Limited",
+        "visitor_information": "Basic"
       },
       "research_gaps": [
         "historical_background",
@@ -14277,21 +14374,50 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "architecture": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "religious_cultural_significance": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "festivals_rituals": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "heritage_conservation": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "visitor_information": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
-      "priority_for_research": "high",
+      "priority_for_research": "medium",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
-      "remaining_gaps": [
-        "historical_background",
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://whc.unesco.org/en/tentativelists/6528/"
+      ],
+      "categories_researched": [
         "architecture",
-        "religious_cultural_significance",
-        "festivals_traditions",
-        "inscriptions_historical_evidence",
         "heritage_conservation",
+        "historical_background",
+        "religious_cultural_significance"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+      ],
+      "remaining_gaps": [
+        "architecture",
+        "festivals_traditions",
+        "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance",
+        "temple_specific_conservation_details",
         "visitor_information"
       ],
       "error_or_access_limitations": [],
@@ -14303,14 +14429,14 @@
       "name": "Iravathanesvara temple",
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
-        "religious_cultural_significance": "Missing",
+        "historical_background": "Basic",
+        "architecture": "Limited",
+        "religious_cultural_significance": "Basic",
         "festivals_rituals": "Missing",
         "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
+        "heritage_conservation": "Limited",
         "visitor_information": "Missing"
       },
       "research_gaps": [
@@ -14322,21 +14448,44 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "architecture": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "religious_cultural_significance": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "heritage_conservation": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
-      "remaining_gaps": [
-        "historical_background",
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://whc.unesco.org/en/tentativelists/6528/"
+      ],
+      "categories_researched": [
         "architecture",
-        "religious_cultural_significance",
-        "festivals_traditions",
-        "inscriptions_historical_evidence",
         "heritage_conservation",
+        "historical_background",
+        "religious_cultural_significance"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_kanchi_iravathanesvara_unesco_profile"
+      ],
+      "remaining_gaps": [
+        "architecture",
+        "festivals_traditions",
+        "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance",
+        "temple_specific_conservation_details",
         "visitor_information"
       ],
       "error_or_access_limitations": [],
@@ -14348,14 +14497,14 @@
       "name": "Jvarahesvara temple",
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
         "historical_background": "Missing",
-        "architecture": "Missing",
+        "architecture": "Limited",
         "religious_cultural_significance": "Missing",
         "festivals_rituals": "Missing",
         "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
+        "heritage_conservation": "Basic",
         "visitor_information": "Missing"
       },
       "research_gaps": [
@@ -14367,21 +14516,37 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "architecture": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "heritage_conservation": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
-      "remaining_gaps": [
-        "historical_background",
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://whc.unesco.org/en/tentativelists/6528/"
+      ],
+      "categories_researched": [
         "architecture",
-        "religious_cultural_significance",
-        "festivals_traditions",
-        "inscriptions_historical_evidence",
         "heritage_conservation",
+        "historical_background"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_kanchi_jvarahesvara_unesco_profile"
+      ],
+      "remaining_gaps": [
+        "architecture",
+        "festivals_traditions",
+        "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance",
+        "temple_specific_conservation_details",
         "visitor_information"
       ],
       "error_or_access_limitations": [],
@@ -14438,14 +14603,14 @@
       "name": "Muktesvara temple",
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
-        "religious_cultural_significance": "Missing",
+        "historical_background": "Limited",
+        "architecture": "Limited",
+        "religious_cultural_significance": "Limited",
         "festivals_rituals": "Missing",
-        "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
+        "inscriptions_historical_evidence": "Limited",
+        "heritage_conservation": "Basic",
         "visitor_information": "Missing"
       },
       "research_gaps": [
@@ -14457,21 +14622,48 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "architecture": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "religious_cultural_significance": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "inscriptions_historical_evidence": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ],
+        "heritage_conservation": [
+          "https://whc.unesco.org/en/tentativelists/6528/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
-      "priority_for_research": "high",
+      "priority_for_research": "medium",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
-      "remaining_gaps": [
-        "historical_background",
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://whc.unesco.org/en/tentativelists/6528/"
+      ],
+      "categories_researched": [
         "architecture",
-        "religious_cultural_significance",
-        "festivals_traditions",
-        "inscriptions_historical_evidence",
         "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_kanchi_muktesvara_unesco_profile"
+      ],
+      "remaining_gaps": [
+        "architecture",
+        "festivals_traditions",
+        "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance",
+        "temple_specific_conservation_details",
         "visitor_information"
       ],
       "error_or_access_limitations": [],
@@ -16942,15 +17134,15 @@
       "name": "Dharmaraj Temple",
       "state": "West Bengal",
       "district": "Midanapur",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
-        "religious_cultural_significance": "Missing",
-        "festivals_rituals": "Missing",
-        "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
-        "visitor_information": "Missing"
+        "historical_background": "Basic",
+        "architecture": "Basic",
+        "religious_cultural_significance": "Basic",
+        "festivals_rituals": "Basic",
+        "inscriptions_historical_evidence": "Basic",
+        "heritage_conservation": "Limited",
+        "visitor_information": "Basic"
       },
       "research_gaps": [
         "historical_background",
@@ -16961,14 +17153,44 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ],
+        "architecture": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ],
+        "religious_cultural_significance": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ],
+        "festivals_rituals": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ],
+        "inscriptions_historical_evidence": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ],
+        "heritage_conservation": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ],
+        "visitor_information": [
+          "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+      ],
+      "categories_researched": [
+        "architecture",
+        "heritage_conservation",
+        "visitor_information"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+      ],
       "remaining_gaps": [
         "historical_background",
         "architecture",
@@ -16987,15 +17209,15 @@
       "name": "Temples of Bandyopadhyay Family",
       "state": "West Bengal",
       "district": "Midanapur",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
-        "religious_cultural_significance": "Missing",
-        "festivals_rituals": "Missing",
-        "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
-        "visitor_information": "Missing"
+        "historical_background": "Limited",
+        "architecture": "Basic",
+        "religious_cultural_significance": "Basic",
+        "festivals_rituals": "Basic",
+        "inscriptions_historical_evidence": "Basic",
+        "heritage_conservation": "Limited",
+        "visitor_information": "Basic"
       },
       "research_gaps": [
         "historical_background",
@@ -17006,14 +17228,47 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ],
+        "architecture": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ],
+        "religious_cultural_significance": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ],
+        "festivals_rituals": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ],
+        "inscriptions_historical_evidence": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ],
+        "heritage_conservation": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ],
+        "visitor_information": [
+          "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+      ],
+      "categories_researched": [
+        "architecture",
+        "heritage_conservation",
+        "historical_background",
+        "inscriptions_historical_evidence",
+        "religious_cultural_significance",
+        "visitor_information"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+      ],
       "remaining_gaps": [
         "historical_background",
         "architecture",
@@ -17032,14 +17287,14 @@
       "name": "Sitala Temples",
       "state": "West Bengal",
       "district": "Midanapur",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
+        "historical_background": "Limited",
+        "architecture": "Basic",
         "religious_cultural_significance": "Missing",
-        "festivals_rituals": "Missing",
+        "festivals_rituals": "Basic",
         "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
+        "heritage_conservation": "Basic",
         "visitor_information": "Missing"
       },
       "research_gaps": [
@@ -17051,14 +17306,36 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://asikolkata.in/monument-sites/sitala-temples/"
+        ],
+        "architecture": [
+          "https://asikolkata.in/monument-sites/sitala-temples/"
+        ],
+        "festivals_rituals": [
+          "https://asikolkata.in/monument-sites/sitala-temples/"
+        ],
+        "heritage_conservation": [
+          "https://asikolkata.in/monument-sites/sitala-temples/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://asikolkata.in/monument-sites/sitala-temples/"
+      ],
+      "categories_researched": [
+        "architecture",
+        "heritage_conservation",
+        "historical_background",
+        "visitor_information"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_pathra_sitala_asi_profile"
+      ],
       "remaining_gaps": [
         "historical_background",
         "architecture",
@@ -17077,14 +17354,14 @@
       "name": "Nava Ratna Temple Complex",
       "state": "West Bengal",
       "district": "Midanapur",
-      "documents_current": 1,
+      "documents_current": 2,
       "category_statuses": {
-        "historical_background": "Missing",
-        "architecture": "Missing",
+        "historical_background": "Limited",
+        "architecture": "Limited",
         "religious_cultural_significance": "Missing",
-        "festivals_rituals": "Missing",
+        "festivals_rituals": "Basic",
         "inscriptions_historical_evidence": "Missing",
-        "heritage_conservation": "Missing",
+        "heritage_conservation": "Limited",
         "visitor_information": "Missing"
       },
       "research_gaps": [
@@ -17096,14 +17373,39 @@
         "heritage_conservation",
         "visitor_information"
       ],
-      "evidence_urls_by_category": {},
+      "evidence_urls_by_category": {
+        "historical_background": [
+          "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+        ],
+        "architecture": [
+          "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+        ],
+        "festivals_rituals": [
+          "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+        ],
+        "heritage_conservation": [
+          "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+        ]
+      },
       "recommended_next_step": "Manually review authoritative source candidates for each listed gap; confirm source terms and claim-level support before preparing any new document.",
       "priority_for_research": "high",
       "already_in_enrichment_manifest": false,
-      "research_status": "not_started",
-      "sources_inspected": [],
-      "categories_researched": [],
-      "documents_added_this_operation": [],
+      "research_status": "enriched",
+      "sources_inspected": [
+        "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/",
+        "https://paschimmedinipur.gov.in/tourist-place/pathra/"
+      ],
+      "categories_researched": [
+        "architecture",
+        "heritage_conservation",
+        "heritage_context",
+        "historical_background",
+        "location",
+        "visitor_information"
+      ],
+      "documents_added_this_operation": [
+        "systematic_research_20261105_pathra_nava_ratna_asi_profile"
+      ],
       "remaining_gaps": [
         "historical_background",
         "architecture",

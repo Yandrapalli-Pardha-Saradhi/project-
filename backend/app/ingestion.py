@@ -78,7 +78,7 @@ def command_validate(args: argparse.Namespace) -> dict[str, Any]:
 
 
 def _open_index(settings: Settings) -> tuple[EmbeddingService, RetrievalService]:
-    embedding_service = EmbeddingService(settings.embedding_model)
+    embedding_service = EmbeddingService.from_settings(settings)
     retrieval_service = RetrievalService(embedding_service, settings.chroma_persist_dir, settings.collection_name)
     return embedding_service, retrieval_service
 

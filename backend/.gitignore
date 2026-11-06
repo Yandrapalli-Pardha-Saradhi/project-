@@ -26,8 +26,12 @@ env/
 
 # Local vector store and caches
 data/chroma/
+data/chroma_restore_validation/
 *.log
 .pytest_cache/
 .coverage
 htmlcov/
 .tox/
+
+# Private ChromaDB backups
+/data/backups/

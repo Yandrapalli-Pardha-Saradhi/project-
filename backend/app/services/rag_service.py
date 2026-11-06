@@ -278,6 +278,21 @@ class RAGService:
             category for category, markers in _QUESTION_TOPIC_MARKERS.items()
             if any(re.search(rf"\b{re.escape(marker)}\b", normalized) for marker in markers)
         }
+        # "Conservation history" is a heritage/conservation topic, not a
+        # request for the temple's general historical background.
+        conservation_history = re.search(
+            r"\b(?:conservation|preservation|restoration) history\b|"
+            r"\bhistory of (?:conservation|preservation|restoration)\b",
+            normalized,
+        )
+        other_history_markers = (
+            "historical", "origin", "built", "construction", "dynasty", "ruler",
+            "timeline", "century",
+        )
+        if conservation_history and not any(
+            re.search(rf"\b{re.escape(marker)}\b", normalized) for marker in other_history_markers
+        ):
+            categories.discard("historical_background")
         # An explicit inscription question is historical evidence, but is kept
         # separate too so generic chronology passages cannot mask that gap.
         return categories
@@ -325,6 +340,17 @@ class RAGService:
 
     @staticmethod
     def _text_has_positive_topic_evidence(text: str, category: str) -> bool:
+        if category == "heritage_conservation" and re.search(
+            r"\b(?:archives?|archival) index\b.{0,500}\b(?:does not reveal|does not establish|"
+            r"not evidence of|cannot establish)\b.{0,140}\b(?:work|condition|protection status|"
+            r"restoration|conservation)\b",
+            text,
+            re.IGNORECASE | re.DOTALL,
+        ):
+            # A catalogue/index entry whose own text explicitly says it does
+            # not establish work or protection status is evidence of a record,
+            # not evidence answering those heritage questions.
+            return False
         if category == "inscriptions_historical_evidence":
             # A UNESCO inscription of a site is not epigraphic evidence about
             # that temple. Require wording that points to records, scripts,

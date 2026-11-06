@@ -1,0 +1,15 @@
+# Lean runtime-only set for an ONNX-indexed deployment.
+# This intentionally omits sentence-transformers/PyTorch and development-only
+# pytest/scikit-learn. The standard requirements.txt remains the compatible
+# PyTorch fallback and test/indexing environment.
+fastapi==0.115.12
+uvicorn[standard]==0.34.2
+pydantic-settings==2.15.0
+python-dotenv==1.0.0
+chromadb==1.5.9
+openai==3.6.0
+httpx==0.28.1
+onnxruntime==1.23.2
+huggingface-hub==2.3.0
+sentencepiece==0.2.0
+numpy==2.2.6

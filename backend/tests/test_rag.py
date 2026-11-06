@@ -683,6 +683,20 @@ def test_world_heritage_inscription_is_not_temple_epigraphic_evidence():
     ) == {"inscriptions_historical_evidence"}
 
 
+def test_conservation_history_does_not_open_general_history_context():
+    assert RAGService._requested_topic_categories(
+        "What heritage status or conservation history is documented for the temple?"
+    ) == {"heritage_conservation"}
+    archive_index = (
+        "The Assam State Archives index lists a 1925 file titled Preservation of the mound. "
+        "The index entry alone does not reveal what work was proposed or completed, and it is "
+        "not evidence of the monument's current condition or protection status."
+    )
+    assert not RAGService._text_has_positive_topic_evidence(
+        archive_index, "heritage_conservation"
+    )
+
+
 def test_historical_topic_gate_accepts_documented_commission_date_and_patron():
     chunk = RetrievedChunk(
         "history_chunk_0",

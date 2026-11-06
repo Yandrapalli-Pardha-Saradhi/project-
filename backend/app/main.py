@@ -1,5 +1,8 @@
 from __future__ import annotations
 
+import logging
+from pathlib import Path
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
@@ -12,9 +15,51 @@ from app.services.web_search_service import WebSearchService
 from app.routes.chat import router as chat_router
 from app.routes.temples import router as temples_router
 
+logger = logging.getLogger("temple_heritage.memory")
 settings = Settings()
+if settings.embedding_warmup_on_startup and not logger.handlers:
+    # Keep the optional deployment probe visible in Docker logs even when the
+    # Uvicorn root logger does not route application INFO records.
+    handler = logging.StreamHandler()
+    handler.setFormatter(logging.Formatter("%(message)s"))
+    logger.addHandler(handler)
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
+
+
+def _memory_snapshot() -> dict[str, object]:
+    """Read Linux RSS/cgroup counters without adding a runtime dependency."""
+    values: dict[str, int] = {}
+    try:
+        for line in Path("/proc/self/status").read_text(encoding="utf-8").splitlines():
+            if line.startswith("VmRSS:"):
+                values["process_rss_kb"] = int(line.split()[1])
+                break
+    except (OSError, ValueError, IndexError):
+        pass
+    for key in ("memory.current", "memory.peak"):
+        try:
+            values[key.replace(".", "_") + "_bytes"] = int(
+                Path("/sys/fs/cgroup", key).read_text(encoding="ascii").strip()
+            )
+        except (OSError, ValueError):
+            pass
+    try:
+        event_values = {}
+        for line in Path("/sys/fs/cgroup/memory.events").read_text(encoding="ascii").splitlines():
+            name, value = line.split()
+            event_values[name] = int(value)
+        values["memory_events"] = event_values
+    except (OSError, ValueError):
+        pass
+    return values
+
+
+def _log_memory_stage(stage: str, **details: object) -> None:
+    logger.info("MEMORY_STAGE %s counters=%s details=%s", stage, _memory_snapshot(), details)
 
 app = FastAPI(title=settings.app_name, debug=settings.debug)
+_log_memory_stage("fastapi_initialized")
 
 # CORS: never allow unrestricted origins in production. Origins must be
 # explicitly configured via CORS_ORIGINS; a wildcard is only tolerated in debug.
@@ -34,9 +79,31 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-embedding_service = EmbeddingService(settings.embedding_model)
-retrieval_service = RetrievalService(
-    embedding_service, settings.chroma_persist_dir, settings.collection_name
+embedding_service = EmbeddingService.from_settings(settings)
+try:
+    retrieval_service = RetrievalService(
+        embedding_service, settings.chroma_persist_dir, settings.collection_name
+    )
+except Exception as exc:
+    raise RuntimeError(
+        f"Could not open Chroma collection {settings.collection_name!r} at "
+        f"{settings.chroma_persist_dir!r}; verify the bundled/restored snapshot and "
+        "its ONNX backend metadata."
+    ) from exc
+if (
+    settings.expected_indexed_chunks is not None
+    and retrieval_service.count() != settings.expected_indexed_chunks
+):
+    raise RuntimeError(
+        f"Configured Chroma collection {settings.collection_name!r} contains "
+        f"{retrieval_service.count()} chunks; expected "
+        f"{settings.expected_indexed_chunks}. Refusing to serve an incomplete index."
+    )
+_log_memory_stage(
+    "chromadb_initialized",
+    collection=settings.collection_name,
+    chunks=retrieval_service.count(),
+    embedding_backend=settings.embedding_backend,
 )
 llm_api_key = settings.llm_api_key.get_secret_value() if settings.llm_api_key else None
 llm_service = LLMService(settings.llm_base_url, llm_api_key, settings.llm_model)
@@ -51,6 +118,20 @@ app.state.embedding_service = embedding_service
 app.state.retrieval_service = retrieval_service
 app.state.llm_service = llm_service
 app.state.web_search_service = web_search_service
+
+if settings.embedding_warmup_on_startup:
+    # Production images opt in so model download/loading failures occur before
+    # the service passes its health check or accepts user traffic.
+    _ = embedding_service.model
+    _log_memory_stage("embedding_model_warmed", backend=settings.embedding_backend)
+
+
+@app.middleware("http")
+async def log_chat_memory(request, call_next):
+    response = await call_next(request)
+    if request.url.path == "/api/chat":
+        _log_memory_stage("chat_request_complete", status=response.status_code)
+    return response
 
 app.include_router(chat_router, prefix="/api")
 app.include_router(temples_router, prefix="/api")

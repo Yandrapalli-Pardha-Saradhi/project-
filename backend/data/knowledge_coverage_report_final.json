@@ -1,7 +1,7 @@
 {
-  "generated_at_utc": "2026-11-05T17:03:53.854648+00:00",
+  "generated_at_utc": "2026-11-05T18:07:17.376466+00:00",
   "catalogue_count": 217,
-  "knowledge_document_count": 395,
+  "knowledge_document_count": 403,
   "method": {
     "purpose": "Full-catalogue local evidence audit to prioritize human research.",
     "limitations": [
@@ -20,57 +20,57 @@
     }
   },
   "aggregate_coverage_counts": {
-    "Partial profile": 8,
+    "Partial profile": 10,
     "Limited profile": 5,
     "Broadly documented": 2,
     "Several topics documented": 12,
-    "Basic / substantial gaps": 190
+    "Basic / substantial gaps": 188
   },
   "category_status_counts": {
     "historical_background": {
-      "Limited": 34,
+      "Limited": 39,
       "Detailed": 3,
       "Good": 13,
-      "Missing": 127,
-      "Basic": 40
+      "Missing": 120,
+      "Basic": 42
     },
     "architecture": {
-      "Limited": 36,
+      "Limited": 41,
       "Detailed": 4,
       "Good": 9,
-      "Missing": 139,
-      "Basic": 29
+      "Missing": 131,
+      "Basic": 32
     },
     "religious_cultural_significance": {
-      "Limited": 27,
+      "Limited": 29,
       "Good": 11,
       "Detailed": 7,
-      "Missing": 138,
-      "Basic": 34
+      "Missing": 133,
+      "Basic": 37
     },
     "festivals_rituals": {
-      "Missing": 200,
-      "Basic": 12,
+      "Missing": 195,
+      "Basic": 17,
       "Good": 1,
       "Detailed": 1,
       "Limited": 3
     },
     "inscriptions_historical_evidence": {
-      "Limited": 1,
-      "Missing": 203,
-      "Basic": 13
+      "Limited": 2,
+      "Missing": 200,
+      "Basic": 15
     },
     "heritage_conservation": {
-      "Limited": 20,
+      "Limited": 25,
       "Detailed": 9,
-      "Missing": 165,
-      "Basic": 15,
+      "Missing": 157,
+      "Basic": 18,
       "Good": 8
     },
     "visitor_information": {
-      "Missing": 194,
+      "Missing": 191,
       "Limited": 7,
-      "Basic": 16
+      "Basic": 19
     }
   },
   "temples": [
@@ -17844,44 +17844,104 @@
       ],
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "document_count": 1,
-      "coverage_class_heuristic": "Basic / substantial gaps",
+      "document_count": 2,
+      "coverage_class_heuristic": "Partial profile",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "In the proposal's account, Pallava ruler Rajasimha (also rendered Rajashima; 700–728 CE) constructed this smaller sandstone shrine after the larger royal temple.",
+            "The page supplies no temple-specific festival schedule, current visitor hours, entry fee or conservation history."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The proposal describes it as dedicated to Shiva and facing west, with a square, two-storeyed vimana and an octagonal sikhara.",
+            "Its plan includes a sanctum and rectangular mukhamandapa."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The proposal describes it as dedicated to Shiva and facing west, with a square, two-storeyed vimana and an octagonal sikhara.",
+            "The source says the present linga and circular pitha are later additions; it describes a Somaskanda panel on the rear wall, flanked by Brahma, Vishnu and other deities.",
+            "The southern, eastern and northern exterior niches are described as Dakshinamurti, Vishnu and Brahma respectively, with additional exterior figures including Durga, a dancing form and Gaja-Lakshmi."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "festivals_rituals": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The page supplies no temple-specific festival schedule, current visitor hours, entry fee or conservation history."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "inscriptions_historical_evidence": {
           "status": "Missing",
@@ -17893,22 +17953,51 @@
           "evidence_excerpts": []
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "India's 2021 Tentative List proposal for the Temples of Kanchipuram identifies Piravathanesvara as one of the component temples in the proposed serial property.",
+            "The page supplies no temple-specific festival schedule, current visitor hours, entry fee or conservation history."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_piravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The page supplies no temple-specific festival schedule, current visitor hours, entry fee or conservation history."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         }
       },
       "research_gaps": [
@@ -17921,9 +18010,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "whc.unesco.org"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_tamil_nadu_02e99fdbd7948315",
@@ -17933,35 +18023,78 @@
       ],
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_iravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "These are source-attributed descriptions from the nomination, not an independent conservation survey."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_iravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "It describes an east-facing, two-storeyed vimana with a nagara sikhara, a square superstructure and an architectural arrangement it calls brahmachanda vimana.",
+            "The sanctum contains a central linga and a Somaskanda panel on its rear wall."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_iravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The proposal identifies the griva figures as Shiva to the east, Dakshinamurti to the south, Vishnu to the west and Brahma to the north, with Durga and Ganapati on the ardhamandapa walls."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "festivals_rituals": {
           "status": "Missing",
@@ -17982,13 +18115,29 @@
           "evidence_excerpts": []
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_iravathanesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Government of India's 2021 Tentative List proposal for the Temples of Kanchipuram includes Iravathanesvara among the proposed components.",
+            "The UNESCO page records submission on 13 April 2021; the site remains a Tentative List proposal in this source, not an inscribed World Heritage property.",
+            "These are source-attributed descriptions from the nomination, not an independent conservation survey."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
           "status": "Missing",
@@ -18010,9 +18159,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "whc.unesco.org"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_tamil_nadu_9749a48a5fe7189c",
@@ -18022,7 +18172,7 @@
       ],
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
@@ -18035,13 +18185,28 @@
           "evidence_excerpts": []
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_jvarahesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "It singles out the temple's oval plan as an unusual architectural feature and says the lower stone portion of the gopura appears to be late Chola.",
+            "Its period attribution and architectural observations are those stated in the nomination and have not been independently verified for this record."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
           "status": "Missing",
@@ -18071,13 +18236,27 @@
           "evidence_excerpts": []
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_jvarahesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "Jvarahesvara is included among the temples in India's 2021 Tentative List proposal for Kanchipuram."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
           "status": "Missing",
@@ -18099,9 +18278,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "whc.unesco.org"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_tamil_nadu_22c217c323d0a7d5",
@@ -18200,35 +18380,80 @@
       ],
       "state": "Tamil Nadu",
       "district": "Kanchipuram",
-      "document_count": 1,
-      "coverage_class_heuristic": "Basic / substantial gaps",
+      "document_count": 2,
+      "coverage_class_heuristic": "Partial profile",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_muktesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The proposal says the shrine was formerly called Dhanamadevi Manikkaisvaram and attributes it to the later Pallava period, approximately the eighth century CE.",
+            "The proposal reports a Pallava-Grantha inscription of Nandivarman II dated 759 CE recording a land gift, and a northern-wall inscription of Chola king Rajendra I dated 1030 CE, described as a royal eulogy followed by a village-sabha deed concerning the shrine."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_muktesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "It describes an east-facing sandstone structural temple of medium scale, with a three-storeyed square vimana, circular sikhara, sanctum and mukhamandapa.",
+            "The source reports a later-period linga and a Somaskanda panel with Brahma and Vishnu at the rear of the sanctum."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_muktesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The source reports a later-period linga and a Somaskanda panel with Brahma and Vishnu at the rear of the sanctum.",
+            "It notes sculptural panels and exterior figures, including Ravana lifting Kailasa, Gajasamharamurti, Natesa, Gangadhara, Durga, Surya, Chandra, Subrahmanya, Harihara, Ganapati and Dakshinamurti."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "festivals_rituals": {
           "status": "Missing",
@@ -18240,22 +18465,51 @@
           "evidence_excerpts": []
         },
         "inscriptions_historical_evidence": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_muktesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The proposal reports a Pallava-Grantha inscription of Nandivarman II dated 759 CE recording a land gift, and a northern-wall inscription of Chola king Rajendra I dated 1030 CE, described as a royal eulogy followed by a village-sabha deed concerning the shrine.",
+            "These claims follow the State Party nomination; the inscription texts were not separately examined for this entry."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_kanchi_muktesvara_unesco_profile"
+          ],
+          "source_urls": [
+            "https://whc.unesco.org/en/tentativelists/6528/"
+          ],
+          "source_types": [
+            "state_party_tentative_list_submission"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The 2021 Indian Tentative List proposal records Muktesvara as one of the Kanchipuram temple components proposed for heritage recognition."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
           "status": "Missing",
@@ -18277,9 +18531,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "whc.unesco.org"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_tamil_nadu_3d38b8ffebe20845",
@@ -23325,71 +23580,170 @@
       ],
       "state": "West Bengal",
       "district": "Midanapur",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The undated temple is assigned to the nineteenth century on stylistic grounds, rather than by a dated inscription."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The profile describes a south-facing pancharatna plan, with a porch opening through a triple-arched façade; the arches are multi-cusped and supported by free-standing and engaged columns."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "No deity-specific account or festival information is provided in the inspected profile."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "festivals_rituals": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "No deity-specific account or festival information is provided in the inspected profile."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "inscriptions_historical_evidence": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The undated temple is assigned to the nineteenth century on stylistic grounds, rather than by a dated inscription."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle identifies this Dharmaraj Temple at Pathra on the northern bank of the Kansai River.",
+            "ASI describes the temple as dilapidated and says it has been restored by the Survey."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_dharmaraj_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/dharmaraj-temple/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "Its page also lists Medinipur railway station and bus station as approaches; these are page-listed directions, not a live transport advisory."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         }
       },
       "research_gaps": [
@@ -23402,9 +23756,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "asikolkata.in"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_west_bengal_fc6f7b005a338966",
@@ -23414,71 +23769,173 @@
       ],
       "state": "West Bengal",
       "district": "Midanapur",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The brick-built temples carry plaques depicting Puranic divinities.",
+            "According to a foundation inscription on one temple, the group was built by Ramachandra Bandyopadhyaya in 1816 CE."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "According to a foundation inscription on one temple, the group was built by Ramachandra Bandyopadhyaya in 1816 CE."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle describes the Pathra Bandyopadhyay family complex as three east-facing pancharatna temples dedicated to Shiva."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "festivals_rituals": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The source gives no festival calendar, current hours, or detailed conservation chronology beyond its protection status."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "inscriptions_historical_evidence": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "According to a foundation inscription on one temple, the group was built by Ramachandra Bandyopadhyaya in 1816 CE."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 4,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle describes the Pathra Bandyopadhyay family complex as three east-facing pancharatna temples dedicated to Shiva.",
+            "The ASI profile also says a Rasmancha and the family's ancestral house are protected by the Survey.",
+            "The page identifies the locality as Pathra, Paschim Medinipur, lists the site as a protected monument under Gazette serial number 77, and states free entry.",
+            "The source gives no festival calendar, current hours, or detailed conservation chronology beyond its protection status."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_bandyopadhyay_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "It lists cultural and protection notice boards as visitor amenities."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         }
       },
       "research_gaps": [
@@ -23491,9 +23948,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "asikolkata.in"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_west_bengal_8a31f276999645d4",
@@ -23503,26 +23961,55 @@
       ],
       "state": "West Bengal",
       "district": "Midanapur",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 2,
+          "document_ids": [
+            "systematic_research_20261105_pathra_sitala_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/sitala-temples/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle places the Sitala temple at the eastern end of Pathra and describes it as a brick-built shrine of the nagara order, with a curvilinear roof and a high plinth facing south toward the river.",
+            "It says the temple is believed to have been built by the local Majumdar family and may be stylistically assigned to the first half of the eighteenth century CE."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_sitala_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/sitala-temples/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle places the Sitala temple at the eastern end of Pathra and describes it as a brick-built shrine of the nagara order, with a curvilinear roof and a high plinth facing south toward the river."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
           "status": "Missing",
@@ -23534,13 +24021,27 @@
           "evidence_excerpts": []
         },
         "festivals_rituals": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_sitala_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/sitala-temples/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "It gives no festival or current opening-hours information."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "inscriptions_historical_evidence": {
           "status": "Missing",
@@ -23552,13 +24053,27 @@
           "evidence_excerpts": []
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_sitala_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/sitala-temples/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle places the Sitala temple at the eastern end of Pathra and describes it as a brick-built shrine of the nagara order, with a curvilinear roof and a high plinth facing south toward the river."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
           "status": "Missing",
@@ -23580,9 +24095,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "asikolkata.in"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_west_bengal_4639dc1c20a6d5a3",
@@ -23592,26 +24108,58 @@
       ],
       "state": "West Bengal",
       "district": "Midanapur",
-      "document_count": 1,
+      "document_count": 2,
       "coverage_class_heuristic": "Basic / substantial gaps",
       "categories": {
         "historical_background": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_pathra_nava_ratna_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle describes the Nava Ratna Temple as a large east-facing temple on the Kansai riverbank, founded by the local Majumdar family.",
+            "On stylistic grounds, ASI places the temple around the middle of the eighteenth century CE.",
+            "No dated conservation account, festival schedule or current hours are supplied."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "architecture": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_pathra_nava_ratna_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "Its triple-arched façade was formerly decorated with terracotta plaques, most of which the profile says are now lost.",
+            "The wider complex includes an adjacent atchala temple and three flat-roofed temples.",
+            "The profile also describes a Kalachand temple complex opposite on the northern bank, with a roofless laterite structure believed to be a Durga mandapa, a partly buried pancharatna temple, another dilapidated pancharatna shrine, a large tank and smaller temples."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "religious_cultural_significance": {
           "status": "Missing",
@@ -23623,13 +24171,27 @@
           "evidence_excerpts": []
         },
         "festivals_rituals": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Basic",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 1,
+          "document_ids": [
+            "systematic_research_20261105_pathra_nava_ratna_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "No dated conservation account, festival schedule or current hours are supplied."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "inscriptions_historical_evidence": {
           "status": "Missing",
@@ -23641,13 +24203,29 @@
           "evidence_excerpts": []
         },
         "heritage_conservation": {
-          "status": "Missing",
-          "document_count": 0,
-          "source_url_count": 0,
-          "evidence_sentences": 0,
-          "document_ids": [],
-          "source_urls": [],
-          "evidence_excerpts": []
+          "status": "Limited",
+          "document_count": 1,
+          "source_url_count": 1,
+          "evidence_sentences": 3,
+          "document_ids": [
+            "systematic_research_20261105_pathra_nava_ratna_asi_profile"
+          ],
+          "source_urls": [
+            "https://asikolkata.in/monument-sites/nava-ratna-temple-complex/"
+          ],
+          "source_types": [
+            "official_asi_circle_monument_profile"
+          ],
+          "review_statuses": [
+            "pending_human_review"
+          ],
+          "evidence_excerpts": [
+            "The Archaeological Survey of India's Kolkata Circle describes the Nava Ratna Temple as a large east-facing temple on the Kansai riverbank, founded by the local Majumdar family.",
+            "On stylistic grounds, ASI places the temple around the middle of the eighteenth century CE.",
+            "No dated conservation account, festival schedule or current hours are supplied."
+          ],
+          "inventory_only": false,
+          "scoring_note": "Automated lexical/source-metadata triage. Evidence sentences are leads for review, not claim validation."
         },
         "visitor_information": {
           "status": "Missing",
@@ -23669,9 +24247,10 @@
         "visitor_information"
       ],
       "source_domains": [
-        "asi.nic.in"
+        "asi.nic.in",
+        "asikolkata.in"
       ],
-      "documents_pending_review": 0
+      "documents_pending_review": 1
     },
     {
       "temple_id": "asi_west_bengal_7fa4da47836e015d",
@@ -25181,62 +25760,62 @@
   },
   "coverage_improvement_this_operation": {
     "Limited -> Detailed": 1,
-    "Missing -> Basic": 93,
+    "Missing -> Basic": 114,
     "Basic -> Detailed": 2,
     "Basic -> Good": 1,
     "Basic -> Limited": 2,
-    "Missing -> Limited": 45,
+    "Missing -> Limited": 63,
     "Missing -> Good": 21,
     "Missing -> Detailed": 2
   },
   "baseline_before_batch_04": {
     "catalogue_count": 217,
-    "document_count": 363,
+    "document_count": 371,
     "category_status_counts": {
       "historical_background": {
-        "Limited": 30,
+        "Limited": 35,
         "Good": 10,
-        "Missing": 131,
-        "Basic": 44,
+        "Missing": 124,
+        "Basic": 46,
         "Detailed": 2
       },
       "architecture": {
-        "Limited": 30,
+        "Limited": 35,
         "Good": 8,
         "Detailed": 3,
-        "Missing": 146,
-        "Basic": 30
+        "Missing": 138,
+        "Basic": 33
       },
       "religious_cultural_significance": {
-        "Limited": 28,
+        "Limited": 30,
         "Detailed": 5,
-        "Missing": 143,
-        "Basic": 33,
+        "Missing": 138,
+        "Basic": 36,
         "Good": 8
       },
       "festivals_rituals": {
-        "Missing": 202,
+        "Missing": 197,
         "Good": 1,
         "Detailed": 1,
-        "Basic": 11,
+        "Basic": 16,
         "Limited": 2
       },
       "inscriptions_historical_evidence": {
-        "Limited": 1,
-        "Missing": 207,
-        "Basic": 9
+        "Limited": 2,
+        "Missing": 204,
+        "Basic": 11
       },
       "heritage_conservation": {
-        "Limited": 18,
-        "Basic": 18,
-        "Missing": 168,
+        "Limited": 23,
+        "Basic": 21,
+        "Missing": 160,
         "Detailed": 6,
         "Good": 7
       },
       "visitor_information": {
-        "Missing": 196,
+        "Missing": 193,
         "Limited": 6,
-        "Basic": 15
+        "Basic": 18
       }
     }
   }

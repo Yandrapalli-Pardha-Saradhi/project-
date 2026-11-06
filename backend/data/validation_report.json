@@ -1,6 +1,6 @@
 {
   "valid": true,
-  "documents": 395,
+  "documents": 403,
   "errors": [],
   "warnings": [
     {
@@ -1877,11 +1877,51 @@
       "index": 394,
       "field": "verification_status",
       "message": "document is pending human source review"
+    },
+    {
+      "index": 395,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 396,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 397,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 398,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 399,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 400,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 401,
+      "field": "verification_status",
+      "message": "document is pending human source review"
+    },
+    {
+      "index": 402,
+      "field": "verification_status",
+      "message": "document is pending human source review"
     }
   ],
   "missing_fields": {},
   "missing_optional_fields": {
-    "publication_date": 344,
+    "publication_date": 348,
     "retrieval_date": 20,
     "collection_timestamp": 268,
     "temple_name": 7,
@@ -1896,6 +1936,6 @@
     "errors": [],
     "warnings": []
   },
-  "curated_documents": 395,
+  "curated_documents": 403,
   "collected_documents": 0
 }

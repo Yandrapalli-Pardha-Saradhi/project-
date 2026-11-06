@@ -33,8 +33,19 @@ class RetrievalService:
         self.client = chromadb.PersistentClient(path=persist_dir, settings=_CHROMA_SETTINGS)
         self.collection = self.client.get_or_create_collection(
             name=collection_name,
-            metadata={"hnsw:space": "cosine"},
+            metadata={
+                "hnsw:space": "cosine",
+                "embedding_backend": getattr(embedding_service, "backend", "pytorch"),
+            },
         )
+        indexed_backend = (self.collection.metadata or {}).get("embedding_backend", "pytorch")
+        query_backend = getattr(embedding_service, "backend", "pytorch")
+        if indexed_backend != query_backend:
+            raise ValueError(
+                f"Collection {collection_name!r} is indexed with {indexed_backend!r}, "
+                f"but queries are configured for {query_backend!r}. Use a separate "
+                "collection and re-index before changing embedding backends."
+            )
 
     def count(self) -> int:
         try:

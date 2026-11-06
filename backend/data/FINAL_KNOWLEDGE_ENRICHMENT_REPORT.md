@@ -1,19 +1,19 @@
 # All-Temple Research Coverage — Resumable Checkpoint
 
-Generated: 2026-11-05T17:07:11.224468+00:00
+Generated: 2026-11-05T18:07:19.286482+00:00
 
 > **Incomplete.** This checkpoint does not meet the all-217 source-research completion condition. It records only source pages actually opened and read, with source relationships kept temple-specific.
 
 ## Verified state
 
 - Catalogue: **217 records** (217 unique IDs). No records were added or removed.
-- Curated knowledge documents: **395**.
-- Persistent `temple_heritage` collection: **537 chunks** at `temple_heritage`.
-- Actually inspected source URLs recorded across the queue history: **70 unique URLs**; 69 were linked to specific temple records, while general-purpose pages are tracked separately.
-- Catalogue temples with at least one recorded source page inspected: **91 / 217**. All 91 remain partial and have outstanding topic gaps.
-- Catalogue temples without a relevant source page inspected in this operation: **126 / 217**. This includes 18 with source-attributed corpus documents whose actual source pages were not confirmed inspected here.
-- Queue status: source_inspected=41, enriched=51, not_started=106, source_gap=1, evidence_extracted=18.
-- New source-attributed documents added in this operation: **69**, linked to **49** temples. New documents are `pending_human_review`; no document was marked verified.
+- Curated knowledge documents: **403**.
+- Persistent `temple_heritage` collection: **557 chunks** at `temple_heritage`.
+- Actually inspected source URLs recorded across the queue history: **75 unique URLs**; 75 were linked to specific temple records, while general-purpose pages are tracked separately.
+- Catalogue temples with at least one recorded source page inspected: **99 / 217**. All 99 remain partial and have outstanding topic gaps.
+- Catalogue temples without a relevant source page inspected in this operation: **118 / 217**. This includes 18 with source-attributed corpus documents whose actual source pages were not confirmed inspected here.
+- Queue status: source_inspected=41, enriched=59, not_started=98, source_gap=1, evidence_extracted=18.
+- New source-attributed documents added in this operation: **77**, linked to **57** temples. New documents are `pending_human_review`; no document was marked verified.
 - Documents modified after their first index: **0**. Source registry permissions were unchanged; no automated collection was run.
 
 The source-gate workflow was respected. Research used identified government, UNESCO, ASI, state-tourism and institutional pages that were opened individually. The Himachal Tourism page returned HTTP 200 and its temple-specific text was read; the web extractor timed out, so the page was inspected through a direct single-page request. A source that named a similarly named temple at a conflicting locality was not attached as evidence.
@@ -22,28 +22,28 @@ The source-gate workflow was respected. Research used identified government, UNE
 
 Aggregate heuristic classes (not factual completeness):
 
-- Partial profile: **8**
+- Partial profile: **10**
 - Limited profile: **5**
 - Broadly documented: **2**
 - Several topics documented: **12**
-- Basic / substantial gaps: **190**
+- Basic / substantial gaps: **188**
 
 Category statuses (heuristic corpus evidence, not verified facts):
 
-- `historical_background`: Limited 34, Detailed 3, Good 13, Missing 127, Basic 40
-- `architecture`: Limited 36, Detailed 4, Good 9, Missing 139, Basic 29
-- `religious_cultural_significance`: Limited 27, Good 11, Detailed 7, Missing 138, Basic 34
-- `festivals_rituals`: Missing 200, Basic 12, Good 1, Detailed 1, Limited 3
-- `inscriptions_historical_evidence`: Limited 1, Missing 203, Basic 13
-- `heritage_conservation`: Limited 20, Detailed 9, Missing 165, Basic 15, Good 8
-- `visitor_information`: Missing 194, Limited 7, Basic 16
+- `historical_background`: Limited 39, Detailed 3, Good 13, Missing 120, Basic 42
+- `architecture`: Limited 41, Detailed 4, Good 9, Missing 131, Basic 32
+- `religious_cultural_significance`: Limited 29, Good 11, Detailed 7, Missing 133, Basic 37
+- `festivals_rituals`: Missing 195, Basic 17, Good 1, Detailed 1, Limited 3
+- `inscriptions_historical_evidence`: Limited 2, Missing 200, Basic 15
+- `heritage_conservation`: Limited 25, Detailed 9, Missing 157, Basic 18, Good 8
+- `visitor_information`: Missing 191, Limited 7, Basic 19
 
 ## Retrieval evaluation
 
 - Name queries: **217 / 217** passed.
-- Topic retrieval queries: **1519**; evidence-available queries passed **353 / 353**.
-- Unsupported-topic queries: **1166**; potential unrelated context admitted: **1**.
-- Source URL metadata matched the local document record in **3856 / 3856** checks. This validates metadata linkage, not whether a generated answer is factually supported by that page.
+- Topic retrieval queries: **1519**; evidence-available queries passed **392 / 392**.
+- Unsupported-topic queries: **1127**; potential unrelated context admitted: **1**.
+- Source URL metadata matched the local document record in **4016 / 4016** checks. This validates metadata linkage, not whether a generated answer is factually supported by that page.
 - Follow-up scope: **217 / 217**. Similar-name resolution: **30 / 30**; metadata scope checks passed **30 / 30**.
 - External LLM called: **False**. Retrieval evaluation does not establish generated-answer accuracy.
 
@@ -53,7 +53,7 @@ Expected-topic retrieval mismatches: none.
 ## Incremental indexing and validation
 
 - Curated document validation: **0 catalogue changes**, catalog remains 217; final document validation reported no errors and no duplicate content before indexing.
-- Current collection: **537 chunks**. This operation added **69 documents**. After first indexing, **None documents** were tightened to avoid caveat text being misread as evidence.
+- Current collection: **557 chunks**. This operation added **None documents**. After first indexing, **None documents** were tightened to avoid caveat text being misread as evidence.
 - Latest two dry runs agreed: 0 chunk updates, 0 metadata-only updates and 0 obsolete chunks from those modified document versions removed. No unrelated chunks were deleted.
 - The Chroma collection was not reset. All document additions remain pending human review.
 
@@ -67,6 +67,10 @@ Expected-topic retrieval mismatches: none.
 - [Dhandi Temple, N.C. Kamadayal (Gohpur Mouza)](https://asiguwahaticircle.gov.in/dhandi.html) — inspected for: asi_assam_24dc8f3855351f21
 - [Shri Shri Kedar Temple, Hajo](https://asiguwahaticircle.gov.in/kedar%20temple.html) — inspected for: asi_assam_6bca1547cfa3d7cc
 - [Activities of Archaeological Survey of India, Guwahati Circle during 2010 & 2011](https://asiguwahaticircle.gov.in/paw.pdf) — inspected for: asi_assam_24dc8f3855351f21, asi_assam_6bca1547cfa3d7cc, asi_assam_73c2196bfdf2df7a, asi_assam_dbf0ecb97451eb87
+- [Dharmaraj Temple](https://asikolkata.in/monument-sites/dharmaraj-temple/) — inspected for: asi_west_bengal_537a9276da8ba940
+- [Nava Ratna Temple Complex](https://asikolkata.in/monument-sites/nava-ratna-temple-complex/) — inspected for: asi_west_bengal_4639dc1c20a6d5a3
+- [Sitala Temples](https://asikolkata.in/monument-sites/sitala-temples/) — inspected for: asi_west_bengal_8a31f276999645d4
+- [Temples of Bandyopadhyay family](https://asikolkata.in/monument-sites/temples-of-bandyopadhyay-family/) — inspected for: asi_west_bengal_fc6f7b005a338966
 - [Hayagriva Madhava Temple](https://assamtourism.gov.in/Hayagriva-Madhava-Temple.php) — inspected for: asi_assam_0aecea616e14afa3
 - [Historical Monuments](https://directortourism.assam.gov.in/portlet-sub-innerpage/historical-monuments) — inspected for: asi_assam_68e3d36ac845c504
 - [Sri Golingeswara Swami Vari Temple, Biccavolu](https://eastgodavari.ap.gov.in/temples/sri-golingeswara-swami-vari-temple-biccavolu/) — inspected for: asi_andhra_prade_d219a5f1c4c7fc35
@@ -90,6 +94,7 @@ Expected-topic retrieval mismatches: none.
 - [Indian Archaeology 2000–01: A Review](https://nmma.nic.in/nmma/NAS1/nmma_doc/IAR/Indian%20Archaeology%202000-2001%20A%20Review.pdf) — inspected for: asi_assam_150626777a56d77d, asi_assam_3176178449463d6c
 - [Shree Jagannath Temple](https://odishatourism.gov.in/en/places/shree-jagannath-temple) — inspected for: jagannath
 - [Puri Ratha Jatra 2026 & Chariot Festival](https://odishatourism.gov.in/en/ratha-jatra-2026) — inspected for: jagannath
+- [Pathra](https://paschimmedinipur.gov.in/tourist-place/pathra/) — inspected for: asi_west_bengal_4639dc1c20a6d5a3
 - [Assam Tourism Coffee Table Book](https://publications.assamtourism.gov.in/publications/files/Assam_Tourism_Coffee_Table_Book.pdf) — inspected for: asi_assam_68e3d36ac845c504
 - [Rajya Sabha Unstarred Question 162: Centrally protected monuments in Andhra Pradesh](https://rsdebate.nic.in/bitstream/123456789/35430/1/PQ_210_27022007_U162_p55_p61.pdf) — inspected for: asi_andhra_prade_34fdc7ad2433488f, asi_andhra_prade_4824bbb04f702849, asi_andhra_prade_5509b425f6edbf42, asi_andhra_prade_994f268937105045, asi_andhra_prade_bead535e8e3f76eb, asi_andhra_prade_e74ff866d54d0cc2
 - [Rajya Sabha Unstarred Question No. 2421: List of Centrally Protected Monuments/Sites under ASI in Andhra Pradesh](https://rsdebate.nic.in/bitstream/123456789/725884/1/PQ_256_24032022_U2421_p152_p159.pdf) — inspected for: asi_andhra_prade_24e5a8c78a3f68e5, asi_andhra_prade_34fdc7ad2433488f, asi_andhra_prade_4824bbb04f702849, asi_andhra_prade_4902522d216f33d7, asi_andhra_prade_5509b425f6edbf42, asi_andhra_prade_78f1c41f21c933de, asi_andhra_prade_85900195bd76980b, asi_andhra_prade_994f268937105045, asi_andhra_prade_ba65914fa7b7de40, asi_andhra_prade_bead535e8e3f76eb, asi_andhra_prade_d219a5f1c4c7fc35, asi_andhra_prade_e429b0544ae6aaa7, asi_andhra_prade_e74ff866d54d0cc2
@@ -128,10 +133,11 @@ Expected-topic retrieval mismatches: none.
 - [Sri Vidyashankara Temple — Sringeri Sharada Peetham](https://www.srisharadapeetham.org/temples/sri-vidyashankara) — inspected for: asi_karnataka_80d2910c86f3032b
 - [TTD Board Resolution Item 269: Proposal concerning Sri Parasurameswara Swamy Temple, Gudimallam](https://www.tirumala.org/BoardResolutions/74_1834.pdf) — inspected for: asi_andhra_prade_24e5a8c78a3f68e5
 - [Tirupati Urban Development Authority Master Plan and Zonal Development Plans 2040, Part A](https://www.tudaap.in/Admintuda254tuda124ttda/assets/ZDPR%20Part-A.pdf) — inspected for: asi_andhra_prade_24e5a8c78a3f68e5
+- [Temples of Kanchipuram](https://whc.unesco.org/en/tentativelists/6528/) — inspected for: asi_tamil_nadu_02e99fdbd7948315, asi_tamil_nadu_7f9b8196b0215b46, asi_tamil_nadu_9749a48a5fe7189c, asi_tamil_nadu_a080ae14b6ea9152
 
 ## Temples still needing an inspected source page
 
-These 126 IDs have not yet had a relevant external page inspected in this operation (18 have source-attributed corpus documents whose original pages were not confirmed inspected here; the list is exact and resumable):
+These 118 IDs have not yet had a relevant external page inspected in this operation (18 have source-attributed corpus documents whose original pages were not confirmed inspected here; the list is exact and resumable):
 
 - `asi_andhra_prade_0eae7591ae183981` — **Palace and two temples of Rama and Krishna** (Anantapuramu, Andhra Pradesh) — status: `not_started`
 - `asi_andhra_prade_f5896e760114c743` — **The old temple (Dibbesvarasvami temple)** (Vizianagaram, Andhra Pradesh) — status: `not_started`
@@ -201,11 +207,7 @@ These 126 IDs have not yet had a relevant external page inspected in this operat
 - `asi_tamil_nadu_391fcec2d80aafc7` — **Sri Pataleswara Temple** (Villupuram, Tamil Nadu) — status: `not_started`
 - `asi_tamil_nadu_e61d14dae331b5c6` — **Sri Brahmapuriswara Temple** (Villupuram, Tamil Nadu) — status: `not_started`
 - `asi_tamil_nadu_4c1f14f2232e8d73` — **Kailasanatha temple** (Kanchipuram, Tamil Nadu) — status: `evidence_extracted`
-- `asi_tamil_nadu_7f9b8196b0215b46` — **Piravathanesvara temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
-- `asi_tamil_nadu_02e99fdbd7948315` — **Iravathanesvara temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
-- `asi_tamil_nadu_9749a48a5fe7189c` — **Jvarahesvara temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
 - `asi_tamil_nadu_22c217c323d0a7d5` — **Mathangesvara temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
-- `asi_tamil_nadu_a080ae14b6ea9152` — **Muktesvara temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
 - `asi_tamil_nadu_3d38b8ffebe20845` — **Nithya kalyanaswami Temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
 - `asi_tamil_nadu_c70316ee1074960c` — **Tirupuleswarar Temple** (Kanchipuram, Tamil Nadu) — status: `not_started`
 - `asi_tamil_nadu_6b95918b411d34a5` — **Ranganathaswamy temple** (Namakkal, Tamil Nadu) — status: `not_started`
@@ -253,10 +255,6 @@ These 126 IDs have not yet had a relevant external page inspected in this operat
 - `asi_west_bengal_23eb0de7e9cf942e` — **Brindaban Chandra Temple** (Bankura, West Bengal) — status: `not_started`
 - `asi_west_bengal_ac3d3194de07c169` — **Radha Damodar Temple** (Bankura, West Bengal) — status: `not_started`
 - `asi_west_bengal_e756fa05949d5297` — **Old Temple at Banda** (Purulia, West Bengal) — status: `not_started`
-- `asi_west_bengal_537a9276da8ba940` — **Dharmaraj Temple** (Midanapur, West Bengal) — status: `not_started`
-- `asi_west_bengal_fc6f7b005a338966` — **Temples of Bandyopadhyay Family** (Midanapur, West Bengal) — status: `not_started`
-- `asi_west_bengal_8a31f276999645d4` — **Sitala Temples** (Midanapur, West Bengal) — status: `not_started`
-- `asi_west_bengal_4639dc1c20a6d5a3` — **Nava Ratna Temple Complex** (Midanapur, West Bengal) — status: `not_started`
 - `asi_west_bengal_7fa4da47836e015d` — **Temple** (Nadia, West Bengal) — status: `not_started`
 - `asi_west_bengal_251d1e7bbd6e7117` — **26 Shiva Temples** (North 24 Parganas, West Bengal) — status: `not_started`
 
@@ -318,7 +316,7 @@ The following temples have at least one inspected source page, but none has a co
 - `asi_himachal_pra_9681bf3ab0a6c3f8` — **Temple of Gaurishankar with sculptures** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_himachal_pra_aac4a2248ad925db` — **Hidimba Devi Temple** — gaps: festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_himachal_pra_53211815add81171` — **Temple of Gaurishankar with its sculptures** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
-- `asi_himachal_pra_14fdecc910252f5f` — **Panchvaktra Temple** — gaps: religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, visitor_information
+- `asi_himachal_pra_14fdecc910252f5f` — **Panchvaktra Temple** — gaps: festivals_traditions, inscriptions_historical_evidence, visitor_information
 - `asi_jammu_and_ka_1f8a290d8729fbea` — **Ancient temple of Martand** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_karnataka_39c8b5453cc604ec` — **Vijayanarayana Temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_karnataka_df9d7ed1a005d4a6` — **Arkesvara Temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
@@ -343,10 +341,18 @@ The following temples have at least one inspected source page, but none has a co
 - `asi_tamil_nadu_dfe60f19c80a4e44` — **Sri Azhagiya Narasimma perumal temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_tamil_nadu_9ff95b5f3937c27a` — **Sri Apathsahayeswara Temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_tamil_nadu_e53edf8ca8494828` — **Vaikuntaperumal temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_tamil_nadu_7f9b8196b0215b46` — **Piravathanesvara temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_tamil_nadu_02e99fdbd7948315` — **Iravathanesvara temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_tamil_nadu_9749a48a5fe7189c` — **Jvarahesvara temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_tamil_nadu_a080ae14b6ea9152` — **Muktesvara temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_tamil_nadu_9b2980bb768b7c42` — **Brihadisvara Temple (Gangaikondacholapuram)** — gaps: historical_background, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, visitor_information
 - `asi_tamil_nadu_64f350d8e3dc3e9c` — **Airavatesvara Temple** — gaps: religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, visitor_information
 - `asi_telangana_f3a7458053e48f24` — **Ramappa temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `asi_gujarat_fd7e0734b68a92df` — **Sun temple, Surya kind with adjoining other temples and loose sculptures** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_west_bengal_537a9276da8ba940` — **Dharmaraj Temple** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_west_bengal_fc6f7b005a338966` — **Temples of Bandyopadhyay Family** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_west_bengal_8a31f276999645d4` — **Sitala Temples** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
+- `asi_west_bengal_4639dc1c20a6d5a3` — **Nava Ratna Temple Complex** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `whc_798b3d431ca45563a0f8` — **Khajuraho Group of Monuments** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `whc_b64d0b1bb2989639c1f1` — **Mahabodhi Temple Complex** — gaps: historical_background, architecture, religious_cultural_significance, festivals_traditions, inscriptions_historical_evidence, heritage_conservation, visitor_information
 - `whc_ffb69144fee941fb01a9` — **Virupaksha Temple (Hampi)** — gaps: architecture, festivals_traditions, inscriptions_historical_evidence, visitor_information
@@ -362,16 +368,16 @@ The following temples have at least one inspected source page, but none has a co
 - Conflicting chronology for Chamba's Lakshmi Narayan complex (state government pilgrimage page: broad 8th-century group date; state tourism page: main Vishnu shrine attributed to Sahil Varman in the 10th century) is preserved in the documents for review.
 - The 2019 Masroor project profile and Himachal Tourism page differ on the number of rock-cut temples (19 versus 15); both accounts are disclosed in the document.
 - The official Himachal Tourism Trilokinath entry describes an Udaipur, Lahaul-Spiti shrine, whereas the catalogue record is localized to Mandi. It was not attached; the mismatch is in the research plan.
-- Retrieval context admission is evaluated locally. The latest report records 1 potentially unrelated contexts among 1166 unsupported-topic queries. A previous one-off name-query miss for Debi dole did not repeat on the latest full run (name-query success: 217/217).
+- Retrieval context admission is evaluated locally. The latest report records 1 potentially unrelated contexts among 1127 unsupported-topic queries. A previous one-off name-query miss for Debi dole did not repeat on the latest full run (name-query success: 217/217).
 - A candidate Assam Directorate of Archaeology protected-sites page returned HTTP 404 on direct access; the search result was not used as evidence and the failed attempt is recorded in the research plan.
 - Source pages for festival dates, visitor timings, fees and access were not assumed current unless explicitly dated by the page. No OpenRouter call was made.
 
 ## Test and command record
 
-- `python -m app.ingestion validate`: passed for 395 curated documents and 217 catalogue records; pending human-review warnings are expected.
-- `python -m app.ingestion index --dry-run`: latest consecutive dry runs matched; 1 documents / 1 chunks to add, with 537 existing chunks unchanged.
-- `python -m app.ingestion index`: completed incrementally; latest collection count is 537.
-- `python scripts/evaluate_retrieval_all_temples.py`: local retrieval only; 217/217 name queries, 353/353 evidence-available topic queries, 3856/3856 citation metadata matches. No OpenRouter call was made.
+- `python -m app.ingestion validate`: passed for 403 curated documents and 217 catalogue records; pending human-review warnings are expected.
+- `python -m app.ingestion index --dry-run`: latest consecutive dry runs matched; 4 documents / 11 chunks to add, with 557 existing chunks unchanged.
+- `python -m app.ingestion index`: completed incrementally; latest collection count is 557.
+- `python scripts/evaluate_retrieval_all_temples.py`: local retrieval only; 217/217 name queries, 392/392 evidence-available topic queries, 4016/4016 citation metadata matches. No OpenRouter call was made.
 - Backend pytest and Python compilation results are recorded in the current work log; frontend files were not changed.
 
 ## Resume instructions
