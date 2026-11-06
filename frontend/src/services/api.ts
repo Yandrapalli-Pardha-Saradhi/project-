@@ -1,4 +1,5 @@
 import type { ChatRequest, ChatResponse, HealthResponse } from "../types/chat";
+import { normalizeChatResponse } from "./chatResponse";
 
 // Vercel builds must point at the separately deployed API. During local Vite
 // development, an unset value keeps requests same-origin for the /api proxy.
@@ -34,17 +35,10 @@ export interface TempleFacets { districts: string[]; temples: Temple[] }
 
 export const checkHealth = () => request<HealthResponse>("/health");
 export const sendChat = async (payload: ChatRequest, signal?: AbortSignal): Promise<ChatResponse> => {
-  const result = await request<ChatResponse>("/chat", {
+  const result = await request<unknown>("/chat", {
     method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload), signal,
   });
-  if (!result || typeof result.answer !== "string" || !Array.isArray(result.citations)
-    || !result.citations.every(citation => citation && typeof citation.source_id === "string"
-      && typeof citation.source_title === "string" && typeof citation.source_url === "string"
-      && /^https?:\/\//i.test(citation.source_url))
-    || typeof result.insufficient_evidence !== "boolean" || typeof result.generation_disabled !== "boolean") {
-    throw new Error("The assistant returned an incomplete response.");
-  }
-  return result;
+  return normalizeChatResponse(result);
 };
 export const getStates = async (): Promise<string[]> => {
   const result = await request<unknown>("/temples/states");

@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build"
+    "build": "vite build",
+    "test:chat": "node --experimental-strip-types --test tests/chat-response.test.mjs"
   },
   "dependencies": {
     "react": "^18.3.1",
