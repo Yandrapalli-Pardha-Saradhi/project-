@@ -2,6 +2,10 @@ from __future__ import annotations
 
 from typing import List, Optional
 
+from app.sqlite_compat import ensure_supported_sqlite
+
+ensure_supported_sqlite()
+
 import chromadb
 
 from app.services.embedding_service import EmbeddingService

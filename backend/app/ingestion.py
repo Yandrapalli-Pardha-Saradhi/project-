@@ -88,6 +88,8 @@ def command_index(args: argparse.Namespace, documents_override: list[dict[str, A
     documents = documents_override if documents_override is not None else merge_documents(raw, collected)
     settings = Settings()
     if args.dry_run:
+        from app.sqlite_compat import ensure_supported_sqlite
+        ensure_supported_sqlite()
         import chromadb
         client = chromadb.PersistentClient(path=settings.chroma_persist_dir, settings=chromadb.Settings(anonymized_telemetry=False))
         try:
@@ -140,6 +142,8 @@ def command_report(_args: argparse.Namespace) -> dict[str, Any]:
     indexed_temple_ids: set[str] = set()
     indexed_document_ids: set[str] = set()
     try:
+        from app.sqlite_compat import ensure_supported_sqlite
+        ensure_supported_sqlite()
         import chromadb
         client = chromadb.PersistentClient(path=settings.chroma_persist_dir, settings=chromadb.Settings(anonymized_telemetry=False))
         try:

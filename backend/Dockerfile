@@ -1,4 +1,4 @@
-FROM python:3.10.11-slim
+FROM python:3.10-slim-bookworm
 
 ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
@@ -30,6 +30,7 @@ RUN apt-get update \
 
 COPY requirements-onnx.txt ./requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
+RUN python -c "import sqlite3; print('Build SQLite runtime:', sqlite3.sqlite_version); assert sqlite3.sqlite_version_info >= (3, 35, 0), 'ChromaDB requires SQLite >= 3.35.0'"
 
 COPY app ./app
 COPY data/catalogue.json ./data/catalogue.json

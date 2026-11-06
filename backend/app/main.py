@@ -3,6 +3,13 @@ from __future__ import annotations
 import logging
 from pathlib import Path
 
+from app.sqlite_compat import ensure_supported_sqlite
+
+_sqlite_version = ensure_supported_sqlite()
+logging.getLogger("temple_heritage.startup").info(
+    "SQLite runtime: %s (ChromaDB minimum: 3.35.0)", _sqlite_version
+)
+
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 

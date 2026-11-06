@@ -20,5 +20,13 @@ data/raw/*
 data/source_registry.json
 data/*report*.json
 data/*manifest*.json
-!data/chroma_onnx_snapshot_manifest.json
 data/*evaluation*.json
+
+# Explicit build inputs for the Render Docker context (backend/). Keep these
+# last so broad report/manifest/raw-data exclusions cannot hide runtime files.
+!data/catalogue.json
+!data/raw/
+!data/raw/temple_sources.json
+!data/chroma_onnx/
+!data/chroma_onnx/**
+!data/chroma_onnx_snapshot_manifest.json

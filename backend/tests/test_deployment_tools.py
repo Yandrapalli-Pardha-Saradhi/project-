@@ -115,11 +115,45 @@ def _snapshot_fixture(tmp_path):
 
 def test_bootstrap_verifies_snapshot_and_stages_separate_runtime_copy(tmp_path, monkeypatch):
     snapshot, manifest = _snapshot_fixture(tmp_path)
+    (snapshot / "nested").mkdir()
+    (snapshot / "nested" / "length.bin").write_bytes(b"index lengths")
+    payload_hashes = {
+        path.relative_to(snapshot).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in snapshot.rglob("*") if path.is_file()
+    }
+    manifest_data = json.loads(manifest.read_text(encoding="utf-8"))
+    manifest_data["files"] = payload_hashes
+    manifest.write_text(json.dumps(manifest_data), encoding="utf-8")
+    for path in snapshot.rglob("*"):
+        if path.is_dir():
+            path.chmod(0o555)
+        else:
+            path.chmod(0o444)
+    snapshot.chmod(0o555)
     runtime = tmp_path / "runtime" / "chroma"
     details = stage_snapshot(snapshot, manifest, runtime)
     assert details["chunk_count"] == 557
     assert (runtime / "chroma.sqlite3").read_bytes() == (snapshot / "chroma.sqlite3").read_bytes()
     assert snapshot != runtime
+    assert hashlib.sha256((runtime / "nested" / "length.bin").read_bytes()).hexdigest() == payload_hashes["nested/length.bin"]
+    for path in [runtime, *runtime.rglob("*")]:
+        if path.is_dir():
+            assert path.stat().st_mode & 0o200
+        else:
+            assert path.stat().st_mode & 0o200
+    assert {
+        path.relative_to(snapshot).as_posix(): hashlib.sha256(path.read_bytes()).hexdigest()
+        for path in snapshot.rglob("*") if path.is_file()
+    } == payload_hashes
+    for path in snapshot.rglob("*"):
+        path.chmod(0o755 if path.is_dir() else 0o644)
+    snapshot.chmod(0o755)
+
+
+def test_bootstrap_rejects_runtime_path_overlapping_snapshot(tmp_path):
+    snapshot, manifest = _snapshot_fixture(tmp_path)
+    with pytest.raises(RuntimeError, match="overlaps immutable snapshot"):
+        stage_snapshot(snapshot, manifest, snapshot / "runtime")
 
 
 def test_bootstrap_fails_clearly_for_missing_or_corrupt_snapshot(tmp_path):

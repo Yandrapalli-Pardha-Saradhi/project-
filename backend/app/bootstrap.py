@@ -5,8 +5,37 @@ import hashlib
 import json
 import os
 import shutil
+import stat
 import sys
 from pathlib import Path
+
+from app.sqlite_compat import ensure_supported_sqlite
+
+
+def _reject_overlapping_paths(snapshot_dir: Path, runtime_dir: Path) -> None:
+    snapshot = snapshot_dir.resolve()
+    runtime = runtime_dir.resolve()
+    if snapshot == runtime or snapshot in runtime.parents or runtime in snapshot.parents:
+        raise RuntimeError(
+            f"Unsafe Chroma paths: runtime directory {runtime} overlaps immutable "
+            f"snapshot directory {snapshot}"
+        )
+    if runtime_dir.is_symlink():
+        raise RuntimeError(f"Unsafe Chroma runtime path must not be a symlink: {runtime_dir}")
+
+
+def _make_runtime_tree_writable(runtime_dir: Path) -> None:
+    """Add owner write access to every staged directory and file."""
+    for current, directories, files in os.walk(runtime_dir):
+        current_path = Path(current)
+        current_path.chmod(stat.S_IMODE(current_path.stat().st_mode) | stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR)
+        for filename in files:
+            file_path = current_path / filename
+            file_path.chmod(stat.S_IMODE(file_path.stat().st_mode) | stat.S_IRUSR | stat.S_IWUSR)
+        # Ensure traversal is possible even when the bundled directory mode was read-only.
+        for dirname in directories:
+            directory = current_path / dirname
+            directory.chmod(stat.S_IMODE(directory.stat().st_mode) | stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR)
 
 
 def verify_snapshot(snapshot_dir: Path, manifest_path: Path) -> dict:
@@ -43,15 +72,30 @@ def verify_snapshot(snapshot_dir: Path, manifest_path: Path) -> dict:
 
 
 def stage_snapshot(snapshot_dir: Path, manifest_path: Path, runtime_dir: Path) -> dict:
+    _reject_overlapping_paths(snapshot_dir, runtime_dir)
     manifest = verify_snapshot(snapshot_dir, manifest_path)
     if runtime_dir.exists():
+        if runtime_dir.is_dir():
+            for current, directories, files in os.walk(runtime_dir):
+                path = Path(current)
+                path.chmod(stat.S_IMODE(path.stat().st_mode) | stat.S_IRUSR | stat.S_IWUSR | stat.S_IXUSR)
+                for name in files:
+                    file_path = path / name
+                    file_path.chmod(stat.S_IMODE(file_path.stat().st_mode) | stat.S_IWUSR)
         shutil.rmtree(runtime_dir)
     runtime_dir.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copytree(snapshot_dir, runtime_dir)
+    # copyfile creates fresh writable files; copy2/copytree defaults would carry
+    # the immutable bundle's read-only file modes into the runtime database.
+    shutil.copytree(snapshot_dir, runtime_dir, copy_function=shutil.copyfile)
+    _make_runtime_tree_writable(runtime_dir)
+    verify_snapshot(runtime_dir, manifest_path)
+    verify_snapshot(snapshot_dir, manifest_path)
     return manifest
 
 
 def main() -> None:
+    sqlite_version = ensure_supported_sqlite()
+    print(f"SQLite runtime: {sqlite_version} (ChromaDB minimum: 3.35.0)", flush=True)
     snapshot = Path(os.getenv("CHROMA_SNAPSHOT_DIR", "/app/data/chroma_snapshot"))
     manifest = Path(os.getenv("CHROMA_SNAPSHOT_MANIFEST", "/app/data/chroma_onnx_snapshot_manifest.json"))
     runtime = Path(os.getenv("CHROMA_PERSIST_DIR", "/tmp/temple-chroma-runtime"))
